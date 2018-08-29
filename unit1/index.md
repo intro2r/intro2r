@@ -14,7 +14,7 @@ Learning Goals:
  - Install R and RStudio,
  - Know how to navigate within RStudio.
 
-Lab: [Unit 1: Lab 1](/install-R-and-RStudio.html)
+Lab: [Unit 1: Lab 1](../unit1/install-R-and-RStudio.html)
 
 Reading: [NYT article](http://www.nytimes.com/2009/01/07/technology/business-computing/07program.html?_r=1&pagewanted=all)
 
