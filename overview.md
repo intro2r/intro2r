@@ -1,8 +1,4 @@
----
-layout: default
-title: Overview
 
----
 
 # Overview of the Units
 
