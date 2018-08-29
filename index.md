@@ -1,8 +1,4 @@
----
-layout: 
-title: Home
 
----
 
 # Introduction to R
 
