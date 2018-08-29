@@ -58,7 +58,7 @@ Lesson 3. [How to write less code]()
 
 Lesson 4. [How to automate your work]()
 
-Lesson 5: [How to sample and generate random values
+Lesson 5: [How to sample and generate random values]()
 
  - - -
 
