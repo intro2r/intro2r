@@ -1,3 +1,11 @@
+---
+layout: default
+title: Home
+
+---
+
+# Introduction to R
+
 This course will teach you how to use the computer programming language R.
 
 Many natural and social scientists use R to explore, analyze, and present their data.
