@@ -15,7 +15,7 @@ lunr_excludes: [atom.xml, 404.html, search.html, categories.md, tags.md, calenda
 
 ## Useful metadata, available to a liquid filter as site.title, site.author.name, etc
 ## Used in _includes templates headers and footers.
-title: Intro 2 R
+title: intro2r
 tagline: It's not as bad as you think
 author:
   name: Simon Queenborough
