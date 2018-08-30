@@ -2,7 +2,7 @@ R Style Guide I: Syntax
 ========================================================
 
 
-![](../img/mcqueen-gun.jpg)
+![](intro2r.github.io/img/mcqueen.jpg)
 
 *Steve McQueen, your (R) style guru*
 
