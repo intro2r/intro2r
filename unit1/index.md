@@ -4,6 +4,10 @@
 
 In this unit, you will become familiar with the R console, RStudio, and basic actions and operations in R.
 
+Follow the links to each lecture, lab, and reading.
+
+Scroll down to download the SWIRL lessons.
+
 
 ## Lesson 1. What is R?
 
@@ -82,6 +86,24 @@ Reading:
 Functions: `getwd()`, `setwd()`, `sum()`, `mean()`, `sd()`, `summary()`, `length()`, `boxplot()`, `hist()`
 
  - - -
+ 
+# SWIRL
+
+The lessons we will use are available online and you need to download them to your laptop.
+
+1. Open RStudio
+
+2. In the console panel, next to the arrow (>), copy and paste the following: 
+
+```
+library(swirl)
+install_course_github("intro2r", "Unit1_GettingStarted")
+```
+
+This will download the most up-to-date lessons.
+
+
+- - -
 
 Updated 2018-08-29
 
