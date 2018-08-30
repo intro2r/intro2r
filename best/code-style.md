@@ -7,9 +7,9 @@ R Style Guide I: Syntax
 *Steve McQueen, your (R) style guru*
 
 
-=======
+# 1. Why have a code style?
 
-# Coding styles help communication
+### a. Coding styles help communication
 
 Good coding style is like correct punctuation: 
 
@@ -18,9 +18,7 @@ you can manage without it,
 butitsuremakesthingseasiertoread.
 
 
-======
-
-# Your code has 1 author; but many readers
+### b. Your code has 1 author; but many readers
 
 you, tomorrow
 
@@ -50,11 +48,9 @@ the dog
 ...
 
 
-=======
+### c. There are many different styles of writing code
 
-# There are many different styles of writing code
-
-![](img/style/men-style.png)
+![](img/men-style.png)
 
  - different software or language 
  - different people
@@ -62,21 +58,14 @@ the dog
 Try to develop a **consistent** style 
 
 
-
-
-
-=======
-
-# Consistent style is important, because ...
+### d. Consistent style is important, because ...
 
  - **Focus should be what the code does, not how it is written.**
  - Changes in style mid-way through code increases effort and deceases understanding.
  - Especially important when working with others.
 
-=======
 
-# Style can be applied to:
-
+### e. Style can be applied to:
 
 1. **Syntax**
 
@@ -87,9 +76,8 @@ Try to develop a **consistent** style
 4. Code documentation
 
 
-========
 
-# Syntax Style
+# 2. Syntax Style
 
 ## The arrangement of words and phrases
 
@@ -101,7 +89,6 @@ Try to develop a **consistent** style
 
 4. Indenting.
 
-
 5. Long lines.
 
 6. Assignment.
@@ -112,12 +99,12 @@ Try to develop a **consistent** style
 
 ========
 
-# 1. Object names
+## 1. Object names
 
 R is case-sensitive ... other software (M$, ...) is not.
 
-## Principles
-
+### Principles
+#
  - Variable names should be nouns.
  - Function names should be verbs.
  - Concise and meaningful (hard!)
@@ -126,7 +113,7 @@ R is case-sensitive ... other software (M$, ...) is not.
  
  
  
-## Practice
+### Practice
 
  - lowercase, numbers, and underscores (variables).
     ``` 
@@ -141,16 +128,15 @@ R is case-sensitive ... other software (M$, ...) is not.
  - All CAPS (constants).
  
  
-=======
 
-# 2. Spacing
+## 2. Spacing
 
-## Principle
+### Principle
 
 - Ease of reading and understanding code.
 
  
-## Practice
+### Practice
 
 Put a space:
 
@@ -180,9 +166,7 @@ Put a space:
  
 
  
-=======
-
-# 3. Argument names
+## 3. Argument names
 
 Two kinds of arguments:
 
@@ -191,11 +175,11 @@ Two kinds of arguments:
  
  
  
-## Principle
+### Principle
 
 - Ease of understanding the function.
  
-## Practice 
+### Practice 
  
 - Generally omit names of data arguments (they are often the first argument/s).
 ```
@@ -208,18 +192,17 @@ mean(1:10)
 dir.create("my_new_file.r", recursive = TRUE)
 ```
 
-========
 
-# 4. Indenting
+## 4. Indenting
 
-## Principle
+### Principle
 
 - Show hierarchy of code and curly braces or brackets
 - Make code easier to read, aligning related lines.
 
 
 
-## Practice
+### Practice
 
 - Use consistent indenting (2 or 4 spaces, never TABS).
 - Always indent after curly braces.
@@ -239,40 +222,37 @@ dir.create(file.path("testdir2", "testdir3"),
 
 =======
 
-# 5. Long lines
+## 5. Long lines
 
-## Principle
+### Principle
 
 - Ease of reading and following code.
 - Ease of changing code.
 
-## Practice
+### Practice
 
 - Try and limit to 80 characters per line.
 - If a function call is too long for one line, use one line each for the function name, each argument, and closing ```)```.
 ```
 seq(from = 1,
-        to = 100,
-        by = 5)
+      to = 100,
+      by = 5)
 ```
 
-======= 
 
-# 6. Assignment
+## 6. Assignment
 
-## Principle
+### Principle
 
 - Separation of assignment and arguments.
 
-## Practice
+### Practice
 
 - Use ``` <- ``` for assignment.
 
 - Never use ``` = ```.
 
 - R was redesigned early on to permit use of ```=``` **in most cases but not all**.
-
-- YMMV.
 
 ```
 x <- 1:10
@@ -282,28 +262,25 @@ x = 1:10
 ```
 
 
-=======
+## 7. Semicolons
 
-# 7. Semicolons
-
-## Principle
+### Principle
 
 - Do not use them.
 
-## Practice
+### Practice
 
 - Do not use them.
 
-=======
 
-# 8. Quotes
+## 8. Quotes
 
-## Principle
+### Principle
 
 - Correct identification of text.
 - Correct identification of escaped sequence inside character strings.
 
-## Practice
+### Practice
 
 - Double quotes ``` " " ``` and single quotes ``` ' ' ``` are usually **interchangable**.
 - Double quotes are **preferred** because of the use of apostrophes in text strings.
@@ -316,9 +293,7 @@ simonSays <- "Great work, folks!"
 
 
 
-  
-=======  
-  
+    
 # Links to various R style guides
 
 [Google](https://google.github.io/styleguide/Rguide.xml): One of the first.
