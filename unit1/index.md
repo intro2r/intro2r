@@ -64,7 +64,7 @@ Functions: `c()`, `:`, `seq()`, `rep()`, `plot()`, `is.vector()`, etc
 
 Lecture: Data structures; Functions
 
-Best Practice: Code style guide
+Best Practice: [Code style guide](../best/code-style.html), [lab](../unit1/labs.html)
 
 Learning Goals:
 
@@ -75,7 +75,7 @@ Learning Goals:
 
 SWIRL: Distributions and summarising data
 
-Lab: [Unit 1: Recap](../unit1/labs.html)     Best Practice [lab](../unit1/labs.html)
+Lab: [Unit 1: Recap](../unit1/labs.html)     
 
 Reading:
 
