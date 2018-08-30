@@ -33,7 +33,7 @@ Learning Goals:
 
 SWIRL: Basic building blocks
 
-Lab: [Unit 1: Lab 2](URL)
+Lab: [Unit 1: Lab 2](../unit1/labs.html)
 
 Reading: skim Crawley Ch. 2?
 
@@ -53,7 +53,7 @@ Learning Goals:
 
 SWIRL: sequences of numbers and vectors
 
-Lab: [Unit 1: Lab 3](URL)
+Lab: [Unit 1: Lab 3](../unit1/labs.html)
 
 Reading:
 
@@ -75,7 +75,7 @@ Learning Goals:
 
 SWIRL: Distributions and summarising data
 
-Lab: [Unit 1: Recap](URL)
+Lab: [Unit 1: Recap](../unit1/labs.html)  |  Best Practice [lab](../unit1/labs.html)
 
 Reading:
 
