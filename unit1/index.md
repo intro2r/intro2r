@@ -75,7 +75,7 @@ Learning Goals:
 
 SWIRL: Distributions and summarising data
 
-Lab: [Unit 1: Recap](../unit1/labs.html)  |  Best Practice [lab](../unit1/labs.html)
+Lab: [Unit 1: Recap](../unit1/labs.html)     Best Practice [lab](../unit1/labs.html)
 
 Reading:
 
