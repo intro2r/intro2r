@@ -189,9 +189,25 @@ These labs test and build on the material presented in the SWIRL lessons.
 
 
  - - -
- 
- # Best Practice Lab
- 
+
+# Best Practice Lab
+
+### Correct these R code snippets following the best practice code style.
+
+1. ``` average<-mean(feet/12+inches,na.rm=TRUE) ```
+
+2. ``` x<-1 : 10 ```
+
+3. ``` x [1,] ```
+
+4. ``` mean(x <- 1:10, FALSE) ```
+
+5. ``` doSomethingVeryComplicated(data = datafil1,position="here",baseline = na,title="A very long title")```
+
+6. ``` x=5 ```
+
+7. ``` simonSays <- 'It's time's to gets going, y'all!' ```
+
  
 
  - - -
