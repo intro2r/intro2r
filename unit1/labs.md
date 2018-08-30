@@ -16,7 +16,7 @@ These labs test and build on the material presented in the SWIRL lessons.
 
 ## Simple Operations
 
-1. Perform the following basic operations in the R console:
+### 1. Perform the following basic operations in the R console:
 
   a. Add 3 and 5.
 
@@ -37,7 +37,7 @@ These labs test and build on the material presented in the SWIRL lessons.
 
 ## Manipulate Variables
 
-2. Assign variables and perform operations
+### 2. Assign variables and perform operations
 
   a. Assign 2 to the variable `x`.
 
@@ -52,7 +52,7 @@ These labs test and build on the material presented in the SWIRL lessons.
 
 ## External data and variable manipulation
 
-3. Use the Harry Potter movie data (Table 1) to answer each question.
+### 3. Use the Harry Potter movie data (Table 1) to answer each question.
 
 **Table 1.** Box office history for all Harry Potter movies. 
 
@@ -85,7 +85,7 @@ These labs test and build on the material presented in the SWIRL lessons.
 
 ## Generate Vectors
 
-1. Create the following vectors and save them as variables of your choosing:
+### 1. Create the following vectors and save them as variables of your choosing:
 
   a. A vector from 1 to 1000, using `:`.
 
@@ -116,7 +116,7 @@ These labs test and build on the material presented in the SWIRL lessons.
 
 **Table 2**. 
 
-2. Using data about the Harry Potter series of books (Table 2), create the following vectors and manipulate them:
+### 2. Using data about the Harry Potter series of books (Table 2), create the following vectors and manipulate them:
 
   a. Create a vector of the word count from each book. 
 
@@ -129,7 +129,7 @@ These labs test and build on the material presented in the SWIRL lessons.
 
 ## Further vector practice
 
-3. Create the following vectors from the class survey data:
+### 3. Create the following vectors from the class survey data:
 
   a. Create a vector of the favorite animals of 10 of your classmates
 
