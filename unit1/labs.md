@@ -102,7 +102,9 @@ These labs test and build on the material presented in the SWIRL lessons.
 
 ## Manipulate vectors
 
-| Title	                                        | WordCount^1  | ChapterCount^2	| PageCount^3 | 
+**Table 2**. Word counts and book size data from The Harry Potter book series.
+
+| Title	                                        | WordCount<sup>1</sup>  | ChapterCount<sup>2</sup>	| PageCount<sup>3</sup> | 
 | ------                                        |  ------------|   -------------|   ----------| 
 | Harry Potter and the Sorcerer's Stone	        |       76,944 |            17  |         223 | 
 | Harry Potter and the Chamber of Secrets       |       85,141 |            18  |         251 | 
@@ -112,9 +114,9 @@ These labs test and build on the material presented in the SWIRL lessons.
 | Harry Potter and the Half-Blood Prince        |      168,923 |            30  |         607 | 
 | Harry Potter and the Deathly Hallows          |      198,227 |            37  |         607 | 
 
-*Sources:* 1[https://wordcounter.net/blog/2015/11/23/10922_how-many-words-harry-potter.html](https://wordcounter.net/blog/2015/11/23/10922_how-many-words-harry-potter.html), 2[http://harrypotter.wikia.com/wiki/List_of_chapters_in_the_Harry_Potter_novels](http://harrypotter.wikia.com/wiki/List_of_chapters_in_the_Harry_Potter_novels), 3[https://dustyloft.wordpress.com/2007/07/12/number-of-pages-harry-potter/](https://dustyloft.wordpress.com/2007/07/12/number-of-pages-harry-potter/)
+*Sources:* [1](https://wordcounter.net/blog/2015/11/23/10922_how-many-words-harry-potter.html), 2[http://harrypotter.wikia.com/wiki/List_of_chapters_in_the_Harry_Potter_novels](http://harrypotter.wikia.com/wiki/List_of_chapters_in_the_Harry_Potter_novels), 3[https://dustyloft.wordpress.com/2007/07/12/number-of-pages-harry-potter/](https://dustyloft.wordpress.com/2007/07/12/number-of-pages-harry-potter/)
 
-**Table 2**. 
+ 
 
 ### 2. Using data about the Harry Potter series of books (Table 2), create the following vectors and manipulate them:
 
