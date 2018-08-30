@@ -50,7 +50,7 @@ the dog
 
 ### c. There are many different styles of writing code
 
-![](img/men-style.png)
+![](http://img/men-style.png)
 
  - different software or language 
  - different people
