@@ -114,7 +114,7 @@ These labs test and build on the material presented in the SWIRL lessons.
 | Harry Potter and the Half-Blood Prince        |      168,923 |            30  |         607 | 
 | Harry Potter and the Deathly Hallows          |      198,227 |            37  |         607 | 
 
-*Sources:* [1](https://wordcounter.net/blog/2015/11/23/10922_how-many-words-harry-potter.html), 2[http://harrypotter.wikia.com/wiki/List_of_chapters_in_the_Harry_Potter_novels](http://harrypotter.wikia.com/wiki/List_of_chapters_in_the_Harry_Potter_novels), 3[https://dustyloft.wordpress.com/2007/07/12/number-of-pages-harry-potter/](https://dustyloft.wordpress.com/2007/07/12/number-of-pages-harry-potter/)
+*Sources:* [1](https://wordcounter.net/blog/2015/11/23/10922_how-many-words-harry-potter.html), [2](http://harrypotter.wikia.com/wiki/List_of_chapters_in_the_Harry_Potter_novels), [3](https://dustyloft.wordpress.com/2007/07/12/number-of-pages-harry-potter/)
 
  
 
@@ -148,7 +148,7 @@ These labs test and build on the material presented in the SWIRL lessons.
 
 # Unit 1 Recap
 
-1. Create the following vectors:
+### 1. Create the following vectors:
 
   a. Generate a vector of 10 shoe sizes, three people with size 10, two of size 11, and five of size 9, using `c()`.
 
@@ -161,7 +161,7 @@ These labs test and build on the material presented in the SWIRL lessons.
   e. Five of your classmates like pineapple on their pizza, and twenty do not. Use `rep()` to create a vector.
 
 
-2. Examine the qualities of each vector with the given quantities
+### 2. Examine the qualities of each vector with the given quantities
 
   a. What is the structure of your heights vector?
 
@@ -170,7 +170,7 @@ These labs test and build on the material presented in the SWIRL lessons.
   c. How is the structure of class height and favorite color different? 
 
 
-3. Perform the following on each vector
+### 3. Perform the following on each vector
 
   a. What is the average class height?
 
@@ -185,8 +185,14 @@ These labs test and build on the material presented in the SWIRL lessons.
   f. Create a plot of yes vs nos to pineapple on pizza.
 
 
-4. Is there anything that has been exceptionally confusing so far?
+### 4. Is there anything that has been exceptionally confusing so far?
 
+
+ - - -
+ 
+ # Best Practice Lab
+ 
+ 
 
  - - -
 
