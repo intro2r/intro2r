@@ -54,7 +54,7 @@ These labs test and build on the material presented in the SWIRL lessons.
 
 ### 3. Use the Harry Potter movie data (Table 1) to answer each question.
 
-**Table 1.** Box office history for all Harry Potter movies. 
+**Table 1.** Box office history for all Harry Potter movies<sup>[1](http://www.the-numbers.com/movies/franchise/Harry-Potter#tab=summary)</sup>. 
 
 | Release Date | Movie                                         | Production Budget | Domestic Opening Weekend | Domestic Box Office | Worldwide Box Office |
 |--------------|-----------------------------------------------|------------------|------------------------|--------------------|---------------------|
@@ -68,7 +68,6 @@ These labs test and build on the material presented in the SWIRL lessons.
 | Jul 15, 2011 | Harry Potter and the Deathly Hallows: Part II | $125,000,000     | $169,189,427           | $381,011,219       | $1,341,511,219      |
 | Nov 18, 2016 | Fantastic Beasts and Where to Find Them       | $180,000,000     | $74,403,387            | $234,037,575       | $803,798,342        |
 
-*Source:* http://www.the-numbers.com/movies/franchise/Harry-Potter#tab=summary
 
 
   a. Create three separate variables for each of the first three movies, giving them the value of their worldwide box office take. 
