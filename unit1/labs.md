@@ -3,6 +3,8 @@ Unit 1. Getting Started: Labs
 
 These labs test and build on the material presented in the SWIRL lessons.
 
+Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check how to submit them.
+
 # Lab 1
 
 1. Read the *New York Times* [article](http://www.nytimes.com/2009/01/07/technology/business-computing/07program.html?_r=1&pagewanted=all) on R.
