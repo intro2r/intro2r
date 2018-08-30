@@ -68,7 +68,7 @@ Functions: `c()`, `:`, `seq()`, `rep()`, `plot()`, `is.vector()`, etc
 
 Lecture: Data structures; Functions
 
-Best Practice: [Code style guide](../best/code-style.html), [../unit1/labs.html#best-practice-lab)
+Best Practice: [Code style guide](../best/code-style.html), [lab](../unit1/labs.html#best-practice-lab)
 
 Learning Goals:
 
