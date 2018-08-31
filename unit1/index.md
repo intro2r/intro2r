@@ -11,7 +11,7 @@ Scroll down to download the SWIRL lessons.
 
 ## Lesson 1. What is R?
 
-Lecture: Overview of R, demonstration of R.
+Lecture: [Overview of R](./r-overview.html), demonstration of R.
 
 Learning Goals:
  - Understand what R can and cannot do,
@@ -27,7 +27,11 @@ Functions: None.
 
 ## Lesson 2. How to use R as a calculator
 
-Lecture: Working with R and RStudio; How a computer works.
+Lectures: 
+
+ - [How a computer works](./how-computers-work.md)
+
+ - [Working with R and RStudio](./first-look.html)
 
 Learning Goals:
  - Perform operations on numbers and integers,
