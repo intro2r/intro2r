@@ -32,10 +32,6 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
 
   f. Find 2 to the 3rd power.
 
-  g. Check if 4 is less than 5.
-
-  h. Check if 5 is greater than 7.
-
 
 ## Manipulate Variables
 
@@ -49,8 +45,7 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
 
   d. Divide `myVar` by `x`.
 
-  e. Check if `myVar` is greater than `x`.
-
+  
 
 ## External data and variable manipulation
 
