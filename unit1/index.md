@@ -29,9 +29,9 @@ Functions: None.
 
 Lectures: 
 
- - [How a computer works](./how-computers-work.md)
-
  - [Working with R and RStudio](./first-look.html)
+ 
+ - [How to use SWIRL](../swirl.html)
 
 Learning Goals:
  - Perform operations on numbers and integers,
@@ -43,7 +43,11 @@ SWIRL: Basic building blocks
 
 Lab: [Unit 1: Lab 2](../unit1/labs.html#lab-2)
 
-Reading: skim Crawley Ch. 2?
+Reading: 
+
+ - [How a computer works](./how-computers-work.md)
+
+ - [Working directories](https://support.rstudio.com/hc/en-us/articles/200711843-Working-Directories-and-Workspaces)
 
 Functions: `<-`, `getwd()`, `setwd()`.
 
@@ -59,7 +63,7 @@ Learning Goals:
  - Identify types of vectors (numeric, integer, factor, character, ...)
  - Plot individual vectors with `plot()`.
 
-SWIRL: sequences of numbers and vectors
+SWIRL: Vectors and Sequences
 
 Lab: [Unit 1: Lab 3](../unit1/labs.html#lab-3)
 
@@ -81,7 +85,11 @@ Learning Goals:
  - Use functions to perform calculations, with `sum()`, `mean()`, `sd()`, etc.
  - Summarise the distribution of a vector with `boxplot()` and `hist()`.
 
-SWIRL: Distributions and summarising data
+SWIRL: 
+
+ - Subsetting Vectors
+ 
+ - Visualizing Data (Distributions and summarising data)
 
 Lab: [Unit 1: Recap](../unit1/labs.html#unit-1-recap)     
 
