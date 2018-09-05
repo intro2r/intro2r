@@ -101,10 +101,17 @@ The lessons we will use are available online and you need to download them to yo
 
 ```
 library(swirl)
-install_course_github("intro2r", "Unit1_GettingStarted")
+install_course_github("intro2r", "swirl_courses", multi = TRUE)
 ```
 
 This will download the most up-to-date lessons.
+
+To start the lesson, type
+
+```
+swirl()
+```
+
 
 
 - - -
