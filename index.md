@@ -1,3 +1,7 @@
+---
+layout: default
+title: intro2r
+---
 
 
 # Introduction to R
