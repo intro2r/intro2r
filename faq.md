@@ -16,6 +16,8 @@ C. The R console
 
 D. Error messages
 
+E. Getting more help
+
 
 # A.Installing
 
@@ -167,4 +169,33 @@ Either it is not loaded, or most likely, you have mispelled it.
 Here, the object name that you have typed in is not recognised.
 
 Please check and try again!
+
+
+
+# E. Getting more help
+
+## 1. How do I find out more about a function?
+
+Typing a question mark, followed by the function name, will pop up the help file on that function.
+
+E.g.,
+
+```{r}
+?mean
+```
+
+## 2. How do I find out how to do *x* in R?
+
+Many times, you will want to do something in R that is not covered in this course.
+
+The best way to find out how to do it, is to type `R thing you want to know` into a search engine.
+
+This will likely return a series of blogs, forums, and R sites that address these issues.
+
+Specific sites also cater to such questions.
+
+[Stackexchange and CrossValidated](https://stats.stackexchange.com/) are good places to search for help, or ask a question that has not been asked before.
+
+
+
 
