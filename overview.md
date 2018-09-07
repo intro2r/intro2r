@@ -4,19 +4,19 @@
 
 # Unit 1: [Getting StaRted](/unit1/index.html)
 
-What is R?
+1. What is R?
 
-How to use R as a calculator
+2. How to use R as a calculator
 
-How to work with vectors
+3. How to create and subset vectors
 
-How to summarise vectors
+4. How to summarise vectors
 
 
 
 # Unit 2: Working with Data
 
-1.How to work with dataframes and matrices
+1. How to work with dataframes and matrices
 
 2. How to extract subsets of data
 
@@ -60,7 +60,7 @@ How to summarise vectors
 
 4. How to automate your work
 
-5: How to sample and generate random values
+5. How to sample and generate random values
 
  - - -
 
