@@ -3,6 +3,15 @@ layout: default
 title: Analyzing Continuous Data
 ---
 
+# Analyzing Continuous Data
+
+In this unit, you will become familiar with running and plotting correlations and regression in R.
+
+Follow the links to each lecture, lab, and reading.
+
+Scroll down to download the SWIRL lessons.
+
+
 ## Lesson 1. How to test for correlation and causation
 
 Lecture:
