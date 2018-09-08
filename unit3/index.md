@@ -3,6 +3,15 @@ layout: default
 title: Analyzing Grouped Data
 ---
 
+# Analyzing Grouped Data
+
+In this unit, you will learn classical statistical tests and how to compare means between groups.
+
+Follow the links to each lecture, lab, and reading.
+
+Scroll down to download the SWIRL lessons.
+
+
 ## Lesson 1. How to choose a statistical test
 
 Lecture: [Which test? Which assumptions?](/which-test.html)
