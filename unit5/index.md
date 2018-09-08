@@ -3,6 +3,15 @@ layout: default
 title: Advanced Graphics and Programming
 ---
 
+# Advanced Graphics and Programming
+
+In this unit, you will learn how to add and modify basic plots, create functions and learn some programming tricks.
+
+Follow the links to each lecture, lab, and reading.
+
+Scroll down to download the SWIRL lessons.
+
+
 ## Lesson 1. How to add stuff to plots
 
 Lecture: Adding elements to plots and organising plots in space
