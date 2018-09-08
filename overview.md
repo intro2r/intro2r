@@ -2,7 +2,7 @@
 
 # Overview of the Units
 
-# Unit 1: [Getting StaRted](/unit1/index.html)
+# Unit 1: [Getting StaRted](/unit1/)
 
 1. What is R?
 
@@ -14,7 +14,7 @@
 
 
 
-# Unit 2: Working with Data
+# Unit 2: [Working with Data](/unit2/)
 
 1. How to work with dataframes and matrices
 
@@ -26,7 +26,7 @@
 
 
 
-# Unit 3: Analysing Grouped Data
+# Unit 3: [Analysing Grouped Data](/unit3/)
 
 1. How to choose a statistical test
 
@@ -38,7 +38,7 @@
 
 
 
-# Unit 4: Analysing Continuous Data
+# Unit 4: [Analysing Continuous Data](/unit4/)
 
 1. How to test for correlation and causation
 
@@ -50,7 +50,7 @@
 
 
 
-# Unit 5: Advanced Graphics and Programming
+# Unit 5: [Advanced Graphics and Programming](/unit5/)
 
 1. How to improve and organise plots
 
@@ -64,5 +64,5 @@
 
  - - -
 
-Updated: 2018-08-29
+Updated: 2018-09-08
 
