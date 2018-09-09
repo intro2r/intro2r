@@ -63,7 +63,7 @@ SWIRL: Writing functions
 
 Lab: [Unit 5: Lab 3](URL)
 
-Reading:
+Reading: [Best practice for writing R code](https://swcarpentry.github.io/r-novice-inflammation/06-best-practices-R/index.html)
 
 Functions: `function()`
 
