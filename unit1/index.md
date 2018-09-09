@@ -66,9 +66,10 @@ Learning Goals:
 SWIRL: 
 
  - Vectors and Sequences
- 
- - Understanding Factors
 
+ - Subsetting Vectors
+ 
+ 
 Lab: [Unit 1: Lab 3](../unit1/labs.html#lab-3)
 
 Best Practice: [Code style guide](../best/code-style.html), [lab](../unit1/labs.html#best-practice-lab)
@@ -89,9 +90,9 @@ Learning Goals:
 
 SWIRL: 
 
- - Subsetting Vectors
- 
  - Visualizing Data (Distributions and summarising data)
+
+ - Understanding Factors
 
 Lab: [Unit 1: Recap](../unit1/labs.html#unit-1-recap)     
 
