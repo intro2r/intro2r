@@ -81,7 +81,7 @@ Learning Goals:
  - Extract details from model output,
  - Plot these data with boxplots and barplots.
 
-SWIRL: [Testing Associations](testing-associations.html)
+SWIRL: [Testing Populations](testing-populations.html)
 
 Lab: [Unit 3: Recap](/labs.html)
 
