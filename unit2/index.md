@@ -25,7 +25,7 @@ SWIRL: [Dataframes and matrices](../unit2/dataframes-and-matrices.html)
 
 Lab: [Unit 2: Lab 1](../unit2/labs.html)
 
-Reading:
+Reading: [Missing Data]()
 
 Functions: `matrix()`, `data.frame()`, `rbind()`, `cbind()`, `head()`, `str()`, `is.foo()`, `nrow()`, `ncol()`, `dim()`, `rowSums()`, `colSums()`
 
@@ -54,8 +54,6 @@ Functions: `plot()`, `barplot()`
 
 Lecture: [Importing data](./importing-data.html)
 
-Best Practice: [Managing Data](../best/managing-data.html)
-
 Learning Goals:
 
  - Clean spreadsheets and text files,
@@ -66,7 +64,7 @@ SWIRL: [Reading and writing data](./reading-data.html)
 
 Lab: [Unit 2: Lab 3](../unit2.labs.html)
 
-Reading:
+Best Practice: [Managing Data](../best/managing-data.html)
 
 Functions: read.table(), read.csv(), write.table(), colnames()
 
