@@ -54,7 +54,7 @@ Functions: `<-`, `getwd()`, `setwd()`.
 
 ## Lesson 3. How to work with vectors
 
-Lecture: Types of data in R
+Lecture: Types of data and data structures
 
 Learning Goals:
 
@@ -63,7 +63,11 @@ Learning Goals:
  - Identify types of vectors (numeric, integer, factor, character, ...)
  - Plot individual vectors with `plot()`.
 
-SWIRL: Vectors and Sequences
+SWIRL: 
+
+ - Vectors and Sequences
+ 
+ - Understanding Factors
 
 Lab: [Unit 1: Lab 3](../unit1/labs.html#lab-3)
 
@@ -74,7 +78,7 @@ Functions: `c()`, `:`, `seq()`, `rep()`, `plot()`, `is.vector()`, etc
 
 ## Lesson 4. How to summarise vectors
 
-Lecture: Data structures; Functions
+Lecture: Overview of functions
 
 Learning Goals:
 
@@ -90,8 +94,6 @@ SWIRL:
  - Visualizing Data (Distributions and summarising data)
 
 Lab: [Unit 1: Recap](../unit1/labs.html#unit-1-recap)     
-
-Reading: 
 
 Functions: `getwd()`, `setwd()`, `sum()`, `mean()`, `sd()`, `summary()`, `length()`, `boxplot()`, `hist()`
 
