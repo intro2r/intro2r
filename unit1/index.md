@@ -67,7 +67,7 @@ SWIRL: Vectors and Sequences
 
 Lab: [Unit 1: Lab 3](../unit1/labs.html#lab-3)
 
-Reading:
+Best Practice: [Code style guide](../best/code-style.html), [lab](../unit1/labs.html#best-practice-lab)
 
 Functions: `c()`, `:`, `seq()`, `rep()`, `plot()`, `is.vector()`, etc
 
@@ -75,8 +75,6 @@ Functions: `c()`, `:`, `seq()`, `rep()`, `plot()`, `is.vector()`, etc
 ## Lesson 4. How to summarise vectors
 
 Lecture: Data structures; Functions
-
-Best Practice: [Code style guide](../best/code-style.html), [lab](../unit1/labs.html#best-practice-lab)
 
 Learning Goals:
 
@@ -93,7 +91,7 @@ SWIRL:
 
 Lab: [Unit 1: Recap](../unit1/labs.html#unit-1-recap)     
 
-Reading:
+Reading: 
 
 Functions: `getwd()`, `setwd()`, `sum()`, `mean()`, `sd()`, `summary()`, `length()`, `boxplot()`, `hist()`
 
