@@ -42,9 +42,10 @@ install.packages("swirl")
 
 You will need to run this every time we update the lessons.
 
-First, uninstall previous versions of this course.  
+First, load the swirl package and uninstall previous versions of this course.  
 
 ```{r}
+library(swirl)
 uninstall_all_courses()
 ```
 
@@ -65,7 +66,7 @@ install_course_github('intro2r', 'swirl_courses', multi = TRUE)
 And start SWIRL ...
 
 ```{r}
-library(swirl)
+swirl()
 ```
 
 # B. Submitting labs
