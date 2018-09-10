@@ -92,7 +92,7 @@ SWIRL:
 
  - [Summarizing Data](./swirl/summarizing_data.html)
 
- - [Understanding Factors](./swirl/understanding_factors.htm)
+ - [Understanding Factors](./swirl/understanding_factors.html)
 
 Lab: [Unit 1: Recap](../unit1/labs.html#unit-1-recap)     
 
