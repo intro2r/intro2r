@@ -39,7 +39,7 @@ Learning Goals:
  - Manipulate variables with operators,
  - Understand and use paths and working directories.
 
-SWIRL: Basic building blocks
+SWIRL: [Basic building blocks](./swirl/basic_building_blocks.html)
 
 Lab: [Unit 1: Lab 2](../unit1/labs.html#lab-2)
 
@@ -54,7 +54,7 @@ Functions: `<-`, `getwd()`, `setwd()`.
 
 ## Lesson 3. How to work with vectors
 
-Lecture: Types of data and data structures
+Lecture: [Types of data and data structures](./data-type.html)
 
 Learning Goals:
 
@@ -65,9 +65,9 @@ Learning Goals:
 
 SWIRL: 
 
- - Vectors and Sequences
+ - [Vectors and Sequences](./swirl/vectors_and_sequences.html)
 
- - Subsetting Vectors
+ - [Subsetting Vectors](./swirl/subsetting_vectors.html)
  
  
 Lab: [Unit 1: Lab 3](../unit1/labs.html#lab-3)
@@ -79,7 +79,7 @@ Functions: `c()`, `:`, `seq()`, `rep()`, `plot()`, `is.vector()`, etc
 
 ## Lesson 4. How to summarise vectors
 
-Lecture: Overview of functions
+Lecture: [Overview of functions]()
 
 Learning Goals:
 
@@ -90,9 +90,9 @@ Learning Goals:
 
 SWIRL: 
 
- - Visualizing Data (Distributions and summarising data)
+ - [Summarizing Data](./swirl/summarizing_data.html)
 
- - Understanding Factors
+ - [Understanding Factors](./swirl/understanding_factors.htm)
 
 Lab: [Unit 1: Recap](../unit1/labs.html#unit-1-recap)     
 
