@@ -104,7 +104,7 @@ Try to develop a **consistent** style
 R is case-sensitive ... other software (M$, ...) is not.
 
 ### Principles
-#
+
  - Variable names should be nouns.
  - Function names should be verbs.
  - Concise and meaningful (hard!)
@@ -113,14 +113,14 @@ R is case-sensitive ... other software (M$, ...) is not.
  
  
  
-### Practice
+### Best Practice
 
- - lowercase, numbers, and underscores (variables).
+ - **Variables:** lowercase, numbers, and underscores.
     ``` 
     x
     my_sqrt
     ```
- - camelCase (functions).
+ - **Functions:** camelCase.
     ``` 
     myNewFunc()
     calcTemp()
@@ -136,7 +136,7 @@ R is case-sensitive ... other software (M$, ...) is not.
 - Ease of reading and understanding code.
 
  
-### Practice
+### Best Practice
 
 Put a space:
 
@@ -179,7 +179,7 @@ Two kinds of arguments:
 
 - Ease of understanding the function.
  
-### Practice 
+### Best Practice 
  
 - Generally omit names of data arguments (they are often the first argument/s).
 ```
@@ -202,7 +202,7 @@ dir.create("my_new_file.r", recursive = TRUE)
 
 
 
-### Practice
+### Best Practice
 
 - Use consistent indenting (2 or 4 spaces, never TABS).
 - Always indent after curly braces.
@@ -229,7 +229,7 @@ dir.create(file.path("testdir2", "testdir3"),
 - Ease of reading and following code.
 - Ease of changing code.
 
-### Practice
+### Best Practice
 
 - Try and limit to 80 characters per line.
 - If a function call is too long for one line, use one line each for the function name, each argument, and closing ```)```.
@@ -246,7 +246,7 @@ seq(from = 1,
 
 - Separation of assignment and arguments.
 
-### Practice
+### Best Practice
 
 - Use ``` <- ``` for assignment.
 
@@ -268,7 +268,7 @@ x = 1:10
 
 - Do not use them.
 
-### Practice
+### Best Practice
 
 - Do not use them.
 
@@ -280,7 +280,7 @@ x = 1:10
 - Correct identification of text.
 - Correct identification of escaped sequence inside character strings.
 
-### Practice
+### Best Practice
 
 - Double quotes ``` " " ``` and single quotes ``` ' ' ``` are usually **interchangable**.
 - Double quotes are **preferred** because of the use of apostrophes in text strings.
