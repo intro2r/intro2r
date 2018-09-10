@@ -81,6 +81,21 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
 
 ## Generate Vectors
 
+**Table 2.** Ten random responses from the class survey. You will use this table to answer a few of the questions. 
+
+| Height | Eye Color | Shoe Size | # Siblings | Home Pop. | HP Books | HP House   | Ideal Temp | Fav Color | Tea or Coffee | Pineapple on Pizza?  | Roll your Tongue? | Tree or Pollen Allergy     |
+|--------|-----------|-----------|----------|----------|----------|------------|------------|-----------|------------|------------|-------------|-------------|
+| 175    | Brown     | 10        | 2        | 4621     | 7        | Hufflepuff | 21         | Blue      | Coffee     | Yes        | Yes         | Both |
+| 177.8  | Blue      | 10        | 2        | 200000   | 7        | Ravenclaw  | 21         | Blue      | Coffee     | Yes        | Yes         | Neither     |
+| 167.64 | Hazel     | 9.5       | 3        | 4988     | 0        | Hufflepuff | 15.56      | Blue      | Coffee     | Disgusting | No          | Both |
+| 183    | Hazel     | 11.5      | 2        | 62243    | 5        | Ravenclaw  | 21         | Blue      | Coffee     | Yes        | Yes         | Both |
+| 163    | Hazel     | 9         | 1        | 3300     | 7        | Hufflepuff | 18.9       | Green     | Coffee     | Disgusting | Yes         | Both |
+| 175.26 | Blue      | 11        | 2        | 21845    | 7        | Gryffindor | 26         | Red       | Tea        | Yes        | Yes         | Neither     |
+| 165    | Brown     | 8         | 0        | 9000000  | 7        | Hufflepuff | 20         | Purple    | Coffee     | Yes        | Yes         | Neither     |
+| 162.56 | Brown     | 7         | 2        | 27865    | 7        | Gryffindor | 23         | Yellow    | Coffee     | Disgusting | Yes         | Neither     |
+| 167    | Brown     | 7.5       | 0        | 80000    | 7        | Ravenclaw  | 23         | Blue      | Coffee     | Disgusting | Yes         | Both |
+| 167    | Brown     | 8.5       | 5        | 3500     | 0        | Hufflepuff | 27         | Blue      | Coffee     | Disgusting | Yes         | Neither     |
+
 ### 1. Create the following vectors and save them as variables of your choosing:
 
   a. A vector from 1 to 1000, using `:`.
@@ -91,14 +106,14 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
 
   d. A vector of 10 1s, using `rep()`.
 
-  e. Using `c()`, create a vector of the sizes of your shoe size and your 4 nearest neighbors.
+  e. Using `c()`, create a vector of the sizes of your shoe size and 4 random classmates.
 
   f. Using `c()`, create a combined vector of your variables from c, d, and e, and the number 10.5.
 
 
 ## Manipulate vectors
 
-**Table 2**. Word counts and book size data from The Harry Potter book series.
+**Table 3**. Word counts and book size data from The Harry Potter book series.
 
 | Title	                                        | WordCount<sup>1</sup>  | ChapterCount<sup>2</sup>	| PageCount<sup>3</sup> | 
 | ------                                        |  ------------|   -------------|   ----------| 
@@ -122,18 +137,18 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
 
   c. Divide the word count of each book by the number of chapters to find the average number of words per chapter.
 
-  d. Create a histogram of the number of words per book.
+  d. Create a basic plot of the number of words per book.
 
 
 ## Further vector practice
 
 ### 3. Create the following vectors from the class survey data:
 
-  a. Create a vector of the favorite animals of 10 of your classmates
+  a. Create a vector of your classmate's eye colors.
 
   b. Check what kind of vector this is?
 
-  c. Create a vector of the number of harry potter books 10 of your classmates have read. 
+  c. Create a vector of the number of harry potter books your classmates have read. 
 
   d. Plot this vector.
 
@@ -154,7 +169,7 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
 
   d. Make a vector of your favorite color repeated 10 times.
 
-  e. Five of your classmates like pineapple on their pizza, and twenty do not. Use `rep()` to create a vector.
+  e. Five of your classmates like pineapple on their pizza, and five do not. Use `rep()` to create a vector.
 
 
 ### 2. Examine the qualities of each vector with the given quantities
