@@ -54,7 +54,7 @@ Functions: `<-`, `getwd()`, `setwd()`.
 
 ## Lesson 3. How to work with vectors
 
-Lecture: [Types of data and data structures](./data-type.html)
+Lecture: [Types of data and data structures](./data-types.html)
 
 Learning Goals:
 
