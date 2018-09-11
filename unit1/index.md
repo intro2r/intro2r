@@ -79,7 +79,7 @@ Functions: `c()`, `:`, `seq()`, `rep()`, `plot()`, `is.vector()`, etc
 
 ## Lesson 4. How to summarise vectors
 
-Lecture: [Overview of functions]()
+Lecture: [Using functions](../unit1/using-functions.html)
 
 Learning Goals:
 
