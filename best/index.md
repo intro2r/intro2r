@@ -9,7 +9,7 @@ Here, we will illustrate principles and practical tips for working (mostly in R)
 
 ## Code Style
 
-### Style Guide I: [Syntax](../best/code-style.htm)
+### Style Guide I: [Syntax](../best/code-style.html)
 
  -  How best to format your code so that your future self can understand what the heck you meant.
 
