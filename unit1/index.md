@@ -70,9 +70,13 @@ SWIRL:
  - [Subsetting Vectors](./swirl/subsetting_vectors.html)
  
  
-Lab: [Unit 1: Lab 3](../unit1/labs.html#lab-3)
+Best Practice: [Code style guide](../best/code-style.html)
 
-Best Practice: [Code style guide](../best/code-style.html), [lab](../unit1/labs.html#best-practice-lab)
+Labs: 
+
+ - [Unit 1: Lab 3](../unit1/labs.html#lab-3)
+
+ - [Code style lab](../unit1/labs.html#best-practice-lab)
 
 Functions: `c()`, `:`, `seq()`, `rep()`, `plot()`, `is.vector()`, etc
 
