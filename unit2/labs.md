@@ -19,9 +19,9 @@ Scroll down or click [here](../unit2/labs.html#how-to-submit-your-labs) to to ch
  
  a. Convert this vector into a 4 column matrix.
  
- b. Sum the rows of the matrix.
+ b. Sum the rows of the matrix, with `rowSums()`.
  
- c. Sum the columns of the matrix.
+ c. Sum the columns of the matrix, with `colSums()`.
 
  d. Give the matrix column names (whatever you want).
 
