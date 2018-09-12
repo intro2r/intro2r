@@ -191,7 +191,7 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
 
   d. What is the average number of harry potter books read?
 
-  e. Create a plot of country of origin.
+  e. Create a plot of HP house.
 
   f. Create a plot of yes vs nos to pineapple on pizza.
 
