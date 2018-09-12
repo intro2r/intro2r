@@ -174,11 +174,11 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
 
 ### 2. Examine the qualities of each vector with the given quantities
 
-  a. What is the structure of your heights vector?
+  a. What is the structure of your shoe size vector?
 
   b. Summarize the shoe size data. What is the maximum shoe size in the class?
 
-  c. How is the structure of class height and favorite color different? 
+  c. How is the structure of shoe size and favorite color different? 
 
 
 ### 3. Perform the following on each vector
