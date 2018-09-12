@@ -191,9 +191,9 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
 
   d. What is the average number of harry potter books read?
 
-  e. Create a plot of HP house.
+  e. Create a barplot of HP house.
 
-  f. Create a plot of yes vs nos to pineapple on pizza.
+  f. Create a barplot of yes vs nos to pineapple on pizza.
 
 
 ### 4. Is there anything that has been exceptionally confusing so far?
