@@ -95,6 +95,7 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
 | 162.56 | Brown     | 7         | 2        | 27865    | 7        | Gryffindor | 23         | Yellow    | Coffee     | Disgusting | Yes         | Neither     |
 | 167    | Brown     | 7.5       | 0        | 80000    | 7        | Ravenclaw  | 23         | Blue      | Coffee     | Disgusting | Yes         | Both |
 | 167    | Brown     | 8.5       | 5        | 3500     | 0        | Hufflepuff | 27         | Blue      | Coffee     | Disgusting | Yes         | Neither     |
+{: .table table-bordered .table-striped}
 
 ### 1. Create the following vectors and save them as variables of your choosing:
 
@@ -124,6 +125,7 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
 | Harry Potter and the Order of the Phoenix     |      257,045 |            38  |         766 | 
 | Harry Potter and the Half-Blood Prince        |      168,923 |            30  |         607 | 
 | Harry Potter and the Deathly Hallows          |      198,227 |            37  |         607 | 
+{: .table table-bordered .table-striped}
 
 *Sources:* [1](https://wordcounter.net/blog/2015/11/23/10922_how-many-words-harry-potter.html), [2](http://harrypotter.wikia.com/wiki/List_of_chapters_in_the_Harry_Potter_novels), [3](https://dustyloft.wordpress.com/2007/07/12/number-of-pages-harry-potter/)
 
