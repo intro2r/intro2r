@@ -15,30 +15,43 @@ Scroll down or click [here](../unit2/labs.html#how-to-submit-your-labs) to to ch
 
 ## 1. Matrix operations I
 
-  a. Create a vector from 1 to 20 using whatever method you like. 
-  a. Convert this vector into a 4 column matrix.
-  b. Sum the rows of the matrix.
-  c. Sum the columns of the matrix.
-  d. Give the matrix column names (whatever you want).
+ a. Create a vector from 1 to 20 using whatever method you like. 
+ 
+ a. Convert this vector into a 4 column matrix.
+ 
+ b. Sum the rows of the matrix.
+ 
+ c. Sum the columns of the matrix.
+
+ d. Give the matrix column names (whatever you want).
 
 
 ## 2. Create vectors from shoe size, favorite animal, pineapple yes/no
 
-  a. Using these vectors, create a matrix.
-  b. Convert this matrix to a data frame (you may need to google or find external help).
-  b. Display the first 6 rows of the data frame.
-  c. Display the last 6 rows of the data frame.
-  d. Add eye color as another column to the same data frame (do not create a new data frame).
-  e. Look at the structure and summary of the data frame. Which columns are which data type?
+ a. Using these vectors, create a matrix.
+
+ b. Convert this matrix to a data frame (you may need to google or find external help).
+ 
+ b. Display the first 6 rows of the data frame.
+ 
+ c. Display the last 6 rows of the data frame.
+ 
+ d. Add eye color as another column to the same data frame (do not create a new data frame).
+ 
+ e. Look at the structure and summary of the data frame. Which columns are which data type?
 
 	
 ## 3. Create a data frame from given data
 
-  a. Look at the head, tail, and summary of data
-  b. What are the dimensions of the data frame?
-  c. What is the mean of column X?
-  d. What is the min of column Y?
-  e. Plot the values of column Z
+ a. Look at the head, tail, and summary of data
+ 
+ b. What are the dimensions of the data frame?
+ 
+ c. What is the mean of column X?
+ 
+ d. What is the min of column Y?
+ 
+ e. Plot the values of column Z
 
  - - -
 
@@ -49,9 +62,11 @@ Scroll down or click [here](../unit2/labs.html#how-to-submit-your-labs) to to ch
 
 ### 1.  Load in data set
 
-  a. Subset for just column X and assign to a variable
-  b. Subset by column name using [ ]
-  c. Check the structure of just column X. What is the data structure?
+ a. Subset for just column X and assign to a variable
+ 
+ b. Subset by column name using [ ]
+ 
+ c. Check the structure of just column X. What is the data structure?
 
 
 
@@ -59,35 +74,49 @@ Scroll down or click [here](../unit2/labs.html#how-to-submit-your-labs) to to ch
 
 ### 2. Use the vector you just pulled out
 
-  a. Display just the first element of the vector
-  b. Display just the last element of the vector
-  c. Display the 2, 5, and 9th element of the vector
-  d. Display the first 5 elements of the vector
-  e. Remove the first 4 elements of this vector
+ a. Display just the first element of the vector
+
+ b. Display just the last element of the vector
+ 
+ c. Display the 2, 5, and 9th element of the vector
+ 
+ d. Display the first 5 elements of the vector
+ 
+ e. Remove the first 4 elements of this vector
 
 
 ## Subsetting with [ ] logically (one dimension)
 
 ### 3. Use the same vector
 
-  a. Display all values of the vector less than 8
-  b. Display all values of the vector more than 4
-  c. Display all values of the vector more than 4 and less than 8
-  d. Display all values of the vector less than 4 or more than 8
+ a. Display all values of the vector less than 8
+ 
+ b. Display all values of the vector more than 4
+ 
+ c. Display all values of the vector more than 4 and less than 8
+ 
+ d. Display all values of the vector less than 4 or more than 8
 	
 
 ## Subsetting in two dimensions
 
 ### 4. Use this data frame
 
-  a. Display the first element of the first column
-  b. Display the entire first row
-  c. Display the entire 2nd column without its name
-  d. Display the 2-5th rows and the 3-4th columns
-  e. Display column Xs values that are more than 10
-  f. Display column Xs values for where column Y responded TRUE
-  g. Make a boxplot of column Xs for which column Y is FALSE
-  h. Remove the 3rd row of data
+ a. Display the first element of the first column
+ 
+ b. Display the entire first row
+ 
+ c. Display the entire 2nd column without its name
+ 
+ d. Display the 2-5th rows and the 3-4th columns
+ 
+ e. Display column Xs values that are more than 10
+ 
+ f. Display column Xs values for where column Y responded TRUE
+ 
+ g. Make a boxplot of column Xs for which column Y is FALSE
+ 
+ h. Remove the 3rd row of data
 
 
  - - -
@@ -98,23 +127,33 @@ Scroll down or click [here](../unit2/labs.html#how-to-submit-your-labs) to to ch
 
 ## 1. Read in the following clean data sets:
 
-  a. .txt (tab-delim). Display the first 10 rows.
-  b. .csv (, delim). What is the mean X?
-  c  something else. How many rows and columns does this data have?
+ a. .txt (tab-delim). Display the first 10 rows.
+ 
+ b. .csv (, delim). What is the mean X?
+ 
+ c  something else. How many rows and columns does this data have?
 
 
 
 ## 2. Clean and read in the following data sets
 
-  a.
-  b.
-  c.
+ a.
+ 
+ b.
+ 
+ c.
 
 
 
 ## 3. Clean and read in the `birdflu.xls` spreadsheet.
 
-
+ a.
+ 
+ b.
+ 
+ c.
+ 
+ d.
 
 	Birdflu questions
 
@@ -129,34 +168,49 @@ Scroll down or click [here](../unit2/labs.html#how-to-submit-your-labs) to to ch
 
 ## 1. Working with lists
 
-  a. Create a matrix.
-  b. Create a data frame.
-  c. Create a vector.
-  d. Put all three objects in a list.
-  e. Subset the data frame from the list by its name.
-  f. Subset a column in the data frame in the list.
-  g. Subset the vector by its position in the list.
+ a. Create a matrix.
+ 
+ b. Create a data frame.
+ 
+ c. Create a vector.
+ 
+ d. Put all three objects in a list.
+ 
+ e. Subset the data frame from the list by its name.
+ 
+ f. Subset a column in the data frame in the list.
+ 
+ g. Subset the vector by its position in the list.
 
 
 
 ## 2. Use the `birdflu.xls` spreadsheet again
 
-  a. Edit the birdflu spreadsheet from a wide format to a long format. 
-  b. Read in the edited birdflu data
-  c. How many deaths were there in year?
-  d. How many cases were there in country in all years?
-  e. How many cases were there in country in year?
+ a. Edit the birdflu spreadsheet from a wide format to a long format. 
+ 
+ b. Read in the edited birdflu data
+ 
+ c. How many deaths were there in year?
+ 
+ d. How many cases were there in country in all years?
+ 
+ e. How many cases were there in country in year?
 
 
 
 ## 3. Class survey data
 
-  a. Try to read in the class survey data file.
-  b. Fix survey and read in again.
-  c. Find the average of this column.
-  d. Find the average of column on one factor and the other.
-  e. A few more subsets.
-  f. Plot a few things.
+ a. Try to read in the class survey data file.
+ 
+ b. Fix survey and read in again.
+ 
+ c. Find the average of this column.
+ 
+ d. Find the average of column on one factor and the other.
+ 
+ e. A few more subsets.
+ 
+ f. Plot a few things.
 
  - - -
  
