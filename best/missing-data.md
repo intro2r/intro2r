@@ -5,7 +5,7 @@ title: Missing data
 
 # The Importance of Missing Data
 
-![](./img/missing/witch2.jpg)
+![](http://intro2r.github.io/img/missing/witch2.jpg)
 
 *The witch tapped her broomstick, and _whoosh!_ they were gone*
 
@@ -139,7 +139,7 @@ Red is missing data in the *y*-variable.
 Blue is observed data.
 
 
-![](./img/missing/mia.jpg)
+![](http://intro2r.github.io/img/missing/mia.jpg)
 
 *Source:* Nakagawa & Freckleton (2008)
 
@@ -176,7 +176,7 @@ So, we can never rule them out
 
 # The best solution to missing data
 
-![](./img/missing/Ronald_Fisher_as_a_child.JPG)
+![](http://intro2r.github.io/img/missing/Ronald_Fisher_as_a_child.JPG)
 
 > The best solution to handle missing data is to have none. 
 
