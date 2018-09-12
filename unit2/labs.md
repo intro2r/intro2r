@@ -3,17 +3,17 @@ layout: default
 title: Unit 2 Labs
 ---
 
-# Unit 2: Working with Data | Labs
+# Unit 2: Working with Data: Labs
 
 These labs test and build on the material presented in the SWIRL lessons.
 
-Scroll down or click here to check how to submit them.
+Scroll down or click [here](../unit2/labs.html#how-to-submit-your-labs) to to check how to submit them.
 
  - - -
 
-## Lab 1
+# Lab 1
 
-1. Matrix operations I
+## 1. Matrix operations I
 
   a. Create a vector from 1 to 20 using whatever method you like. 
   a. Convert this vector into a 4 column matrix.
@@ -22,7 +22,7 @@ Scroll down or click here to check how to submit them.
   d. Give the matrix column names (whatever you want).
 
 
-2. Create vectors from shoe size, favorite animal, pineapple yes/no
+## 2. Create vectors from shoe size, favorite animal, pineapple yes/no
 
   a. Using these vectors, create a matrix.
   b. Convert this matrix to a data frame (you may need to google or find external help).
@@ -32,7 +32,7 @@ Scroll down or click here to check how to submit them.
   e. Look at the structure and summary of the data frame. Which columns are which data type?
 
 	
-3. Create a data frame from given data
+## 3. Create a data frame from given data
 
   a. Look at the head, tail, and summary of data
   b. What are the dimensions of the data frame?
@@ -43,18 +43,21 @@ Scroll down or click here to check how to submit them.
  - - -
 
 
-## Lab 2
+# Lab 2
 
-Subsetting with `$`
-1.  Load in data set
+## Subsetting with `$`
+
+### 1.  Load in data set
 
   a. Subset for just column X and assign to a variable
   b. Subset by column name using [ ]
   c. Check the structure of just column X. What is the data structure?
 
 
-Subsetting with [ ] positionally (one dimension)
-2. Use the vector you just pulled out
+
+## Subsetting with [ ] positionally (one dimension)
+
+### 2. Use the vector you just pulled out
 
   a. Display just the first element of the vector
   b. Display just the last element of the vector
@@ -62,16 +65,20 @@ Subsetting with [ ] positionally (one dimension)
   d. Display the first 5 elements of the vector
   e. Remove the first 4 elements of this vector
 
-Subsetting with [ ] logically (one dimension)
-3. Use the same vector
+
+## Subsetting with [ ] logically (one dimension)
+
+### 3. Use the same vector
 
   a. Display all values of the vector less than 8
   b. Display all values of the vector more than 4
   c. Display all values of the vector more than 4 and less than 8
   d. Display all values of the vector less than 4 or more than 8
 	
-Subsetting in two dimensions
-4. Use this data frame
+
+## Subsetting in two dimensions
+
+### 4. Use this data frame
 
   a. Display the first element of the first column
   b. Display the entire first row
@@ -86,23 +93,26 @@ Subsetting in two dimensions
  - - -
 
 
-## Lab 3
+# Lab 3
 
-1. Read in the following clean data sets:
+
+## 1. Read in the following clean data sets:
 
   a. .txt (tab-delim). Display the first 10 rows.
   b. .csv (, delim). What is the mean X?
   c  something else. How many rows and columns does this data have?
 
 
-2. Clean and read in the following data sets
+
+## 2. Clean and read in the following data sets
 
   a.
   b.
   c.
 
 
-3. Clean and read in the `birdflu.xls` spreadsheet.
+
+## 3. Clean and read in the `birdflu.xls` spreadsheet.
 
 
 
@@ -113,10 +123,11 @@ Subsetting in two dimensions
  - - -
 
 
-## Lab 4: Unit 2 Recap
+# Lab 4: Unit 2 Recap
 
 
-1. Working with lists
+
+## 1. Working with lists
 
   a. Create a matrix.
   b. Create a data frame.
@@ -127,7 +138,8 @@ Subsetting in two dimensions
   g. Subset the vector by its position in the list.
 
 
-2. Use the `birdflu.xls` spreadsheet again
+
+## 2. Use the `birdflu.xls` spreadsheet again
 
   a. Edit the birdflu spreadsheet from a wide format to a long format. 
   b. Read in the edited birdflu data
@@ -136,7 +148,8 @@ Subsetting in two dimensions
   e. How many cases were there in country in year?
 
 
-3. Class survey data
+
+## 3. Class survey data
 
   a. Try to read in the class survey data file.
   b. Fix survey and read in again.
