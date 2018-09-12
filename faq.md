@@ -72,10 +72,13 @@ swirl()
 ## 3. Full script to uninstall, delete progress, and reinstall SWIRL lessons
 
 ```{r
+# Copy and paste this first:
 # get access to  swirl library
 library(swirl)
-# uninstallal courses
-uninstall_all_courses()
+# uninstall all courses; the '1' tells R that yes, you do want to uninstall.
+uninstall_all_courses(1)
+
+# you will need to enter your user name here ...
 # delete your progress (replace 'USER' with the name you use in SWIRL)
 delete_progress("USER")
 # Re-install the course, with updated lessons
