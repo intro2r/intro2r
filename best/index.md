@@ -18,7 +18,7 @@ Here, we will illustrate principles and practical tips for working (mostly in R)
 
 ### [Missing data](../best/missing-data.html)
 
- - What to do when you do have all the things.
+ - What to do when you do not have all the things.
  
 ### [Data management](../best/data-management.html) 
 
