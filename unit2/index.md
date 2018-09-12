@@ -29,7 +29,7 @@ SWIRL:
 
 Lab: [Unit 2: Lab 1](../unit2/labs.html)
 
-Reading: [Missing Data](../best/missing-values.html)
+Reading: [Missing Data](../best/missing-data.html)
 
 Functions: `matrix()`, `data.frame()`, `rbind()`, `cbind()`, `head()`, `str()`, `is.foo()`, `nrow()`, `ncol()`, `dim()`, `rowSums()`, `colSums()`
 
