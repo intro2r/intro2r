@@ -69,6 +69,22 @@ And start SWIRL ...
 swirl()
 ```
 
+## 3. Full script to uninstall, delete progress, and reinstall SWIRL lessons
+
+```{r
+# get access to  swirl library
+library(swirl)
+# uninstallal courses
+uninstall_all_courses()
+# delete your progress (replace 'USER' with the name you use in SWIRL)
+delete_progress("USER")
+# Re-install the course, with updated lessons
+install_course_github('intro2r', 'swirl_courses', multi = TRUE)
+# start SWIRL
+swirl()
+```
+
+
 # B. Submitting labs
 
 ## 1. How do I write up the labs?
