@@ -21,18 +21,22 @@ Learning Goals:
  - Make and manipulate dataframes,
  - Examine the structure and contents, and extract elements of dataframes.
 
-SWIRL: [Dataframes and matrices](../unit2/dataframes-and-matrices.html)
+SWIRL: 
+
+ - [Dataframes and matrices](../unit2/swirl/dataframes-and-matrices.html)
+ 
+ - [Missing values](../unit2/swirl/missing-values.html)
 
 Lab: [Unit 2: Lab 1](../unit2/labs.html)
 
-Reading: [Missing Data]()
+Reading: [Missing Data](../best/missing-values.html)
 
 Functions: `matrix()`, `data.frame()`, `rbind()`, `cbind()`, `head()`, `str()`, `is.foo()`, `nrow()`, `ncol()`, `dim()`, `rowSums()`, `colSums()`
 
 
 ## Lesson 2. How to extract subsets of data
 
-Lecture: [Subsetting and indexing in R](../unit2/subsetting.html)
+Lecture: [Subsetting and indexing in R](../unit2/subsetting-and-indexing.html)
 
 Learning Goals:
  - Extract dataframe columns with column names (`$`, `[, 'name']`),
@@ -60,9 +64,9 @@ Learning Goals:
  - Read in .txt and .csv files,
  - Write data to files.
 
-SWIRL: [Reading and writing data](./reading-data.html)
+SWIRL: [Reading and writing data](./swirl/reading-data.html)
 
-Lab: [Unit 2: Lab 3](../unit2.labs.html)
+Lab: [Unit 2: Lab 3](../unit2/labs.html)
 
 Best Practice: [Managing Data](../best/managing-data.html)
 
@@ -79,11 +83,9 @@ Learning Goals:
  - Index and subset simple lists,
  - Access model output and other lists.
 
-SWIRL: [Lists](./lists.html)
+SWIRL: [Lists](./swirl/lists.html)
 
 Lab: [Unit 2: Recap](../unit2/labs.html)
-
-Reading:
 
 Functions: `list()`
 
