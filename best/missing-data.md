@@ -5,7 +5,7 @@ title: Missing data
 
 # The Importance of Missing Data
 
-![](http://intro2r.github.io/img/missing/witch2.jpg)
+![](http://intro2r.github.io/best/img/witch2.jpg)
 
 *The witch tapped her broomstick, and _whoosh!_ they were gone*
 
@@ -139,7 +139,7 @@ Red is missing data in the *y*-variable.
 Blue is observed data.
 
 
-![](http://intro2r.github.io/img/missing/mia.jpg)
+![](http://intro2r.github.io/best/img/mia.jpg)
 
 *Source:* Nakagawa & Freckleton (2008)
 
@@ -176,7 +176,7 @@ So, we can never rule them out
 
 # The best solution to missing data
 
-![](http://intro2r.github.io/img/missing/Ronald_Fisher_as_a_child.JPG)
+![](http://intro2r.github.io/best/img/Ronald_Fisher_as_a_child.JPG)
 
 > The best solution to handle missing data is to have none. 
 
@@ -229,6 +229,7 @@ Use a value that is:
 | No data     | Uncommon. Can cause problems with data type. Contains a space                                                                                         |                | Avoid          |
 | Missing     | Uncommon. Can cause problems with data type                                                                                                           |                | Avoid          |
 | -, +, .     | Uncommon. Can cause problems with data type                                                                                                           |                | Avoid          |
+{: .table table-bordered .table-striped}
 
 **Table 1** Commonly used null values, limitations, compatibility with common software. From: [White et al. 2013](https://ojs.library.queensu.ca/index.php/IEE/article/view/4608/0)
 
