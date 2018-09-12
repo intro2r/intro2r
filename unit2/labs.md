@@ -26,11 +26,9 @@ Scroll down or click [here](../unit2/labs.html#how-to-submit-your-labs) to to ch
  d. Give the matrix column names (whatever you want).
 
 
-## 2. Create vectors from shoe size, favorite animal, pineapple yes/no
+## 2. Create three separate vectors for shoe size, height, pineapple yes/no
 
- a. Using these vectors, create a matrix.
-
- b. Convert this matrix to a data frame (you may need to google or find external help).
+ a. Using these vectors, create a data frame (you may need to google or find external help).
  
  b. Display the first 6 rows of the data frame.
  
