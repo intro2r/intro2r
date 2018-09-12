@@ -5,7 +5,7 @@ title: Missing data
 
 # The Importance of Missing Data
 
-![](./img/missing/witch.jpg)
+![](./img/missing/witch2.jpg)
 
 *The witch tapped her broomstick, and _whoosh!_ they were gone*
 
