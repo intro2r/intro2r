@@ -53,18 +53,18 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
 
 **Table 1.** Box office history for all Harry Potter movies<sup>[1](http://www.the-numbers.com/movies/franchise/Harry-Potter#tab=summary)</sup>. 
 
-| Release Date | Movie                                         | Production Budget | Domestic Opening Weekend | Domestic Box Office | Worldwide Box Office |
+| Release Date | Movie                                         | Production Budget | Domestic Opening Weekend | Domestic Box Office | Worldwide Box Office | {: .header-row }
 |--------------|-----------------------------------------------|------------------|------------------------|--------------------|---------------------|
-| Nov 16, 2001 | Harry Potter and the Sorcerer’s Stone         | $125,000,000     | $90,294,621            | $317,575,550       | $974,755,371        |
-| Nov 15, 2002 | Harry Potter and the Chamber of Secrets       | $100,000,000     | $88,357,488            | $261,987,880       | $878,979,634        |
-| Jun 4, 2004  | Harry Potter and the Prisoner of Azkaban      | $130,000,000     | $93,687,367            | $249,538,952       | $796,688,549        |
-| Nov 18, 2005 | Harry Potter and the Goblet of Fire           | $150,000,000     | $102,685,961           | $290,013,036       | $896,911,078        |
-| Jul 11, 2007 | Harry Potter and the Order of the Phoenix     | $150,000,000     | $77,108,414            | $292,004,738       | $942,943,935        |
-| Jul 15, 2009 | Harry Potter and the Half-Blood Prince        | $250,000,000     | $77,835,727            | $301,959,197       | $935,083,686        |
-| Nov 19, 2010 | Harry Potter and the Deathly Hallows: Part I  | $125,000,000     | $125,017,372           | $295,983,305       | $960,283,305        |
-| Jul 15, 2011 | Harry Potter and the Deathly Hallows: Part II | $125,000,000     | $169,189,427           | $381,011,219       | $1,341,511,219      |
-| Nov 18, 2016 | Fantastic Beasts and Where to Find Them       | $180,000,000     | $74,403,387            | $234,037,575       | $803,798,342        |
-
+| Nov 16, 2001 | Harry Potter and the Sorcerer’s Stone         | $125,000,000     | $90,294,621            | $317,575,550       | $974,755,371        |  {: .data-row-1 }
+| Nov 15, 2002 | Harry Potter and the Chamber of Secrets       | $100,000,000     | $88,357,488            | $261,987,880       | $878,979,634        |  {: .data-row-2 }
+| Jun 4, 2004  | Harry Potter and the Prisoner of Azkaban      | $130,000,000     | $93,687,367            | $249,538,952       | $796,688,549        |  {: .data-row-3 }
+| Nov 18, 2005 | Harry Potter and the Goblet of Fire           | $150,000,000     | $102,685,961           | $290,013,036       | $896,911,078        | {: .data-row-4 }
+| Jul 11, 2007 | Harry Potter and the Order of the Phoenix     | $150,000,000     | $77,108,414            | $292,004,738       | $942,943,935        |  {: .data-row-5 }
+| Jul 15, 2009 | Harry Potter and the Half-Blood Prince        | $250,000,000     | $77,835,727            | $301,959,197       | $935,083,686        |  {: .data-row-6 }
+| Nov 19, 2010 | Harry Potter and the Deathly Hallows: Part I  | $125,000,000     | $125,017,372           | $295,983,305       | $960,283,305        |  {: .data-row-7 }
+| Jul 15, 2011 | Harry Potter and the Deathly Hallows: Part II | $125,000,000     | $169,189,427           | $381,011,219       | $1,341,511,219      |  {: .data-row-8 }
+| Nov 18, 2016 | Fantastic Beasts and Where to Find Them       | $180,000,000     | $74,403,387            | $234,037,575       | $803,798,342        |  {: .data-row-9 }
+{: .table table-bordered .table-striped}
 
 
   a. Create three separate variables for each of the first three movies, giving them the value of their worldwide box office take. 
