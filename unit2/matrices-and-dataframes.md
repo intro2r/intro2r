@@ -1,10 +1,3 @@
----
-layout: default
-title: Matrices and dataframes
----
-
-
-
 
 # Matrices
 
@@ -22,6 +15,12 @@ Matrices are used frequently in mathematical models and statistics.
 We can create an empty matrix and fill it later,
 ```{r}
 matrix(ncol = 2, nrow = 2)
+```
+
+```
+     [,1] [,2]
+[1,]   NA   NA
+[2,]   NA   NA
 ```
 
 or create one from vector
@@ -42,6 +41,7 @@ m
 ```
 
 ... and the rows
+```{r}
 rownames(m) <- c("a", "b", "c", "d")
 m
 ```
