@@ -13,7 +13,7 @@ Matrices are used frequently in mathematical models and statistics.
 ## How to make a matrix
 
 We can create an empty matrix and fill it later,
-```{r}
+```r
 matrix(ncol = 2, nrow = 2)
 ```
 
@@ -24,12 +24,12 @@ matrix(ncol = 2, nrow = 2)
 ```
 
 or create one from vector
-```{r}
+```r
 matrix(1:4, ncol = 2, nrow = 2)
 ```
 
 By default, matrices are filled by columns. We can fill be rows instead.
-```{r}
+```r
 matrix(1:4, ncol = 2, nrow = 2, byrow = TRUE)
 ```
 
