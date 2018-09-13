@@ -3,6 +3,14 @@ layout: default
 title: Matrices and Dataframes
 ---
 
+# Matrices and Dataframes
+
+Both are two-dimensional data structures.
+
+Matrices are atomic vectors with dimensions and can only have one type of data.
+
+Dataframes can have columns of different data.
+
 
 # Matrices
 
@@ -91,6 +99,10 @@ a 1 3
 b 2 4
   7 8
 ```
+
+# Dataframes
+
+
 
 
 
