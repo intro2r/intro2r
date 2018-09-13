@@ -27,35 +27,65 @@ or create one from vector
 ```r
 matrix(1:4, ncol = 2, nrow = 2)
 ```
+```
+     [,1] [,2]
+[1,]    1    3
+[2,]    2    4
+```
 
 By default, matrices are filled by columns. We can fill be rows instead.
 ```r
 matrix(1:4, ncol = 2, nrow = 2, byrow = TRUE)
 ```
+```
+     [,1] [,2]
+[1,]    1    2
+[2,]    3    4
+```
 
 We can label the columns ...
-```{r}
+```r
 m <- matrix(1:4, ncol = 2, nrow = 2)
-colnames(m) <- c("A", "B", "C", "D")
+colnames(m) <- c("A", "B")
 m
+```
+```
+     A B
+[1,] 1 3
+[2,] 2 4
 ```
 
 ... and the rows
-```{r}
-rownames(m) <- c("a", "b", "c", "d")
+```r
+rownames(m) <- c("a", "b")
 m
+```
+```
+  A B
+a 1 3
+b 2 4
 ```
 
 We can add extra columns
-```{r}
+```r
 cbind(m, 5:6)
+```
+```
+  A B  
+a 1 3 5
+b 2 4 6
 ```
 
 or rows
-```{r}
+```r
 rbind(m, 7:8)
 ```
-
+```
+  A B
+a 1 3
+b 2 4
+  7 8
+```
 
 
 
