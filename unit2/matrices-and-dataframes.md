@@ -7,9 +7,9 @@ title: Matrices and Dataframes
 
 Both are two-dimensional data structures.
 
-Matrices are atomic vectors with dimensions and can only have one type of data.
+Matrices are atomic vectors with dimensions and can only have one mode (type) of data.
 
-Dataframes can have columns of different data.
+Dataframes can have columns of different data modes.
 
 
 # Matrices
@@ -18,7 +18,7 @@ Matrices are an extension of numeric or character vectors.
 
 They are not a separate type of object but simply an atomic vector with dimensions; the number of rows and columns.
 
-Because they are an atomic vector, all the elements are the same type (integer, numeric, etc).
+Because they are an atomic vector, all the elements are the same type (integer, or numeric, or, etc).
 
 Matrices are used frequently in mathematical models and statistics.
 
