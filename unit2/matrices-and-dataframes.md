@@ -195,3 +195,33 @@ row2   ii    2   10
 row3  iii    3   11
 row4   iv    4   12
 ```
+
+## Examining dataframes and matrices
+
+We can check if it is a dataframe, with `is.data.frame()`
+```r
+is.data.frame(df)
+```
+```
+[1] TRUE
+```
+
+We can check the dimenions with `dim()`
+```r
+dim(df)
+```
+```
+4 3
+```
+
+We can check the structure, with `str()`
+```r
+str(df)
+```
+```
+'data.frame':	4 obs. of  3 variables:
+ $ col1: Factor w/ 4 levels "i","ii","iii",..: 1 2 3 4
+ $ col2: num  1 2 3 4
+ $ col4: num  9 10 11 12
+```
+
