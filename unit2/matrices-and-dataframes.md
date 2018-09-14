@@ -269,6 +269,7 @@ And the last few rows with `tail()`
 ```r
 tail(df)
 ```
+```
      col1 col2 col4
 row1    i    1    9
 row2   ii    2   10
