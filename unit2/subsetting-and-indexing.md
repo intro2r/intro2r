@@ -9,8 +9,6 @@ Subsetting in R is fast and incredibly powerful.
 
 There are three subsetting operators: `[`, `[[`, `$`.
 
-There are six types of subsetting: 
-
 There are also important differences in how we subset different objects (vectors, lists, factors, matrices, and data frames).
 
 
@@ -263,6 +261,10 @@ Or by name with ` [ `, as for lists.
 
 
 
+- - -
 
+More details and advanced details on subsetting:
+
+Hadley Wickham's [Advanced R: Subsetting](http://adv-r.had.co.nz/Subsetting.html)
 
 
