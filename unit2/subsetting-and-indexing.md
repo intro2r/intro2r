@@ -143,12 +143,45 @@ a
 1
 ```
 
+And you can repeat these indices, as with integers.
 ```r
 x[c('a', 'a', 'c')]
 ```
 ```
 a a c 
 1 1 3 
+```
+
+## Subsetting matrices and arrays
+
+```r
+m <- matrix(1:4, ncol = 2, nrow = 2)
+m
+```
+```
+     [,1] [,2]
+[1,]    1    3
+[2,]    2    4
+```
+
+You can subset matrices (2d) and arrays (>2d) higher-dimensional structures very simply with an extension of the method
+used to index atomic vectors, by giving the 'coordinate' of each element, using brackets (`[`) as before, separated by commas.
+E.g., for a 2d matrix: ` [row, col] `.
+
+```r
+m[1, 1]
+```
+```
+[1] 1
+```
+
+
+Blank subsetting is useful here because it allows you to keep all rows or all columns.
+```r
+m[1, ]
+```
+```
+[1] 1 3
 ```
 
 
