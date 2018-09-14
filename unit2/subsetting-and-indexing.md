@@ -192,7 +192,10 @@ m[1, ]
 [1] 1 3
 ```
 
+As with atomic vectors, we can use positive integers, negative integers, logical vectors, nothing, zero, and names to index.
 
+
+## Subsetting data frames
 
 
 
