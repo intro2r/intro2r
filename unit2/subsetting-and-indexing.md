@@ -27,13 +27,13 @@ This is particularly useful for plotting and presenting the results of statistic
 
 We covered subsetting atomic vectors in Unit 1: [Subsetting Vectors](http://www.intro2r.info/unit1/swirl/subsetting_vectors) SWIRL lesson. 
 
-We can subset atomic vectors in five ways.
+We can subset atomic vectors in six ways.
 
 Remember that each element has a index (position). We can use these indices to subset.
 
 Take an example vector
 ```r
-x <- 1:5
+x <- c(1, 2, 3, 4, 5)
 ```
 
 ### i. Positive integer
@@ -120,8 +120,38 @@ An index vector of 0 returns a vector of length 0, useful mostly for generating 
 ```r
 x[0]
 ```
+```
 integer(0)
 ```
+
+### vi. Character vectors
+If the vector is named, we can index using these names.
+```r
+names(x) <- c('a', 'b', 'c', 'd', 'e')
+x
+```
+```
+a b c d e 
+1 2 3 4 5 
+```
+
+```r
+x['a']
+```
+```
+a 
+1
+```
+
+```r
+x[c('a', 'a', 'c')]
+```
+```
+a a c 
+1 1 3 
+```
+
+
 
 
 
