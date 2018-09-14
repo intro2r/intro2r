@@ -111,6 +111,8 @@ b 2 4
 
 Dataframes are also two-dimensional objects. But, unlike matrices, dataframes can include columns of any data type.
 
+Techically, data frames are a type of list where every part (i.e., column) of the list has same length. A data frame is therefore a rectangular list.
+
 Data frames area akin to the usual "observations and variables" model that most statistical software uses. They are also similar to database tables. 
 
 So, each row of a data frame should represent an observation and the elements in a given row represent information about that observation. Each column has all the information about a particular variable for the entire data set.
@@ -206,6 +208,15 @@ is.data.frame(df)
 [1] TRUE
 ```
 
+And confirm that is it, actually, a list.
+```r
+is.list(df)
+```
+```
+[1] TRUE
+```
+
+
 We can check the dimenions with `dim()`
 ```r
 dim(df)
@@ -213,6 +224,23 @@ dim(df)
 ```
 4 3
 ```
+
+And ask how many columns with `ncol()`
+```r
+ncol(df)
+```
+```
+[1] 3
+```
+
+and rows with nrow()
+```r
+nrow(df)
+```
+```
+[1] 4
+```
+
 
 We can check the structure, with `str()`
 ```r
@@ -223,5 +251,28 @@ str(df)
  $ col1: Factor w/ 4 levels "i","ii","iii",..: 1 2 3 4
  $ col2: num  1 2 3 4
  $ col4: num  9 10 11 12
+```
+
+We can examine the first few rows with `head()`
+```r
+head(df)
+```
+```
+     col1 col2 col4
+row1    i    1    9
+row2   ii    2   10
+row3  iii    3   11
+row4   iv    4   12
+```
+
+And the last few rows with `tail()`
+```r
+tail(df)
+```
+     col1 col2 col4
+row1    i    1    9
+row2   ii    2   10
+row3  iii    3   11
+row4   iv    4   12
 ```
 
