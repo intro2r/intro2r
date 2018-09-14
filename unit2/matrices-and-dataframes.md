@@ -56,6 +56,8 @@ matrix(1:4, ncol = 2, nrow = 2, byrow = TRUE)
 [2,]    3    4
 ```
 
+## How to label a matrix
+
 We can label the columns ...
 ```r
 m <- matrix(1:4, ncol = 2, nrow = 2)
@@ -79,6 +81,8 @@ a 1 3
 b 2 4
 ```
 
+## How to add to a matrix
+
 We can add extra columns
 ```r
 cbind(m, 5:6)
@@ -100,9 +104,71 @@ b 2 4
   7 8
 ```
 
+
+- - -
+
 # Dataframes
 
+Dataframes are also two-dimensional objects. But, unlike matrices, dataframes can include columns of any data type.
 
+Data frames area akin to the usual "observations and variables" model that most statistical software uses. They are also similar to database tables. 
+
+So, each row of a data frame should represent an observation and the elements in a given row represent information about that observation. Each column has all the information about a particular variable for the entire data set.
+
+Dataframes are most likely what you will use to work with your own data.
+
+Each column can only be one mode or data type.
+
+Each column is the same length.
+
+
+## How to make a dataframe
+
+Can be created with `data.frame()`. This works ok for small datasets.
+```r
+df <- data.frame(sample_id = c('i', 'ii', 'iii', 'iv'), value = c(1,2,3,4))
+df
+```
+```
+  sample_id value
+1         i     1
+2        ii     2
+3       iii     3
+4        iv     4
+```
+
+For larger dataset, more usually you will read in external data using `read.table()` or `read.csv()` (See [Importing Data](http://www.intro2r.info/unit2/importing-data.html))
+
+
+## How to label a dataframe
+
+We can label the columns with `colnames()`...
+```r
+colnames(df) <- c('col1', 'col2')
+df
+```
+```
+  col1 col2
+1    i    1
+2   ii    2
+3  iii    3
+4   iv    4
+```
+
+... and the rows with `rownames()`
+````r
+rownames(df) <- c('row1', 'row2', 'row3', 'row4')
+df
+```
+```
+     col1 col2
+row1    i    1
+row2   ii    2
+row3  iii    3
+row4   iv    4
+```
+
+## How to add to a dataframe
 
 
 
