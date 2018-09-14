@@ -13,7 +13,7 @@ Scroll down to download the SWIRL lessons.
 
 ## Lesson 1. How to work with dataframes and matrices
 
-Lecture: Details of [dataframes and matrices](../unit2/matrices-and-dataframes.htm).
+Lecture: Details of [dataframes and matrices](../unit2/matrices-and-dataframes.html).
 
 Learning Goals:
 
