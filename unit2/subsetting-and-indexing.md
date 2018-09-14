@@ -175,6 +175,14 @@ m[1, 1]
 [1] 1
 ```
 
+```r
+m[ , c(1,2)]
+```
+```
+     [,1] [,2]
+[1,]    1    3
+[2,]    2    4
+```
 
 Blank subsetting is useful here because it allows you to keep all rows or all columns.
 ```r
