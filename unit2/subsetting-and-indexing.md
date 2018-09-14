@@ -196,15 +196,15 @@ As with atomic vectors, we can use positive integers, negative integers, logical
 ## Subsetting data frames
 
 ```r
-df <- data.frame(sample_id = c('i', 'ii', 'iii', 'iv'), value = c(1,2,3,4))
+df <- data.frame(sample_id = c('i', 'ii', 'iii', 'iv'), x = c(1,2,3,4), y = c(5, 6, 7, 8))
 df
 ```
 ```
-  sample_id value
-1         i     1
-2        ii     2
-3       iii     3
-4        iv     4
+  sample_id x y
+1         i 1 5
+2        ii 2 6
+3       iii 3 7
+4        iv 4 8
 ```
 
 We can use the 2d indexing for data frames as for matrices, to select specific elements: ` [row, col] `.
@@ -212,15 +212,18 @@ We can use the 2d indexing for data frames as for matrices, to select specific e
 df[1, c(1, 2)]
 ```
 ```
-  sample_id value
-1         i     1
+  sample_id x
+1         i 1
 ```
+
 
 ### Accessing data frame columns
 
 More usually, you will want to pull out specific columns, to plot or put into a model.
 
-We can also access columns by their position (remember that blank indexing extracts all rows/columns).
+We can access columns by their position (remember that blank indexing extracts all rows/columns).
+
+BEST PRACTICE: Is **not** to do this. Your column position may change. 
 ```r
 df[, 1]
 ```
@@ -229,36 +232,207 @@ df[, 1]
 Levels: i ii iii iv
 ```
 
-We can also access dataframes by column name, using ` $ `.
+It is therefore better to refer to columns by **name**, similar to with vectors and matrices.
+
+```
+df[, c('x', 'y')]
+```
+```
+  x y
+1 1 5
+2 2 6
+3 3 7
+4 4 8
+```
+
+*Note:* If we refer to only one column by name in this fashion, we get a vector.
 ```r
-df$value
+> df[, 'x']
 ```
 ```
 [1] 1 2 3 4
 ```
 
-or by name with ` [ `, as for a matrix,
+We can also refer to column names using the 'list style' (dropping the comma). (*Note:* subsetting a single column like this maintains the data frame stucture).
+
+```r
+df['x']
 ```
-df[, 'value']
+```
+  x
+1 1
+2 2
+3 3
+4 4
+```
+
+### Other operators: `[ ` vs ` [[ ` and ` $ `
+
+As we saw above, we can subset a dataframe and maintain the dataframe (i.e., list) structure.
+```r
+df['x']
+```
+```
+  x
+1 1
+2 2
+3 3
+4 4
+```
+
+The use of ` [[ ` and  ` $ ` go 'one level down', pulling the components out and returning a vector from the data frame.
+```r
+df[['x']]
+```
+```
+[1] 1 2 3 4
+```
+Notice that the column names are not retained here.
+ 
+
+` $ ` is essentally short-hand for ` [[ `.
+```r
+df$x
 ```
 ```
 [1] 1 2 3 4
 ```
 
-Or by name with ` [ `, as for lists.
+Both these ways of subsetting are needed for plotting functions and others.
+
+
+
+We can also subset dataframes by elements in particular columns, as for matrices.
 ```r
-> df[ 'value']
+df[df$x > 2, ]
 ```
 ```
-  value
-1     1
-2     2
-3     3
-4     4
+  sample_id x y
+3       iii 3 7
+4        iv 4 8
+```
+
+```r
+df[df['x'] > 2, ]
+```
+```
+  sample_id x y
+3       iii 3 7
+4        iv 4 8
 ```
 
 
 
+
+## Subsetting Lists
+
+Subsetting lists works similarly to vectors and dataframes.
+
+```r
+ l <- list(a = 1:4, 
+           b = c('i', 'i', 'ii', 'ii'), 
+           c = c(1.1, 2.2, 3.3, 4.4)
+           )
+l
+```
+```
+$a
+[1] 1 2 3 4
+
+$b
+[1] "i"  "i"  "ii" "ii"
+
+$c
+[1] 1.1 2.2 3.3 4.4
+```
+
+
+We can access each part by number,
+```r
+l[1]
+```
+```
+$a
+[1] 1 2 3 4
+```
+
+and by name.
+```r
+l['a']
+```
+```
+$a
+[1] 1 2 3 4
+```
+
+
+Using ` [ ` returns a list structure,
+
+```r
+l['a']
+```
+```
+$a
+[1] 1 2 3 4
+```
+
+whereas ` [[ ` and ` $ ` return the components of that part of the list.
+```r
+l[['a']]
+```
+```
+[1] 1 2 3 4
+```
+
+```r
+l$a
+```
+```
+[1] 1 2 3 4
+```
+
+We can also index down into elements of the list.
+```r
+l$a[1:3]
+```
+```
+[1] 1 2 3
+```
+
+
+
+## Subsetting and Assignment
+
+All subsetting operators can be combined with assignment ( ` <- `) to modify selected values of the focal vector. 
+
+```r
+x
+```
+```
+a b c d e 
+1 2 3 4 5 
+```
+
+
+We can assign new values to specific indexed elements,
+```r
+x[2] <- 6
+x
+```
+```
+a b c d e 
+1 6 3 4 5 
+```
+
+Use logical statements to revise several elements, 
+```r
+x[x > 3] <- 9
+x
+```
+```
+a b c d e 
+1 9 3 9 9 
+```
 
 
 - - -
