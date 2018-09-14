@@ -247,7 +247,7 @@ df[, c('x', 'y')]
 
 *Note:* If we refer to only one column by name in this fashion, we get a vector.
 ```r
-> df[, 'x']
+df[, 'x']
 ```
 ```
 [1] 1 2 3 4
