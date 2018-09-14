@@ -156,7 +156,7 @@ df
 ```
 
 ... and the rows with `rownames()`
-````r
+```r
 rownames(df) <- c('row1', 'row2', 'row3', 'row4')
 df
 ```
@@ -170,5 +170,28 @@ row4   iv    4
 
 ## How to add to a dataframe
 
+We can add columns using `cbind()` and rows using `rbind()`, as for matrices.
+```r
+col3 <- c(5,6,7,8)
+cbind(df, col3)
+```
+```
+     col1 col2 col3
+row1    i    1    5
+row2   ii    2    6
+row3  iii    3    7
+row4   iv    4    8
+```
 
-
+We can also create new columns using the `$` and new column name. 
+```r
+df$col4 <- c(9, 10, 11, 12)
+df
+```
+```
+     col1 col2 col4
+row1    i    1    9
+row2   ii    2   10
+row3  iii    3   11
+row4   iv    4   12
+```
