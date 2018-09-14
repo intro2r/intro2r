@@ -197,6 +197,70 @@ As with atomic vectors, we can use positive integers, negative integers, logical
 
 ## Subsetting data frames
 
+```r
+df <- data.frame(sample_id = c('i', 'ii', 'iii', 'iv'), value = c(1,2,3,4))
+df
+```
+```
+  sample_id value
+1         i     1
+2        ii     2
+3       iii     3
+4        iv     4
+```
+
+We can use the 2d indexing for data frames as for matrices, to select specific elements: ` [row, col] `.
+```r
+df[1, c(1, 2)]
+```
+```
+  sample_id value
+1         i     1
+```
+
+### Accessing data frame columns
+
+More usually, you will want to pull out specific columns, to plot or put into a model.
+
+We can also access columns by their position (remember that blank indexing extracts all rows/columns).
+```r
+df[, 1]
+```
+```
+[1] i   ii  iii iv 
+Levels: i ii iii iv
+```
+
+We can also access dataframes by column name, using ` $ `.
+```r
+df$value
+```
+```
+[1] 1 2 3 4
+```
+
+or by name with ` [ `, as for a matrix,
+```
+df[, 'value']
+```
+```
+[1] 1 2 3 4
+```
+
+Or by name with ` [ `, as for lists.
+```r
+> df[ 'value']
+```
+```
+  value
+1     1
+2     2
+3     3
+4     4
+```
+
+
+
 
 
 
