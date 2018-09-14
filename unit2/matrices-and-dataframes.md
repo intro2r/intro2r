@@ -104,6 +104,38 @@ b 2 4
   7 8
 ```
 
+## Working with matrices
+
+We can calculate the sum of each row, with `rowSums()`.
+```r
+rowSums(m)
+a b
+```
+```
+4 6 
+```
+
+And the sum of each column, with `colSums()`.
+```r
+colSums(m)
+```
+```
+A B 
+3 7 
+```
+
+We can transpose the entire matrix, with `t()`.
+```r
+ t(m)
+```
+```
+  a b
+A 1 2
+B 3 4
+```
+
+
+
 
 - - -
 
