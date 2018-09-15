@@ -5,6 +5,10 @@ title: Importing data
 
 # Importing Data
 
+Importing data can be one of the most frustrating things to do in R for the beginner.
+
+Ensuring that you deal with the most likely common issues in advance will help a lot.
+
 ## 1. Get some data
 
 *Oh, look! It's a Harry Potter dataset! We haven't seen one of those for a while ...*
@@ -36,7 +40,7 @@ title: Importing data
  
  - Comments and meta-data kept in separate file or as commented-out rows at top of datasheet.
 
- - See Best Practice lecture on [data management](http://www.simonqueenborough.info/R/best-practice/dataManagement.pdf).
+ - See Best Practice lecture on [data management]().
  
 
 ### Data needs to be readable by R
