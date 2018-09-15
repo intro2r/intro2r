@@ -439,6 +439,41 @@ a b c d e
 1 9 3 9 9 
 ```
 
+## Subsetting using subset()
+
+So far we have used direct indexing to subset objects.
+
+The function `subset()` is a wrapper that may be used to return subsets of vectors, matrices, lists, or data frames which meet logical conditions.
+
+It has three main arguments.
+
+ - `x` the object to be subsetted.
+ 
+ - `subset` a logical expression indicating elements or rows to keep (NAs are taken as false and not kept).
+ 
+ - `select` which columns to retain from a data frame (if you are using a data frame).
+ 
+We can pull out specific rows. 
+```r
+# select a chosen sample id
+subset(df, sample_id == 'i')
+```
+```
+     sample_id x1 y2 z col4
+row1         i  1  5 9    9
+```
+
+```r
+# select data greater than 2, and select only two columns
+subset(df, subset = x1 > 2, select = c('x1', 'z'))
+```
+```
+     x1  z
+row3  3 11
+row4  4 12
+```
+
+
 
 - - -
 
