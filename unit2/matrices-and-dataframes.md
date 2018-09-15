@@ -25,7 +25,7 @@ Matrices are used frequently in mathematical models and statistics.
 
 ## How to make a matrix
 
-We can create an empty matrix and fill it later,
+We can create an empty matrix and fill it later, with `matrix()`.
 ```{r}
 matrix(ncol = 2, nrow = 2)
 ```
@@ -36,7 +36,7 @@ matrix(ncol = 2, nrow = 2)
 [2,]   NA   NA
 ```
 
-or create one from vector
+or create one from vector (here we fill in the optional `data = ` argument within `matrix()`).
 ```r
 matrix(1:4, ncol = 2, nrow = 2)
 ```
@@ -58,7 +58,7 @@ matrix(1:4, ncol = 2, nrow = 2, byrow = TRUE)
 
 ## How to label a matrix
 
-We can label the columns ...
+We can label the columns, with `colnames()` ...
 ```r
 m <- matrix(1:4, ncol = 2, nrow = 2)
 colnames(m) <- c("A", "B")
@@ -70,7 +70,7 @@ m
 [2,] 2 4
 ```
 
-... and the rows
+... and the rows, with `rownames()`
 ```r
 rownames(m) <- c("a", "b")
 m
@@ -83,7 +83,7 @@ b 2 4
 
 ## How to add to a matrix
 
-We can add extra columns
+We can add extra columns, with `cbind()`,
 ```r
 cbind(m, 5:6)
 ```
@@ -93,7 +93,7 @@ a 1 3 5
 b 2 4 6
 ```
 
-or rows
+or rows, with rbind()`.
 ```r
 rbind(m, 7:8)
 ```
@@ -160,15 +160,15 @@ Each column is the same length.
 
 Can be created with `data.frame()`. This works ok for small datasets.
 ```r
-df <- data.frame(sample_id = c('i', 'ii', 'iii', 'iv'), value = c(1,2,3,4))
+df <- data.frame(sample_id = c('i', 'ii', 'iii', 'iv'), x = c(1,2,3,4), y = c(5, 6, 7, 8))
 df
 ```
 ```
-  sample_id value
-1         i     1
-2        ii     2
-3       iii     3
-4        iv     4
+  sample_id x y
+1         i 1 5
+2        ii 2 6
+3       iii 3 7
+4        iv 4 8
 ```
 
 For larger dataset, more usually you will read in external data using `read.table()` or `read.csv()` (See [Importing Data](http://www.intro2r.info/unit2/importing-data.html))
@@ -176,17 +176,17 @@ For larger dataset, more usually you will read in external data using `read.tabl
 
 ## How to label a dataframe
 
-We can label the columns with `colnames()`...
+We can label (specific) columns, with `colnames()`...
 ```r
-colnames(df) <- c('col1', 'col2')
+colnames(df)[2:3] <- c('x1', 'y2')
 df
 ```
 ```
-  col1 col2
-1    i    1
-2   ii    2
-3  iii    3
-4   iv    4
+  sample_id x1 y2
+1         i  1  5
+2        ii  2  6
+3       iii  3  7
+4        iv  4  8
 ```
 
 ... and the rows with `rownames()`
@@ -195,39 +195,40 @@ rownames(df) <- c('row1', 'row2', 'row3', 'row4')
 df
 ```
 ```
-     col1 col2
-row1    i    1
-row2   ii    2
-row3  iii    3
-row4   iv    4
+     sample_id x1 y2
+row1         i  1  5
+row2        ii  2  6
+row3       iii  3  7
+row4        iv  4  8
 ```
 
 ## How to add to a dataframe
 
 We can add columns using `cbind()` and rows using `rbind()`, as for matrices.
 ```r
-col3 <- c(5,6,7,8)
-cbind(df, col3)
+z <- c(9, 10, 11, 12)
+df <- cbind(df, z)
+df
 ```
 ```
-     col1 col2 col3
-row1    i    1    5
-row2   ii    2    6
-row3  iii    3    7
-row4   iv    4    8
+     sample_id x1 y2  z
+row1         i  1  5  9
+row2        ii  2  6 10
+row3       iii  3  7 11
+row4        iv  4  8 12
 ```
 
-We can also create new columns using the `$` and new column name. 
+We can also create new columns using the ` $ ` and new column name. 
 ```r
 df$col4 <- c(9, 10, 11, 12)
 df
 ```
 ```
-     col1 col2 col4
-row1    i    1    9
-row2   ii    2   10
-row3  iii    3   11
-row4   iv    4   12
+     sample_id x1 y2  z col4
+row1         i  1  5  9    9
+row2        ii  2  6 10   10
+row3       iii  3  7 11   11
+row4        iv  4  8 12   12
 ```
 
 ## Examining dataframes and matrices
@@ -254,7 +255,7 @@ We can check the dimenions with `dim()`
 dim(df)
 ```
 ```
-4 3
+4 5
 ```
 
 And ask how many columns with `ncol()`
@@ -262,7 +263,7 @@ And ask how many columns with `ncol()`
 ncol(df)
 ```
 ```
-[1] 3
+[1] 5
 ```
 
 and rows with nrow()
@@ -279,33 +280,32 @@ We can check the structure, with `str()`
 str(df)
 ```
 ```
-'data.frame':	4 obs. of  3 variables:
- $ col1: Factor w/ 4 levels "i","ii","iii",..: 1 2 3 4
- $ col2: num  1 2 3 4
- $ col4: num  9 10 11 12
-```
+'data.frame':	4 obs. of  5 variables:
+ $ sample_id: Factor w/ 4 levels "i","ii","iii",..: 1 2 3 4
+ $ x1       : num  1 2 3 4
+ $ y2       : num  5 6 7 8
+ $ z        : num  9 10 11 12
+ $ col4     : num  9 10 11 12
+ ```
 
-We can examine the first few rows with `head()`
+We can examine the first few rows (default is 6) with `head()`
 ```r
-head(df)
+head(df, n = 2)
 ```
 ```
-     col1 col2 col4
-row1    i    1    9
-row2   ii    2   10
-row3  iii    3   11
-row4   iv    4   12
+     sample_id x1 y2  z col4
+row1         i  1  5  9    9
+row2        ii  2  6 10   10
 ```
 
 And the last few rows with `tail()`
 ```r
-tail(df)
+tail(df, n = 3)
 ```
 ```
-     col1 col2 col4
-row1    i    1    9
-row2   ii    2   10
-row3  iii    3   11
-row4   iv    4   12
+     sample_id x1 y2  z col4
+row2        ii  2  6 10   10
+row3       iii  3  7 11   11
+row4        iv  4  8 12   12
 ```
 
