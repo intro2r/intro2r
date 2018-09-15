@@ -31,7 +31,7 @@ Lab: [Unit 2: Lab 1](../unit2/labs.html)
 
 Reading: [Missing Data](../best/missing-data.html)
 
-Functions: `matrix()`, `data.frame()`, `rbind()`, `cbind()`, `head()`, `str()`, `is.foo()`, `nrow()`, `ncol()`, `dim()`, `rowSums()`, `colSums()`
+Functions: `matrix()`, `data.frame()`, `rbind()`, `cbind()`, `head()`,`tail()`, `str()`, `is.foo()`, `nrow()`, `ncol()`, `dim()`, `rowSums()`, `colSums()`, `t()`.
 
 
 ## Lesson 2. How to extract subsets of data
@@ -50,13 +50,17 @@ Lab: [Unit 2: Lab 2](../unit2/labs.html)
 
 Reading:
 
-Functions: `plot()`, `barplot()`
+Functions: `order()`, `subset()`, `[`, `[[`, `$`
 
 
 
 ## Lesson 3. How to get data into and out of R
 
-Lecture: [Importing data](./importing-data.html)
+Lecture: 
+
+ - [Importing data](../unit2/importing-data.html)
+ 
+ - [Data prep example](../unit2/preparing-data.html)
 
 Learning Goals:
 
@@ -70,7 +74,7 @@ Lab: [Unit 2: Lab 3](../unit2/labs.html)
 
 Best Practice: [Managing Data](../best/managing-data.html)
 
-Functions: read.table(), read.csv(), write.table(), colnames()
+Functions: `read.table()`, `read.csv()`, `write.table()`
 
 
 ## Lesson 4. How to work with and access lists
