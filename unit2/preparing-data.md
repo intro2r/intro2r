@@ -39,7 +39,7 @@ Here is data from the 2015 [New Haven Road Race](http://www.newhavenroadrace.org
 
 It all gets copied into one cell.
 
-![]()
+![](https://intro2r.github.io/unit2/img/3.png)
 
 How can we fix this?
 
@@ -47,45 +47,54 @@ How can we fix this?
 
 Paste into Notepad or equivalent.
 
-![]
+![](https://intro2r.github.io/unit2/img/4.png)
+
 
 ### 5. Delete unneeded lines in the file
 
 These top lines are not needed.
 
-![]
+![](https://intro2r.github.io/unit2/img/5.png)
+
 
 Nor is this table header rule
 
-![]
+![](https://intro2r.github.io/unit2/img/6.png)
+
 
 ### 6. Replace text that R does not like: apostrophes and hash
 
-![]()
+![](https://intro2r.github.io/unit2/img/7.png)
+
 
 ### 7. Now, try and move to the spreadsheet
 
 Select all, copy and paste...
 
-![]()
+![](https://intro2r.github.io/unit2/img/8.png)
+
 
 ### 8. Choose column delimiters
 
 You can select characters (tab, space, etc) or and a fixed width.
 
-![]()
+![](https://intro2r.github.io/unit2/img/9.png)
+
 
 In our case, fixed width is better.
 
-![]()
+![](https://intro2r.github.io/unit2/img/10.png)
+
 
 Delete extra column delimiters, place ours at beginning of each column.
 
-![]()
+![](https://intro2r.github.io/unit2/img/11.png)
+
 
 Press 'OK', and we should hace a nice looking spreadsheet!
 
-![]()
+![](https://intro2r.github.io/unit2/img/12.png)
+
 
 ### 9. Final issues within the spreadsheet
 
@@ -93,29 +102,35 @@ White space within columns is easier to remove within the spreadsheet (otherwise
 
 So, find and replace within selected columns only.
 
-![]()
+![](https://intro2r.github.io/unit2/img/13.png)
+
 
 That's better
 
-![]()
+![](https://intro2r.github.io/unit2/img/14.png)
+
 
 Revise column names in two columns
 
-![]()
+![](https://intro2r.github.io/unit2/img/15.png)
+
 
 ### 10. Copy back to plain text file
 
 Select all
 
-![]()
+![](https://intro2r.github.io/unit2/img/16.png)
+
 
 Paste into Notepad (or equivalent text editor)
 
-![]()
+![](https://intro2r.github.io/unit2/img/17.png)
+
 
 ### Save the new data file
 
-![]()
+![](https://intro2r.github.io/unit2/img/18.png)
+
 
 Woo hoo!
 
