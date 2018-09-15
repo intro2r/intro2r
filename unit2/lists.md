@@ -118,11 +118,15 @@ l$b$b2
 [1] "one" "two"
 ```
 
-And we can directly access the elements using `[[`.
+And we can directly access the elements using `[[` and `$`.
 ```r
 l$b[['b2']]
 ```
 ```
 [1] "one" "two"
 ```
+
+- - -
+
+More details in Hadley Wickham's [Advanced R](http://adv-r.had.co.nz/Data-structures.html)
 
