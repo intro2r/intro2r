@@ -22,7 +22,7 @@ title: Importing data
 | Nov 19, 2010 | Harry Potter and the Deathly Hallows: Part I  | $125,000,000     | $125,017,372           | $295,983,305       | $960,283,305        |
 | Jul 15, 2011 | Harry Potter and the Deathly Hallows: Part II | $125,000,000     | $169,189,427           | $381,011,219       | $1,341,511,219      |
 | Nov 18, 2016 | Fantastic Beasts and Where to Find Them       | $180,000,000     | $74,403,387            | $234,037,575       | $803,798,342        |
-
+{: .table table-bordered .table-striped}
 
 
 
@@ -73,6 +73,7 @@ title: Importing data
 | Nov 19, 2010 | Harry Potter and the Deathly Hallows: Part I  | 125000000     | 125017372           | 295983305       | 960283305        |
 | Jul 15, 2011 | Harry Potter and the Deathly Hallows: Part II | 125000000     | 169189427           | 381011219       | 1,341511219      |
 | Nov 18, 2016 | Fantastic Beasts and Where to Find Them       | 180000000     | 74403387            | 234037575       | 803798342        |
+{: .table table-bordered .table-striped}
 
 
 
