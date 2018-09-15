@@ -93,7 +93,7 @@ a 1 3 5
 b 2 4 6
 ```
 
-or rows, with rbind()`.
+or rows, with `rbind()`.
 ```r
 rbind(m, 7:8)
 ```
@@ -250,7 +250,7 @@ is.list(df)
 ```
 
 
-We can check the dimenions with `dim()`
+We can check the dimenions with `dim()`.
 ```r
 dim(df)
 ```
@@ -258,7 +258,7 @@ dim(df)
 4 5
 ```
 
-And ask how many columns with `ncol()`
+And ask how many columns with `ncol()`,
 ```r
 ncol(df)
 ```
@@ -266,7 +266,7 @@ ncol(df)
 [1] 5
 ```
 
-and rows with nrow()
+and rows with `nrow()`.
 ```r
 nrow(df)
 ```
@@ -275,7 +275,7 @@ nrow(df)
 ```
 
 
-We can check the structure, with `str()`
+We can check the structure, with `str()`.
 ```r
 str(df)
 ```
@@ -288,7 +288,7 @@ str(df)
  $ col4     : num  9 10 11 12
  ```
 
-We can examine the first few rows (default is 6) with `head()`
+We can examine the first few rows (default is 6) with `head()`.
 ```r
 head(df, n = 2)
 ```
@@ -298,7 +298,7 @@ row1         i  1  5  9    9
 row2        ii  2  6 10   10
 ```
 
-And the last few rows with `tail()`
+And the last few rows with `tail()`.
 ```r
 tail(df, n = 3)
 ```
