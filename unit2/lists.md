@@ -57,7 +57,7 @@ List of 3
 
 Lists can contain much more than just vectors.
 ```r
-l <- list(a = 1:5, b <- list(b1 = 1, b2 = c('one', 'two'), c = data.frame(x = 1:4, y = 5:8, z = 9:12)))
+l <- list(a = 1:5, b <- list(b1 = 1, b2 = c('one', 'two')), c = data.frame(x = 1:4, y = 5:8, z = 9:12))
 l
 ```
 ```
@@ -71,7 +71,8 @@ $a
 [[2]]$b2
 [1] "one" "two"
 
-[[2]]$c
+
+$c
   x y  z
 1 1 5  9
 2 2 6 10
@@ -83,14 +84,14 @@ $a
 str(l)
 ```
 ```
-List of 2
+List of 3
  $ a: int [1:5] 1 2 3 4 5
- $  :List of 3
+ $  :List of 2
   ..$ b1: num 1
   ..$ b2: chr [1:2] "one" "two"
-  ..$ c :'data.frame':	4 obs. of  3 variables:
-  .. ..$ x: int [1:4] 1 2 3 4
-  .. ..$ y: int [1:4] 5 6 7 8
-  .. ..$ z: int [1:4] 9 10 11 12
+ $ c:'data.frame':	4 obs. of  3 variables:
+  ..$ x: int [1:4] 1 2 3 4
+  ..$ y: int [1:4] 5 6 7 8
+  ..$ z: int [1:4] 9 10 11 12
 ```
 
