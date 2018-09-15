@@ -5,7 +5,7 @@ title: Importing data
 
 # Importing Data
 
-# 1. Get some data
+## 1. Get some data
 
 *Oh, look! It's a Harry Potter dataset! We haven't seen one of those for a while ...*
 
@@ -26,9 +26,9 @@ title: Importing data
 
 
 
-# 2. Preparing your data
+## 2. Preparing your data
 
-## Set up your spreadsheet the best way
+### Set up your spreadsheet the best way
 
  - First row is usually for the column names (header).
  
@@ -39,7 +39,7 @@ title: Importing data
  - See Best Practice lecture on [data management](http://www.simonqueenborough.info/R/best-practice/dataManagement.pdf).
  
 
-## Data needs to be readable by R
+### Data needs to be readable by R
 
  - Column names: short vs long, spaces vs periods
  
@@ -77,7 +77,7 @@ title: Importing data
 
 
 
-## Use a standard file format
+### Use a standard file format
 
  - Specific data often have specific standard format (e.g., phylogenetic tree as [Newick](http://evolution.genetics.washington.edu/phylip/newicktree.html), nucleotide sequence as [FASTA](http://zhanglab.ccmb.med.umich.edu/FASTA/)).
 
@@ -87,7 +87,7 @@ title: Importing data
     - Future-compatible.
 
 
-## Known issues with Excel (and other spreadsheet software)
+### Known issues with Excel (and other spreadsheet software)
 
  - **Auto-complete** can introduce errors (especially with numbers).
 
@@ -111,7 +111,7 @@ See [here](http://scienceblogs.com/principles/2009/03/18/why-does-excel-suck-so-
  - - -
  
  
-# 3. Read your data in to R
+## 3. Read your data in to R
 
 R has several functions to read data in.
 
@@ -122,7 +122,7 @@ The others set typical defaults for the separator/delimitor character, and the d
 You can easily set these in a call to ``` read.table() ```, too.
 
 
-## File type: .txt | delimitor: white space (one or more spaces, tabs, newlines or carriage returns) | no header
+### File type: .txt | delimitor: white space (one or more spaces, tabs, newlines or carriage returns) | no header
 
 ``` read.table() ```
 
@@ -131,7 +131,7 @@ df <- read.table("my_data.txt", header= TRUE)
 ```
 
 
-## File: .csv | delimitor: comma | decimal: period | header
+### File: .csv | delimitor: comma | decimal: period | header
 
 ``` read.csv() ```
 
@@ -139,7 +139,7 @@ df <- read.table("my_data.txt", header= TRUE)
 df <- read.csv("my_data.csv")
 ```
 
-## File: .csv | **delimitor: semi-colon** | **decimal: comma** | header
+### File: .csv | **delimitor: semi-colon** | **decimal: comma** | header
 
 ``` read.csv2() ```
 
@@ -148,7 +148,7 @@ df <- read.csv2("my_data.csv")
 ```
 
 
-## File: .txt | delimitor: tab | **decimal: period** | header
+### File: .txt | delimitor: tab | **decimal: period** | header
 
 ``` read.delim() ```
 
@@ -157,7 +157,7 @@ df <- read.delim("my_data.txt")
 ```
 
 
-## File: .txt | delimitor: tab | **decimal: comma** | header
+### File: .txt | delimitor: tab | **decimal: comma** | header
 
 ``` read.delim2() ```
 
@@ -172,15 +172,15 @@ df <- read.delim2("my_data.txt")
 
  - - -
  
-# 4. Common issues importing data
+## 4. Common issues importing data
 
-## i. The number of columns are not what you expected
+### i. The number of columns are not what you expected
 
 Often a separator problem (i.e., R is using a different separator character/s to the separator you think/want).
 
 *Solution*: Specify the ``` sep = "" ``` argument to your ``` read.foo() ``` function call.
 
-## ii. There are a **lot** more columns than you expected!
+### ii. There are a **lot** more columns than you expected!
 
 And often these cells are filled with NA's.
 
@@ -191,7 +191,7 @@ It is likely you have some whitespace entered into cells to the right of the dat
 *Solution*: Select and delete all columns to the right of your data OR (better) copy and paste data into a plain-text file.
 
 
-## iii. White space in factors
+### iii. White space in factors
 
 You should have already removed extra white space from your data.
 
@@ -206,7 +206,7 @@ Further, the default separator character in R (``` sep = "" ```) is generic whit
 *Solution*: Check your data for white space and remove it before you read it in, or you can set another argument to TRUE (``` strip.white = TRUE ```), to remove extra white space.
 
 
-## iv. Columns are not the kind of data you expect
+### iv. Columns are not the kind of data you expect
 
 If R sees numbers in a column, it will assume that it is numeric or integer.
 
@@ -225,7 +225,7 @@ Use ``` summary() ``` or ``` table() ``` to check all your columns carefully. Ar
 
  - - -
  
- # Further Reading
+## Further Reading
  
  Borer, et al. 2009. [Some simple guidelines for  effective data management](http://www.zoology.ubc.ca/biol548/readings/borer%20et%20al%202009%20besa%20-%20effective%20data%20management.pdf). *Bulletin of the ESA* **90**, 205--214.
  
