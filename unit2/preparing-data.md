@@ -34,3 +34,90 @@ Here is data from the 2015 [New Haven Road Race](http://www.newhavenroadrace.org
 ### 2. Select, and try to copy and paste into a spreadsheet
 
 ![](https://intro2r.github.io/unit2/img/2.png)
+
+### 3. Nope!
+
+It all gets copied into one cell.
+
+![]()
+
+How can we fix this?
+
+### 4. We need to do some fixes in a plain-text file first
+
+Paste into Notepad or equivalent.
+
+![]
+
+### 5. Delete unneeded lines in the file
+
+These top lines are not needed.
+
+![]
+
+Nor is this table header rule
+
+![]
+
+### 6. Replace text that R does not like: apostrophes and hash
+
+![]()
+
+### 7. Now, try and move to the spreadsheet
+
+Select all, copy and paste...
+
+![]()
+
+### 8. Choose column delimiters
+
+You can select characters (tab, space, etc) or and a fixed width.
+
+![]()
+
+In our case, fixed width is better.
+
+![]()
+
+Delete extra column delimiters, place ours at beginning of each column.
+
+![]()
+
+Press 'OK', and we should hace a nice looking spreadsheet!
+
+![]()
+
+### 9. Final issues within the spreadsheet
+
+White space within columns is easier to remove within the spreadsheet (otherwise, this process will remove the white space between the first and surname in the 'name' column.
+
+So, find and replace within selected columns only.
+
+![]()
+
+That's better
+
+![]()
+
+Revise column names in two columns
+
+![]()
+
+### 10. Copy back to plain text file
+
+Select all
+
+![]()
+
+Paste into Notepad (or equivalent text editor)
+
+![]()
+
+### Save the new data file
+
+![]()
+
+Woo hoo!
+
+
+
