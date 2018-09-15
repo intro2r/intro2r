@@ -23,7 +23,7 @@ This is particularly useful for plotting and presenting the results of statistic
 
 ## Subsetting atomic vectors
 
-We covered subsetting atomic vectors in Unit 1: [Subsetting Vectors](http://www.intro2r.info/unit1/swirl/subsetting_vectors) SWIRL lesson. 
+We covered basic subsetting atomic vectors in Unit 1: [Subsetting Vectors](http://www.intro2r.info/unit1/swirl/subsetting_vectors) SWIRL lesson. 
 
 We can subset atomic vectors in six ways.
 
@@ -83,7 +83,7 @@ Then, R selects the elements of your focal vector where the corresponding logica
 
 First, make your logical statement.
 ```r
-# x is iqual to 2
+# x is equal to 2
 x == 2
 ```
 ```
@@ -92,19 +92,19 @@ x == 2
 
 Embed the statement in brackets to select.
 ```r
-# Subsect all elements iqual to 2
+# Subsect all elements equal to 2
 x[x == 2]
 ```
 ```
 [1] 2
 ```
 
-All logical statements work: ` == `, ` != `, ` < `, ` > `, ` <= `, ` >= `.
+All logical statements work: `==`, `!=`, `<`, `>`, `<=`, `>=`.
 
 
 ### iv. Nothing
 
-An index of nothing returns the entire vector. This is much more useful for matrices, arrays, and data frames.
+An index of nothing returns the entire vector. This is much more useful for matrices, arrays, and data frames (see below).
 ```r
 x[]
 ```
@@ -153,6 +153,7 @@ a a c
 ## Subsetting matrices and arrays
 
 ```r
+# Make a matrix
 m <- matrix(1:4, ncol = 2, nrow = 2)
 m
 ```
@@ -164,7 +165,7 @@ m
 
 You can subset matrices (2d) and arrays (>2d) higher-dimensional structures very simply with an extension of the method
 used to index atomic vectors, by giving the 'coordinate' of each element, using brackets (`[`) as before, separated by commas.
-E.g., for a 2d matrix: ` [row, col] `.
+E.g., for a 2d matrix: `[row, col]`.
 
 ```r
 m[1, 1]
@@ -184,6 +185,7 @@ m[ , c(1,2)]
 
 Blank subsetting is useful here because it allows you to keep all rows or all columns.
 ```r
+# select row 1, all columns
 m[1, ]
 ```
 ```
@@ -196,7 +198,7 @@ As with atomic vectors, we can use positive integers, negative integers, logical
 ## Subsetting data frames
 
 ```r
-df <- data.frame(sample_id = c('i', 'ii', 'iii', 'iv'), x = c(1,2,3,4), y = c(5, 6, 7, 8))
+df <- data.frame(sample_id = c('i', 'ii', 'iii', 'iv'), x = c(1, 2, 3, 4), y = c(5, 6, 7, 8))
 df
 ```
 ```
@@ -207,8 +209,9 @@ df
 4        iv 4 8
 ```
 
-We can use the 2d indexing for data frames as for matrices, to select specific elements: ` [row, col] `.
+We can use the 2d indexing for data frames as for matrices, to select specific elements: `[row, col]`.
 ```r
+# select row 1, columns 1 and 2
 df[1, c(1, 2)]
 ```
 ```
@@ -225,6 +228,7 @@ We can access columns by their position (remember that blank indexing extracts a
 
 BEST PRACTICE: Is **not** to do this. Your column position may change. 
 ```r
+# select columns 1, all rows
 df[, 1]
 ```
 ```
@@ -235,6 +239,7 @@ Levels: i ii iii iv
 It is therefore better to refer to columns by **name**, similar to with vectors and matrices.
 
 ```
+# select cols x and y, all rows
 df[, c('x', 'y')]
 ```
 ```
@@ -266,7 +271,7 @@ df['x']
 4 4
 ```
 
-### Other operators: `[ ` vs ` [[ ` and ` $ `
+### Other operators: ` [ ` vs ` [[ ` and ` $ `
 
 As we saw above, we can subset a dataframe and maintain the dataframe (i.e., list) structure.
 ```r
@@ -280,7 +285,7 @@ df['x']
 4 4
 ```
 
-The use of ` [[ ` and  ` $ ` go 'one level down', pulling the components out and returning a vector from the data frame.
+The use of `[[` and  `$` go 'one level down', pulling the components out and returning a vector from the data frame.
 ```r
 df[['x']]
 ```
@@ -290,7 +295,7 @@ df[['x']]
 Notice that the column names are not retained here.
  
 
-` $ ` is essentally short-hand for ` [[ `.
+`$` is essentally short-hand for `[[`.
 ```r
 df$x
 ```
@@ -329,10 +334,10 @@ df[df['x'] > 2, ]
 Subsetting lists works similarly to vectors and dataframes.
 
 ```r
- l <- list(a = 1:4, 
-           b = c('i', 'i', 'ii', 'ii'), 
-           c = c(1.1, 2.2, 3.3, 4.4)
-           )
+l <- list(a = 1:4, 
+          b = c('i', 'i', 'ii', 'ii'), 
+          c = c(1.1, 2.2, 3.3, 4.4)
+          )
 l
 ```
 ```
@@ -366,7 +371,7 @@ $a
 ```
 
 
-Using ` [ ` returns a list structure,
+Using `[` returns a list structure (notice that the `$a` is retained in the output),
 
 ```r
 l['a']
@@ -376,7 +381,7 @@ $a
 [1] 1 2 3 4
 ```
 
-whereas ` [[ ` and ` $ ` return the components of that part of the list.
+whereas `[[` and `$` return the components of that part of the list.
 ```r
 l[['a']]
 ```
@@ -403,7 +408,7 @@ l$a[1:3]
 
 ## Subsetting and Assignment
 
-All subsetting operators can be combined with assignment ( ` <- `) to modify selected values of the focal vector. 
+All subsetting operators can be combined with assignment (`<-`) to modify selected values of the focal vector. 
 
 ```r
 x
