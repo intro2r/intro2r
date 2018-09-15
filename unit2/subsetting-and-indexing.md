@@ -101,6 +101,18 @@ x[x == 2]
 
 All logical statements work: `==`, `!=`, `<`, `>`, `<=`, `>=`.
 
+Logical vectors can be combined with boolean statements: `$` is AND, `|` is OR.
+
+For example, we can pull out all the values of x that are less then 2 or greater than 4.
+```r
+x[x < 2 | x > 4]
+```
+```
+[1] 1 5
+```
+
+We can even combine indexing across *different* columns in a dataframe this way.
+
 
 ### iv. Nothing
 
@@ -218,6 +230,26 @@ df[1, c(1, 2)]
   sample_id x
 1         i 1
 ```
+
+We can also use logical vectors to subset data frames
+```r
+df[df$x < 3, ]
+```
+```
+  sample_id x y
+1         i 1 5
+2        ii 2 6
+```
+
+And combine them to subset across several columns (recall that `&` = AND, and `|` = OR).
+```r
+df[df$x < 3 & df$y > 5, ]
+```
+```
+  sample_id x y
+2        ii 2 6
+```
+
 
 
 ### Accessing data frame columns
