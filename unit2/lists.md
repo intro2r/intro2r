@@ -95,3 +95,34 @@ List of 3
   ..$ z: int [1:4] 9 10 11 12
 ```
 
+## Indexing lists
+
+As described in Subsetting and Indexing](), we can access various parts of the list using `[`, `[[`, and `$`.
+We can access each main component by name (with `$` or `[`), or by number (with `[`).
+```r
+l$b
+```
+```
+$b1
+[1] 1
+
+$b2
+[1] "one" "two"
+```
+
+Similarly, we can access the sub-lists.
+```r
+l$b$b2
+```
+```
+[1] "one" "two"
+```
+
+And we can directly access the elements using `[[`.
+```r
+l$b[['b2']]
+```
+```
+[1] "one" "two"
+```
+
