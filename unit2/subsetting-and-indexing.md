@@ -473,6 +473,58 @@ row3  3 11
 row4  4 12
 ```
 
+## Using indexing to order objects, including data frames
+
+We can use indexing to easily re-order data frames, using the function `order()`.
+
+`order()` takes a vector as an input, and returns an integer vector that describes how the input vector should be ordered.
+```r
+# set a vector, a, with integers in the 'wrong' order
+a <- c(2, 1, 4, 3)
+# order() returns a vector with their 'correct' position (i.e., the first element of a (2) should be in the second position)
+order(a)
+```
+```
+[1] 2 1 4 3
+```
+
+We can nest the call to `order()` within `[` to re-order a correctly. The output is now a ordered ascending numerically
+```r
+a[order(a)]
+```
+```
+[1] 1 2 3 4
+```
+
+We can order descending, by changing the `decreasing = ` argument.
+```r
+a[order(a, decreasing = TRUE)]
+```
+```
+[1] 4 3 2 1
+```
+
+We can use a similar principle to reorder data frames.
+```r
+# Here, we want to order based on df$z, from high to low
+order(df$z, decreasing = TRUE)
+```
+```
+[1] 4 3 2 1
+```
+
+Now we can nest this within indexing df. Remember that we still need to index by `[row, col]`.
+```r
+df[order(df$z, decreasing = TRUE), ]
+```
+```
+     sample_id x1 y2  z col4
+row4        iv  4  8 12   12
+row3       iii  3  7 11   11
+row2        ii  2  6 10   10
+row1         i  1  5  9    9
+```
+
 
 
 - - -
