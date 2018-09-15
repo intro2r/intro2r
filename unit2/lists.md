@@ -126,6 +126,62 @@ l$b[['b2']]
 [1] "one" "two"
 ```
 
+### Accessing list objects
+
+We can use these same tools to access the outputs of statistical models, etc.
+
+For example, the output of a t-test includes the estimates of each mean, t, and p values.
+```r
+m <- t.test(l$c$x, l$c$y)
+m
+```
+```
+	Welch Two Sample t-test
+
+data:  l$c$x and l$c$y
+t = -4.3818, df = 6, p-value = 0.004659
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ -6.233715 -1.766285
+sample estimates:
+mean of x mean of y 
+      2.5       6.5 
+```
+
+Let's look at the structure of this list.
+```r
+str(m)
+```
+```
+List of 9
+ $ statistic  : Named num -4.38
+  ..- attr(*, "names")= chr "t"
+ $ parameter  : Named num 6
+  ..- attr(*, "names")= chr "df"
+ $ p.value    : num 0.00466
+ $ conf.int   : atomic [1:2] -6.23 -1.77
+  ..- attr(*, "conf.level")= num 0.95
+ $ estimate   : Named num [1:2] 2.5 6.5
+  ..- attr(*, "names")= chr [1:2] "mean of x" "mean of y"
+ $ null.value : Named num 0
+  ..- attr(*, "names")= chr "difference in means"
+ $ alternative: chr "two.sided"
+ $ method     : chr "Welch Two Sample t-test"
+ $ data.name  : chr "l$c$x and l$c$y"
+ - attr(*, "class")= chr "htest"
+```
+
+We can extract and display any part of this output.
+```r
+m$p.value
+```
+```
+[1] 0.004659215
+```
+
+We can pass these extracted elements to new objects, which might be tables, figures, ...
+
+
 - - -
 
 More details in Hadley Wickham's [Advanced R](http://adv-r.had.co.nz/Data-structures.html)
