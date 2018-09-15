@@ -97,7 +97,7 @@ List of 3
 
 ## Indexing lists
 
-As described in Subsetting and Indexing](), we can access various parts of the list using `[`, `[[`, and `$`.
+As described in Subsetting and Indexing](http://www.intro2r.info/unit2/subsetting-and-indexing.html), we can access various parts of the list using `[`, `[[`, and `$`.
 We can access each main component by name (with `$` or `[`), or by number (with `[`).
 ```r
 l$b
