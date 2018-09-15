@@ -481,7 +481,8 @@ We can use indexing to easily re-order data frames, using the function `order()`
 ```r
 # set a vector, a, with integers in the 'wrong' order
 a <- c(2, 1, 4, 3)
-# order() returns a vector with their 'correct' position (i.e., the first element of a (2) should be in the second position)
+# order() returns a vector with their 'correct' position 
+# (i.e., the first element of a (2) should be in the second position)
 order(a)
 ```
 ```
