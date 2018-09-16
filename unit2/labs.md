@@ -41,17 +41,40 @@ Scroll down or click [here](../unit2/labs.html#how-to-submit-your-labs) to to ch
  e. Look at the structure and summary of the data frame. Which columns are which data type?
 
 	
-## 3. Create a data frame from given data
+## 3. Create a data frame from these data
 
- a. Look at the head, tail, and summary of data
+
+**Table 1.** Apple production in selected countries in 2016 (*Source:* FAO).
+| Country |     Harvested area (ha) |     Apple production (tonnes) | 
+|---     |     -------------------|   ---------|
+| China |     2383815 |     44447793 |  
+| India |     314000 |     2872000 |  
+| Iran |     238638 |     2799197 |  
+| Russia |     214270 |     1843544 |  
+| Poland |     177203 |     3604271 |  
+| Turkey |     173394 |     2925828 |  
+| United States |     130552 |     4649323 |  
+| Uzbekistan |     101726 |     1120209 |  
+| Pakistan |     91928 |     590039 |  
+| Ukraine |     91600 |     1099240 |  
+| Italy |     56164 |     2455616 |  
+| France |     49618 |     1819762 |  
+| Chile |     36063 |     1759421 |  
+| Ukraine |     91600 |     1099240 |  
+| Brazil |     33981 |     1049251 |  
+| Germany |     31334 |     1032913 |  
+| United Kingdom |     16512 |     481100 |  
+{: .table table-bordered .table-striped}
+
+ a. Display the head, tail, and summary of data.
  
  b. What are the dimensions of the data frame?
  
- c. What is the mean of column X?
+ c. What is the mean of Harvested area?
  
- d. What is the min of column Y?
+ d. What is the minimum apple production?
  
- e. Plot the values of column Z
+ e. Plot the values of apple production on harvested area.
 
  - - -
 
