@@ -168,7 +168,7 @@ Happiness <- data.frame(
 )
  ```
 
-### 4. Use the :
+### 4. Use this data frame:
 
  a. Display the first element of the first column
  
