@@ -24,7 +24,7 @@ Here, we will illustrate principles and practical tips for working (mostly in R)
 
  - How to collect, organise, and correct data.
  
-### [Principles of data files](../best/managing-files.html)
+### [Principles of data files](../best/managing-data-files.pdf)
 
  - More details on how to design your data files.
  
