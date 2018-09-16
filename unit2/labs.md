@@ -140,7 +140,7 @@ CO2_2015 <- data.frame(
 
 ## Subsetting with [ ] logically (one dimension)
 
-### 3. Using the Percnt_World_CO2 column:
+### 3. Using the Percent_World_CO2 column:
 
  a. Display all values of the vector less than 10
  
@@ -153,6 +153,21 @@ CO2_2015 <- data.frame(
 
 ## Subsetting in two dimensions
 
+Read in this data frame:
+```r
+Happiness <- data.frame(
+    OverallRank = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20),
+    Country = c('Finland', 'Norway', 'Denmark', 'Iceland', ' Switzerland', 'Netherlands', 'Canada', 'New Zealand', 'Sweden', 'Australia', 'Israel', 'Austria', 'Costa Rica', 'Ireland', 'Germany', 'Belgium', 'Luxembourg', 'United States', 'United Kingdom', 'United Arab Emirates'), 
+    Score = c(7.632, 7.594, 7.555, 7.495, 7.487, 7.441, 7.328, 7.324, 7.314, 7.272, 7.19, 7.139, 7.072, 6.977, 6.965, 6.927, 6.91, 6.886, 6.814, 6.774),
+   GDP_per_capita = c(1.305, 1.456, 1.351, 1.343, 1.42, 1.361, 1.33, 1.268, 1.355, 1.34, 1.244, 1.341, 1.01, 1.448, 1.34, 1.324, 1.576, 1.398, 1.301, 2.096),
+    Social_support = c(1.592, 1.582, 1.59, 1.644, 1.549, 1.488, 1.532, 1.601, 1.501, 1.573, 1.433, 1.504, 1.459, 1.583, 1.474, 1.483, 1.52, 1.471, 1.559, 0.776), 
+    Healthy_life_expectancy = c(0.874, 0.861, 0.868, 0.914, 0.927, 0.878, 0.896, 0.876, 0.913, 0.91, 0.888, 0.891, 0.817, 0.876, 0.861, 0.894, 0.896, 0.819, 0.883, 0.67),
+    Freedom_life_choices = c(0.681, 0.686, 0.683, 0.677, 0.66, 0.638, 0.653, 0.669, 0.659, 0.647, 0.464, 0.617, 0.632, 0.614, 0.586, 0.583, 0.632, 0.547, 0.533, 0.284),
+    Generosity = c(0.192, 0.286, 0.284, 0.353, 0.256, 0.333, 0.321, 0.365, 0.285, 0.361, 0.262, 0.242, 0.143, 0.307, 0.273, 0.188, 0.196, 0.291, 0.354, 0.186),
+    Perceptions_corruption = c(0.393, 0.34, 0.408, 0.138, 0.357, 0.295, 0.291, 0.389, 0.383, 0.302, 0.082, 0.224, 0.101, 0.306, 0.28, 0.24, 0.321, 0.133, 0.272, NA)
+)
+ ```
+
 ### 4. Use the :
 
  a. Display the first element of the first column
@@ -163,13 +178,15 @@ CO2_2015 <- data.frame(
  
  d. Display the 2-5th rows and the 3-4th columns
  
- e. Display column Xs values that are more than 10
+ e. Display `$Score` column values that are more than 7
  
- f. Display column Xs values for where column Y responded TRUE
+ f. Display `$Score` column values for where column `$Generosity` is greater than 0.2
  
- g. Make a boxplot of column Xs for which column Y is FALSE
+ g. Make a boxplot of Perception of corruption for which GDP is greater than 1.3
  
  h. Remove the 3rd row of data
+ 
+ i. Plot Social support as a function of Freedom of life choices.
 
 
  - - -
