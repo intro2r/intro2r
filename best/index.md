@@ -20,8 +20,13 @@ Here, we will illustrate principles and practical tips for working (mostly in R)
 
  - What to do when you do not have all the things.
  
-### [Data management](../best/data-management.html) 
+### [Data management](../best/managing-data.html) 
 
  - How to collect, organise, and correct data.
+ 
+### [Principles of data files](../best/managing-files.html)
+
+ - More details on how to design your data files.
+ 
  
  
