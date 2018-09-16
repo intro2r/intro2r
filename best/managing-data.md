@@ -138,17 +138,17 @@ Consider depositing data in an online archive.
 
 ## References
 
-Borer et al. 2009. Some simple guidelines for effective data management. *Bulletin of the Ecological Society of America*. [PDF]()
+Borer et al. 2009. Some simple guidelines for effective data management. *Bulletin of the Ecological Society of America*. [PDF](https://www.nceas.ucsb.edu/files/news/ESAdatamng09.pdf)
 
 British Ecological Society. 2014. *A Guide to Data Management in Ecology and Evolution*. [Link](https://www.britishecologicalsociety.org/publications/guides-to/)
 
-Cook et al. 2001. Best practices for preparing ecological data sets to share and archive. *Bulletin of the Ecological Society of America*. [PDF]()
+Cook et al. 2001. Best practices for preparing ecological data sets to share and archive. *Bulletin of the Ecological Society of America*. [Link](https://www.jstor.org/stable/20168543?seq=1#page_scan_tab_contents)  [Presentation](https://www.dataone.org/sites/all/documents/best_pract_cook_20100729.pdf)
 
 Cook et al. Updated. *Best Practices for Preparing Environmental Data Sets to Share and Archive* [Link](http://daac.ornl.gov/PI/bestprac.html)
 
-White et al. 2013. Nine simple ways to make it easier to (re)use your data. *Ideas in Ecology and Evolution* 6, 1--10. [link]()
+White et al. 2013. Nine simple ways to make it easier to (re)use your data. *Ideas in Ecology and Evolution* 6, 1--10. [link](https://ojs.library.queensu.ca/index.php/IEE/article/view/4608)
 
-Wickham, H. Tidy Data. *Journal of Statistical Software* [PDF]()
+Wickham, H. Tidy Data. *Journal of Statistical Software* [PDF](https://www.jstatsoft.org/index.php/jss/article/view/v059i10/v59i10.pdf) [Link](https://www.jstatsoft.org/article/view/v059i10)
 
 UK Data Archive. 2013. Managing and Sharing Data: Best practice for researchers. [Link](https://data-archive.ac.uk/media/2894/managingsharing.pdf)
 
