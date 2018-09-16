@@ -45,6 +45,7 @@ Scroll down or click [here](../unit2/labs.html#how-to-submit-your-labs) to to ch
 
 
 **Table 1.** Apple production in selected countries in 2016 (*Source:* FAO).
+
 | Country |     Harvested area (ha) |     Apple production (tonnes) | 
 |---     |     -------------------|   ---------|
 | China |     2383815 |     44447793 |  
