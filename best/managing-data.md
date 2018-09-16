@@ -103,6 +103,8 @@ Or you can impliment a simplified version yourself:
  - Keep a separate file with a record of all changes associated with each file.
 
 
+More details [here](../best/managing-data-files.pdf)
+
 
 ## Documenting data
 
