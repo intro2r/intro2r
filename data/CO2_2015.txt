@@ -1,0 +1,19 @@
+# This data details CO2 emissions from various sources in 2015.
+# Source: https://en.wikipedia.org/wiki/List_of_countries_by_carbon_dioxide_emissions
+Country	Total_kt	Percent_World_CO2	Per_capita_t	Emissions_kg_per_USD1000_GDP_2014
+World	36061710	100	NA	490.8
+China	10641789	29.51	7.7	1235
+United States	5172336	14.34	16.1	324.2
+European Union	3469671	9.62	6.9	184.7
+India	2454968	6.81	1.9	1051.5
+Russia	1760895	4.88	12.3	999.4
+Japan	1252890	3.47	9.9	205.2
+Germany	777905	2.16	9.6	197.4
+International Shipping	642024	1.78	NA	NA
+Iran	633750	1.76	8	1344.4
+South Korea	617285	1.71	12.3	475.7
+Canada	555401	1.54	15.5	301
+Saudi Arabia	505565	1.4	16	921.9
+Indonesia	502961	1.39	2	492.7
+International Aviation	502936	1.39	NA	NA
+
