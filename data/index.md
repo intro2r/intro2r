@@ -26,6 +26,16 @@ Clicking on the 'download' link will display the data, or you can left-click to 
 
 ### Michigan tree species
 
+ - x: *x* coordinate (m).
+ 
+ - y: *y* coordinate (m).
+ 
+ - species: common name.
+ 
+ - dbh: diameter at breast height (m).
+ 
+ - status: alive (1) or dead (0).
+
 [download](../data/treespecies_dirtydata.txt)
 
 ### Harry Potter movie budgets
@@ -38,6 +48,24 @@ Clicking on the 'download' link will display the data, or you can left-click to 
 [download](../data/birdflu.xls)
 
 ### New Haven road race 2015
+
+Columns:
+
+ - Place No.: position in the race.
+ 
+ - Name: Name of runner, if entered.
+ 
+ - City: Residence of runner.
+ 
+ - Div: Division code.
+ 
+ - Div: Division description (Gender: M/F; age group).
+ 
+ - Nettime: Finish time minus start time (MM:SS).
+ 
+ - Time: Total time since race began (MM:SS).    
+ 
+ - Pace: time per km (MM:SS).
 
 [Original](http://www.newhavenroadrace.org/wp-content/uploads/2015/03/NH16-5k-Overall.txt)
 
