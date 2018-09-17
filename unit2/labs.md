@@ -288,6 +288,8 @@ Download the New Haven road race data from 2015.
  
  f. Make a boxplot of pace as a function of gender (male vs female).
  
+ g. How fast did your instructor run?
+ 
  - - -
  
 # How to submit your labs
