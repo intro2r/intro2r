@@ -196,13 +196,15 @@ Happiness <- data.frame(
 # Lab 3
 
 
-## 1. Read in the following clean data sets:
+## 1. Read in the following clean data sets.
 
- a. .txt (tab-delim). Display the first 10 rows.
+They are available on the [Data](http://intro2r.info/data/) page.
+
+ a. Read in CO2_2015.txt (tab-delim). Display the first 10 rows.
  
- b. .csv (, delim). What is the mean X?
+ b. Read in happiness.csv (comma-delim). What is the mean GDP?
  
- c  something else. How many rows and columns does this data have?
+ c. Read in apples.txt. How many rows and columns does this data have?
 
 
 
