@@ -48,7 +48,7 @@ SWIRL: Indexing and subsetting
 
 Lab: [Unit 2: Lab 2](../unit2/labs.html)
 
-Reading:
+Reading: Healy, K. 2018. *The Plain Person’s Guide to Plain Text Social Science* [Link](https://kieranhealy.org/files/papers/plain-person-text.pdf). Chapter 1. Introduction. (more if you want!)
 
 Functions: `order()`, `subset()`, `[`, `[[`, `$`
 
@@ -56,7 +56,7 @@ Functions: `order()`, `subset()`, `[`, `[[`, `$`
 
 ## Lesson 3. How to get data into and out of R
 
-Lecture: 
+Lectures: 
 
  - [Importing data](../unit2/importing-data.html)
  
