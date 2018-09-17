@@ -195,10 +195,10 @@ Happiness <- data.frame(
 
 # Lab 3
 
+The data for this lab are available on the [Data](http://intro2r.info/data/) page.
+
 
 ## 1. Read in the following clean data sets.
-
-They are available on the [Data](http://intro2r.info/data/) page.
 
  a. Read in CO2_2015.txt (tab-delim). Display the first 10 rows.
  
@@ -210,42 +210,43 @@ They are available on the [Data](http://intro2r.info/data/) page.
 
 ## 2. Clean and read in the following data sets
 
- a.
+ a. Michigan tree species.
  
- b.
+ b. Harry Potter movie budgets.
  
- c.
+ c. Galapagos mammal incidence.
 
 
 
 ## 3. Clean and read in the `birdflu.xls` spreadsheet.
 
- a.
+ a. Use the `names()` and `str()` functions in R to view the data.
  
- b.
+ b. What is the total number of bird flu cases in 2003 and in 2005?
  
- c.
+ c. Which country has had the most cases?
  
- d.
-
-	Birdflu questions
-
-
+ d. Which country has had the least bird flu deaths?
+ 
+ e. What is the total number of bird flu cases per country?
+ 
+ f. What is the total number of cases per year?
+ 
 
  - - -
 
 
 # Lab 4: Unit 2 Recap
 
-
+Data you will need is available from the [Data](http://www.intro2r.info/data/) page.
 
 ## 1. Working with lists
 
- a. Create a matrix.
+ a. Create a matrix of your choice.
  
- b. Create a data frame.
+ b. Create a data frame of your choice.
  
- c. Create a vector.
+ c. Create a vector of your choice.
  
  d. Put all three objects in a list.
  
@@ -261,7 +262,7 @@ They are available on the [Data](http://intro2r.info/data/) page.
 
  a. Edit the birdflu spreadsheet from a wide format to a long format. 
  
- b. Read in the edited birdflu data
+ b. Read in the edited birdflu data.
  
  c. How many deaths were there in year?
  
@@ -271,20 +272,22 @@ They are available on the [Data](http://intro2r.info/data/) page.
 
 
 
-## 3. Class survey data
+## 3. New Haven road race data
 
- a. Try to read in the class survey data file.
- 
- b. Fix survey and read in again.
- 
- c. Find the average of this column.
- 
- d. Find the average of column on one factor and the other.
- 
- e. A few more subsets.
- 
- f. Plot a few things.
+Download the New Haven road race data from 2015.
 
+ a. Clean and read in the data.
+ 
+ b. How many males and females ran in the race?
+ 
+ c. How many males under 19 years old ran in the race?
+ 
+ c. What was the fastest race time?
+ 
+ d. What was the mean race time for runners from New Haven?
+ 
+ f. Make a boxplot of pace as a function of gender (male vs female).
+ 
  - - -
  
 # How to submit your labs
