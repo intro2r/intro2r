@@ -9,6 +9,14 @@ These labs test and build on the material presented in the SWIRL lessons.
 
 Scroll down or click [here](../unit2/labs.html#how-to-submit-your-labs) to to check how to submit them.
 
+## Due Dates
+
+Lab 1 and 2: 2018-09-21 23:59
+
+Lab 3 and recap: 2018-09-28 23:59
+
+(no best practice lab)
+
  - - -
 
 # Lab 1
