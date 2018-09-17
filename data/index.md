@@ -26,6 +26,8 @@ Clicking on the 'download' link will display the data, or you can left-click to 
 
 ### Michigan tree species
 
+Information from a small tree plot in Michigan.
+
  - x: *x* coordinate (m).
  
  - y: *y* coordinate (m).
@@ -49,7 +51,7 @@ Clicking on the 'download' link will display the data, or you can left-click to 
 
 ### New Haven road race 2015
 
-Columns:
+Results from the 5K road race around New Haven in 2015.
 
  - Place No.: position in the race.
  
