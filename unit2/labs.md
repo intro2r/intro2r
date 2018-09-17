@@ -26,7 +26,7 @@ Scroll down or click [here](../unit2/labs.html#how-to-submit-your-labs) to to ch
  d. Give the matrix column names (whatever you want).
 
 
-## 2. Create vectors from shoe size, favorite animal, pineapple yes/no
+## 2. Create vectors from shoe size, number of siblings, and pineapple yes/no
 
 
 **Table 1.** Ten random responses from the class survey. 
@@ -45,7 +45,7 @@ Scroll down or click [here](../unit2/labs.html#how-to-submit-your-labs) to to ch
 | 167    | Brown     | 8.5       | 5        | 3500     | 0        | Hufflepuff | 27         | Blue      | Coffee     | Disgusting | Yes         | Neither     |
 {: .table table-bordered .table-striped}
 
- a. Using these vectors, create a matrix.
+ a. Using these vectors, create a matrix. Ensure that all vectors are numeric or integers (you may need to re-code them).
 
  b. Convert this matrix to a data frame (you may need to google or find external help).
  
@@ -88,9 +88,9 @@ Scroll down or click [here](../unit2/labs.html#how-to-submit-your-labs) to to ch
  
  b. What are the dimensions of the data frame?
  
- c. What is the mean of Harvested area?
+ c. What is the mean harvested area across all countries?
  
- d. What is the minimum apple production?
+ d. What is the minimum apple production across all countries?
  
  e. Plot the values of apple production on harvested area.
 
@@ -115,11 +115,11 @@ CO2_2015 <- data.frame(
 
 ### 1.  Load in data set and subset the following, each from `CO2_2015`.
 
- a. Subset Percent of world emissions using `$`, and assign to a new variable.
+ a. Subset the Percent of world emissions. Use `$`, and assign to a new variable.
  
- b. Subset one column using ['name']
+ b. Subset the Per_capita_t column, using ['name'].
  
- c. Check the structure of the Country column. What is the data structure?
+ c. Subset the Country column. What is the data structure?
 
 
 
@@ -153,7 +153,8 @@ CO2_2015 <- data.frame(
 
 ## Subsetting in two dimensions
 
-Read in this data frame:
+Read in this data frame (copy and paste into your R console).
+The data are part of a survey of the state of global happiness, conducted each year by the UN. Each variable measured reveals a populated-weighted average score on a scale running from 0 to 10 that is tracked over time and compared against other countries. (*[Source](https://en.wikipedia.org/wiki/World_Happiness_Report)*)
 ```r
 Happiness <- data.frame(
     OverallRank = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20),
