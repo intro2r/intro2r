@@ -24,10 +24,17 @@ Clicking on the 'download' link will display the data, or you can left-click to 
 
 [download](../data/apples.txt)
 
+### Michigan tree species
+
+[download](../data/treespecies_dirtydata.txt)
+
+### Harry Potter movie budgets
+
+[download](harry-potter-movies.txt)
 
 
 ### Birdflu
 
 [download](../data/birdflu.xls)
 
-### 
+ 
