@@ -125,6 +125,15 @@ The others set typical defaults for the separator/delimitor character, and the d
 
 You can easily set these in a call to ``` read.table() ```, too.
 
+Common arguments to all the `read.foo()` functions:
+
+ - file = : The name of the file, in quotes. You can specify an absolute or relative path.
+ 
+ - header = :  If the first row of the file contains column names.
+ 
+ - sep = : The character used to separate columns (usually tab or comma).
+ 
+
 
 ### File type: .txt | delimitor: white space (one or more spaces, tabs, newlines or carriage returns) | no header
 
