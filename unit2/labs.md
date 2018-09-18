@@ -195,7 +195,8 @@ Happiness <- data.frame(
  
  h. Remove the 3rd row of data
  
- i. Plot Social support as a function of Freedom of life choices.
+ i. Plot a histogram of Social support.
+
 
 
  - - -
