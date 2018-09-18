@@ -229,6 +229,8 @@ The data for this lab are available on the [Data](http://intro2r.info/data/) pag
 
 ## 3. Clean and read in the `birdflu.xls` spreadsheet.
 
+Remember that R can only have 1 row as the header.
+
  a. Use the `names()` and `str()` functions in R to view the data.
  
  b. What is the total number of bird flu cases in 2003 and in 2005?
