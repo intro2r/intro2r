@@ -68,7 +68,7 @@ Learning Goals:
  - Read in .txt and .csv files,
  - Write data to files.
 
-SWIRL: [Reading and writing data](./swirl/reading-data.html)
+SWIRL: [Importing data](./swirl/importing-data.html)
 
 Lab: [Unit 2: Lab 3](../unit2/labs.html)
 
