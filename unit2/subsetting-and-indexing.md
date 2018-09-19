@@ -101,7 +101,7 @@ x[x == 2]
 
 All logical statements work: `==`, `!=`, `<`, `>`, `<=`, `>=`.
 
-Logical vectors can be combined with boolean statements: `$` is AND, `|` is OR.
+Logical vectors can be combined with boolean statements: `&` is AND, `|` is OR.
 
 For example, we can pull out all the values of x that are less then 2 or greater than 4.
 ```r
