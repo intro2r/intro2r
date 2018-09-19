@@ -23,9 +23,9 @@ Learning Goals:
 
 SWIRL: 
 
- - [Dataframes and matrices](../unit2/swirl/dataframes-and-matrices.html)
+ - [Dataframes and matrices](../unit2/swirl/matrices_and_dataframes.html)
  
- - [Missing values](../unit2/swirl/missing-values.html)
+ - [Missing values](../unit2/swirl/missing_values.html)
 
 Lab: [Unit 2: Lab 1](../unit2/labs.html)
 
@@ -44,7 +44,7 @@ Learning Goals:
  - Subset matrices, arrays, and dataframes with `[i, j]`,
  - Subset with logical operators (`>`, `<`, `!=`, `==`).
 
-SWIRL: Indexing and subsetting
+SWIRL: [Indexing and subsetting](../unit2/swirl/subsetting_dataframes.html)
 
 Lab: [Unit 2: Lab 2](../unit2/labs.html)
 
@@ -68,7 +68,7 @@ Learning Goals:
  - Read in .txt and .csv files,
  - Write data to files.
 
-SWIRL: [Importing data](./swirl/importing-data.html)
+SWIRL: [Importing data](./swirl/importing_data.html)
 
 Lab: [Unit 2: Lab 3](../unit2/labs.html)
 
