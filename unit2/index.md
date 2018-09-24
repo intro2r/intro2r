@@ -11,6 +11,9 @@ Follow the links to each lecture, lab, and reading.
 
 Scroll down to download the SWIRL lessons.
 
+Data for the labs for this unit can be found [here](../data/)
+
+
 ## Lesson 1. How to work with dataframes and matrices
 
 Lecture: Details of [dataframes and matrices](../unit2/matrices-and-dataframes.html).
