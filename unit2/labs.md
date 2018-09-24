@@ -206,6 +206,8 @@ Happiness <- data.frame(
 
 The data for this lab are available on the [Data](http://intro2r.info/data/) page.
 
+Please upload any cleaned datafiles with your R code to Canvas.
+
 
 ## 1. Read in the following clean data sets.
 
@@ -250,6 +252,8 @@ Remember that R can only have 1 row as the header.
 # Lab 4: Unit 2 Recap
 
 Data you will need is available from the [Data](http://www.intro2r.info/data/) page.
+
+Please upload any cleaned datafiles with your R code to Canvas.
 
 ## 1. Working with lists
 
