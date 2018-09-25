@@ -74,4 +74,10 @@ Results from the 5K road race around New Haven in 2015.
 [download](../data/NH16-5k-Overall.txt)
 
 
+### Galapagos mammal incidence
+
+Data on the presence/absence of mammals on (most) of the islands of the Galapagos archipelago.
+
+[download](../data/galapagos_mammals.csv)
+
  
