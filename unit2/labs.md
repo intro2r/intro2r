@@ -281,11 +281,11 @@ Please upload any cleaned datafiles with your R code to Canvas.
  
  b. Read in the edited birdflu data.
  
- c. How many deaths were there in year?
+ c. How many deaths were there in 2007?
  
- d. How many cases were there in country in all years?
+ d. How many cases were there in Thailand in all years?
  
- e. How many cases were there in country in year?
+ e. How many cases were there in Indonesia in 2008?
 
 
 
