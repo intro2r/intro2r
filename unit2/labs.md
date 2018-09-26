@@ -291,6 +291,8 @@ Please upload any cleaned datafiles with your R code to Canvas.
 
 Download the New Haven road race data from 2015.
 
+Check [here](http://www.intro2r.info/unit2/preparing-data.html) if you are having trouble.
+
  a. Clean and read in the data.
  
  b. How many males and females ran in the race?
