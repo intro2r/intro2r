@@ -275,7 +275,9 @@ Please upload any cleaned datafiles with your R code to Canvas.
 
 ## 2. Use the `birdflu.xls` spreadsheet again
 
- a. Edit the birdflu spreadsheet from a wide format to a long format. Check the best practice on [Principles of data files](http://www.intro2r.info/best/managing-data-files.pdf) (which I'm sure you have read!) to seethe difference.
+ a. Edit the birdflu spreadsheet from a wide format to a long format. 
+ 
+ Check the best practice on [Principles of data files](http://www.intro2r.info/best/managing-data-files.pdf) (which I'm sure you have read!) to see the difference.
  
  b. Read in the edited birdflu data.
  
