@@ -4,7 +4,7 @@ title: Unit 3: Labs
 ---
 
 
-# Unit 3. Statistics and Grouped Data: Labs
+# Unit 3. Analyzing Grouped Data: Labs
 
 These labs test and build on the material presented in the SWIRL lessons.
 
@@ -26,8 +26,11 @@ Lab 3 and recap: 2018-10-12 23:58
 1. Identify the type of data, check assumptions by plotting distribution of data, and choose and defend a statistical approach for the following
 
   a. Categorical data scenario (prop/chi sq test) e.g. alive vs dead trees
+  
   b. Continuous data between groups e.g. measurement between sexes
+  
   c. Continuous relationships e.g. simple linear regression
+  
   d. Binomial response
 
 
