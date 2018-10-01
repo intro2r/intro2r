@@ -33,7 +33,7 @@ Lab: [Unit 3: Lab 1](../unit3/labs.html)
 
 Readings: 
 
-Zuur et al. 2010. [A protocol for data exploration to avoid common statistical problems](https://www.dair.nl/wp-content/uploads/2017/03/Zuur_et_al-2010-Methods_in_Ecology_and_Evolution.pdf). *Methods in Ecology & Evolution 1, 3–14.
+Zuur et al. 2010. [A protocol for data exploration to avoid common statistical problems](https://www.dair.nl/wp-content/uploads/2017/03/Zuur_et_al-2010-Methods_in_Ecology_and_Evolution.pdf). *Methods in Ecology & Evolution* 1, 3–14.
 
 Läärä, E. 2009. [Statistics: reasoning on uncertainty, and the insignificance of testing null](http://www.sekj.org/PDF/anz46-free/anz46-138.pdf). *Ann. Zool. Fennici* 46: 138–157. 
 
