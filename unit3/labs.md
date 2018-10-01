@@ -97,7 +97,7 @@ c. From the class survey data:
   v. the number of people who can roll/not their tongue and number of siblings.
  
 
-### 2. Backyard Birds
+### 2. Backyard birds
 
 In the October of 2015, Jane saw 12 black-capped chickadees, 2 red-bellied woodpeckers, and a canada goose in her back yard. This year, she saw 10 back-capped chickadees, 5 red-bellied woodpeckers, and 1 zebra. Has the bird population changed significantly?
 
