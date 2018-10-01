@@ -74,7 +74,7 @@ Functions: `apply()`, `tapply()`, `sapply()`, `lapply()`
 
 ## Lesson 4. How to test for associations
 
-Lecture: [t-tests and ANOVAS](../unit3/anova.html)
+Lecture: [t-tests and ANOVAS](../unit3/testing-populations.html)
 
 Best Practice:
 
