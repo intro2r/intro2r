@@ -14,7 +14,11 @@ Scroll down to download the SWIRL lessons.
 
 ## Lesson 1. How to choose a statistical test
 
-Lecture: [Which test? Which assumptions?](../unit3/which-test.html)
+Lectures: 
+
+[Which test? Which assumptions?](../unit3/which-test.html)
+
+[Formulae](../unit3/formulae.html)
 
 Learning Goals:
 
@@ -27,7 +31,7 @@ SWIRL: [Testing assumptions and exploring data](../unit3/swirl/testing_assumptio
 
 Lab: [Unit 3: Lab 1](../unit3/labs.html)
 
-Reading:
+Reading: 
 
 Functions: `qqplot()`, `ks.test()`, `shapiro.test()`, `bartlett.test()`
 
@@ -67,7 +71,7 @@ SWIRL: The *apply() group of functions:
 
 Lab: [Unit 3: Lab 3](../unit3/labs.html)
 
-Reading:
+Reading: Wickham, H. 2001. [The Split-Apply-Combine Strategy for Data Analysis](https://www.jstatsoft.org/article/view/v040i01/v40i01.pdf). *Journal of Statistical Software* 40. 
 
 Functions: `apply()`, `tapply()`, `sapply()`, `lapply()`
 
