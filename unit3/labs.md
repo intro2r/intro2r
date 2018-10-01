@@ -114,7 +114,7 @@ John studies the reproductive phenology of trees. In 2014, 59 male trees flowere
 
 was done to see if the proportion of fish types is consistent with previous years. Suppose, the 3 types of fish recorded: parrotfish, grouper, tang are historically in a 5:3:4 proportion and in a survey the following counts are found:
 
-| Fish | pf | gr | ta |
+| Fish | parrotfish | grouper | tang |
 |----- | -- | -- | -- |
 |observed | 53 | 22 | 49 |
 {: .table table-bordered .table-striped}
