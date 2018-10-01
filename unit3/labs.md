@@ -39,7 +39,7 @@ Lab 3 and recap: 2018-10-12 23:58
 
   a. Which variables are continuous?
 
-  b. Which variables are categorical? Are any binomial?
+  b. Which variables are categorical? Are any binomial (do any have only 2 levels)?
 
   c. Check the distribution of class height and number of Harry Potter books read. Do they appear normally distributed? Note that you can use the `breaks` argument in `hist()` if you want to decrease the bin size of your histogram.
 
