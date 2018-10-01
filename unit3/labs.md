@@ -23,32 +23,43 @@ Lab 3 and recap: 2018-10-12 23:58
 
 ## Lab 1
 
-1. Identify the type of data, check assumptions by plotting distribution of data, and choose and defend a statistical approach for the following
+### 1) Choose and justify a statistical test for the following scenarios.
 
-  a. Categorical data scenario (prop/chi sq test) e.g. alive vs dead trees
+  a. We have counts for three tree species before and after a fire, and want to know whether the fire changed their relative abundance.
+
+  b. We have data on total lifetime income and age of mortality, and want to know whether there is a relationship between the two.
+
+  c. We sampled soil organic nitrogen content in 30 random plots across 4 different sites, and want to know whether average soil nitrogen differs between each site.
+
+  d. Our survey respondents answered either `yes` or `no` when asked whether they believed in anthropogenic climate change, and we want to know whether their age has an effect.
+
+ 
+
+### 2) Read in the class survey data and answer the following questions.
+
+  a. Which variables are continuous?
+
+  b. Which variables are categorical? Are any binomial?
+
+  c. Check the distribution of class height and number of Harry Potter books read. Do they appear normally distributed? Note that you can use the `breaks` argument in hist() if you want to decrease the bin size of your histogram.
+
+  d. Plot ideal temperature. Are there any outliers?
+
+ 
+
+### 3) Read in your cleaned Michigan tree species data.
+
+  a. We want to compare mean diameter at breast height (dbh) between each species. Assess visually whether DBH is normally distributed.
+
+  b. Assess visually whether there is equal variance in DBH between each species.
+
+  c. Based on these tests, do you think an ANOVA is an appropriate test comparing average dbh in each species?
+
+  d. Enter the following code: ` m1 <- aov(dbh ~ species, data = data_name)` where data_name is the name of your data frame. You just performed an ANOVA!
+
+  e. Plot the model residuals as a function of the fitted values (remember `~` from the lesson). Does it seem like our model fit the data? 
   
-  b. Continuous data between groups e.g. measurement between sexes
-  
-  c. Continuous relationships e.g. simple linear regression
-  
-  d. Binomial response
-
-
-2. Same, for survey data
-
-  a. Categorical response
-  b. Binomial response
-  c. Count
-  d. Continuous
-
-
-3. For each data set, check for the 4 common problems with data i.e. non-normality, heterogeneity in variance, outliers, and zero-inflation.
-
-  a. Data 1
-  b. Data 2
-  c. Data 3
-
- - - -
+  - - -
 
 
 ## Lab 2
