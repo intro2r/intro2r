@@ -4,19 +4,28 @@ title: Introduction to R
 
 ---
 
-<h1 id="do-data-match-an-expected-ratio">Do Data Match An Expected Ratio?</h1>
-<p><em>Functions:</em> binom.test, prop.test, chisq.test, fisher.test,</p>
-<p><em>R code:</em> <a href="../statistics/testing-ratios.r">.r</a> <a href="../statistics/testing-ratios.txt">.txt</a></p>
-<hr />
-<p><strong>Type of Data:</strong> Discrete, categorical (counts or frequencies)</p>
-<hr />
-<h1 id="one-variable">One variable</h1>
-<h2 id="the-probabilty-of-success-in-a-bernoullibinomial-experiment">The probabilty of success in a Bernoulli/binomial experiment</h2>
-<p>The <a href="https://en.wikipedia.org/wiki/Binomial_test">binomial test</a> is a test of the statistical significance of deviations from a theoretically expected distribution of observations into two categories: e.g., does our count of heads:tails differ from a 1:1 ratio, when tossing a coin?</p>
-<p>For example, if we toss a coin 10 times and get 8 heads, is it likely that this coin is biased?</p>
-<p>We can specify <code>x</code> the number of failures (or successes) out of <code>n</code> number of trials.</p>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">binom.test</span>(<span class="dt">x =</span> <span class="dv">8</span>, <span class="dt">n =</span> <span class="dv">10</span>)</code></pre>
-<pre><code>## 
+# Do Data Match An Expected Ratio?
+
+*Functions*: `binom.test()`, `prop.test()`, `chisq.test()`, `fisher.test()`
+
+*Type of Data*: Discrete, categorical (counts or frequencies)
+
+
+## One variable
+
+### The probabilty of success in a Bernoulli/binomial experiment
+
+The [binomial test](https://en.wikipedia.org/wiki/Binomial_test) is a test of the statistical significance of deviations from a theoretically expected distribution of observations into two categories: e.g., does our count of heads:tails differ from a 1:1 ratio, when tossing a coin?
+
+For example, if we toss a coin 10 times and get 8 heads, is it likely that this coin is biased?
+
+We can specify *x* the number of failures (or successes) out of *n* number of trials.
+
+```r
+binom.test(x = 8, n = 10)
+```
+
+```
 ##  Exact binomial test
 ## 
 ## data:  8 and 10
@@ -26,10 +35,16 @@ title: Introduction to R
 ##  0.4439045 0.9747893
 ## sample estimates:
 ## probability of success 
-##                    0.8</code></pre>
-<p>With such a small sample, it's hard to tell. What if we tossed the coin 10 more times?</p>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">binom.test</span>(<span class="dv">16</span>, <span class="dv">20</span>)</code></pre>
-<pre><code>## 
+##                    0.8
+```
+With such a small sample, it's hard to tell. What if we tossed the coin 10 more times?
+
+
+```r
+binom.test(16, 20)
+```
+
+```
 ##  Exact binomial test
 ## 
 ## data:  16 and 20
@@ -39,13 +54,23 @@ title: Introduction to R
 ##  0.563386 0.942666
 ## sample estimates:
 ## probability of success 
-##                    0.8</code></pre>
-<p>For an alpha of 0.05, it suggests that this coin, or the way it is being flipped, needs some attention!</p>
-<p>We can also use this test to ask other questions about the probabilty of two outcomes (including counts of things that do not at first seem to be counts of only two things). For example, we can ask if a six-sided die is biased to throw more 6's than we would expect.</p>
-<p>If fair, the dice would roll a 6 one in six times (1/6). If we rolled 51 6's in a total of 235 rolls, what can we say?</p>
-<p>To fit this into a binomial test, we do the following.</p>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">binom.test</span>(<span class="dt">x =</span> <span class="dv">51</span>, <span class="dt">n =</span> <span class="dv">235</span>, <span class="dt">p =</span> <span class="dv">1</span>/<span class="dv">6</span>, <span class="dt">alternative =</span> <span class="st">&#39;greater&#39;</span>)</code></pre>
-<pre><code>## 
+##                    0.8
+```
+
+For an alpha of 0.05, it suggests that this coin, or the way it is being flipped, needs some attention!
+
+We can also use this test to ask other questions about the probabilty of two outcomes (including counts of things that do not at first seem to be counts of only two things). For example, we can ask if a six-sided die is biased to throw more 6's than we would expect.
+
+If fair, the dice would roll a 6 one in six times (1/6). If we rolled 51 6's in a total of 235 rolls, what can we say?
+
+To fit this into a binomial test, we do the following.
+
+```r
+binom.test(x = 51, n = 235, p = 1/6, alternative = 'greater')
+```
+
+
+```
 ##  Exact binomial test
 ## 
 ## data:  51 and 235
@@ -56,15 +81,29 @@ title: Introduction to R
 ##  0.1735253 1.0000000
 ## sample estimates:
 ## probability of success 
-##              0.2170213</code></pre>
-<p>The number of successes (<code>x</code>) is 51. The number of trials (<code>n</code>) is 235. The probability (null hypothesis) we expect (<code>p</code>) is 1/6. And the alternative hypothesis is that we roll 51 <em>or more</em> 6's (<code>alternative = 'greater'</code>)---this is a one-tailed test.</p>
-<p>We would use a two-tailed test if we wanted to know whether the die rolled too many <em>or</em> too few 6's (<code>alternative = 'two.sided'</code>).</p>
-<h2 id="comparing-direction-the-sign-test">Comparing direction: the sign test</h2>
-<p>We can also use this same test to compare outcomes that we can see but cannot (or do not) measure, when it is called the <a href="https://en.wikipedia.org/wiki/Sign_test">sign test</a>. The sign test is essentially a special case of the binomial test where the probability of success under the null hypothesis is p = 0.5.</p>
-<p>It is often used to compare paired samples before and after some intervention, for example we could ask whether people felt better or worse after taking some cold medicine.</p>
-<p>Say that 8 of 9 people felt better after taking our new medicine.</p>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">binom.test</span>(<span class="dt">x =</span> <span class="dv">8</span>, <span class="dt">n =</span> <span class="dv">9</span>)</code></pre>
-<pre><code>## 
+##              0.2170213
+```
+
+
+The number of successes (`x`) is 51. The number of trials (`n`) is 235. The probability (null hypothesis) we expect (`p`) is 1/6. And the alternative hypothesis is that we roll 51 or more 6's (`alternative = 'greater'`)---this is a one-tailed test.
+
+We would use a two-tailed test if we wanted to know whether the die rolled too many or too few 6's (`alternative = 'two.sided'`).
+
+
+### Comparing direction: the sign test
+
+We can also use this same test to compare outcomes that we can see but cannot (or do not) measure, when it is called the [sign test]9https://en.wikipedia.org/wiki/Sign_test). The sign test is essentially a special case of the binomial test where the probability of success under the null hypothesis is p = 0.5.
+
+It is often used to compare paired samples before and after some intervention, for example we could ask whether people felt better or worse after taking some cold medicine.
+
+Say that 8 of 9 people felt better after taking our new medicine.
+
+```r
+binom.test(x = 8, n = 9)
+```
+
+
+```
 ##  Exact binomial test
 ## 
 ## data:  8 and 9
@@ -74,46 +113,87 @@ title: Introduction to R
 ##  0.5175035 0.9971909
 ## sample estimates:
 ## probability of success 
-##              0.8888889</code></pre>
-<p>The p of 0.04 suggests that this medicine works.</p>
-<h2 id="comparing-counts-or-proportions-chisq.test">Comparing counts or proportions: chisq.test()</h2>
-<p>We can use the <code>chisq.test()</code> function to perform a <em><a href="https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test">goodness-of-fit</a></em> test (testing whether the observed data differs from a theoretical distribution).</p>
-<p>If we supply <code>chisq.test()</code> with a single vector (i.e., a one-dimensional contingency table) of non-negative integers, the hypothesis tested is whether the population probabilities equal those in <code>p</code>, or are all equal if <code>p</code> is not given. (You must provide a probabilty for each element of <code>x</code> and <code>p</code> must sum to 1).</p>
-<p>Is 50:50 different from a 1:1 ratio?</p>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="co"># These two give the same answer</span>
-<span class="kw">chisq.test</span>(<span class="dt">x =</span> <span class="kw">c</span>(<span class="dv">50</span>, <span class="dv">50</span>))</code></pre>
-<pre><code>## 
+##              0.8888889
+```
+
+The p of 0.04 suggests that this medicine works.
+
+
+### Comparing counts or proportions: chisq.test()
+
+We can use the `chisq.test()` function to perform a [goodness-of-fit](https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test) test (testing whether the observed data differs from a theoretical distribution).
+
+If we supply `chisq.test()` with a single vector (i.e., a one-dimensional contingency table) of non-negative integers, the hypothesis tested is whether the population probabilities equal those in `p`, or are all equal if `p` is not given. (You must provide a probabilty for each element of `x` and `p` must sum to 1).
+
+Is 50:50 different from a 1:1 ratio?
+
+```r
+# These two give the same answer
+chisq.test(x = c(50, 50))
+```
+
+```
+## 
 ##  Chi-squared test for given probabilities
 ## 
 ## data:  c(50, 50)
-## X-squared = 0, df = 1, p-value = 1</code></pre>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="co"># But here we explicitly state the probability</span>
-<span class="kw">chisq.test</span>(<span class="dt">x =</span> <span class="kw">c</span>(<span class="dv">50</span>, <span class="dv">50</span>), <span class="dt">p =</span> <span class="kw">c</span>(<span class="fl">0.5</span>, <span class="fl">0.5</span>) )</code></pre>
-<pre><code>## 
+## X-squared = 0, df = 1, p-value = 1
+```
+
+
+```r
+# But here we explicitly state the probability
+chisq.test(x = c(50, 50), p = c(0.5, 0.5) )
+```
+
+```
+## 
 ##  Chi-squared test for given probabilities
 ## 
 ## data:  c(50, 50)
-## X-squared = 0, df = 1, p-value = 1</code></pre>
-<p>No, 50:50 is not different to 1:1.</p>
-<p>Is 50:50 different from a 3:1 ratio?</p>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">chisq.test</span>(<span class="dt">x =</span> <span class="kw">c</span>(<span class="dv">50</span>,<span class="dv">50</span>), <span class="dt">p =</span> <span class="kw">c</span>(<span class="dv">3</span>/<span class="dv">4</span>, <span class="dv">1</span>/<span class="dv">4</span>))</code></pre>
-<pre><code>## 
+## X-squared = 0, df = 1, p-value = 1
+```
+
+No, 50:50 is not different to 1:1.
+
+Is 50:50 different from a 3:1 ratio?
+
+```r
+chisq.test(x = c(50,50), p = c(3/4, 1/4))
+```
+
+```
+## 
 ##  Chi-squared test for given probabilities
 ## 
 ## data:  c(50, 50)
-## X-squared = 33.333, df = 1, p-value = 7.764e-09</code></pre>
-<p>Yes, it is.</p>
-<hr />
-<h1 id="two-variables">Two variables</h1>
-<h2 id="testing-associations-proportion-test-prop.test">Testing associations, proportion test: prop.test()</h2>
-<p>We can compare if the counts of things in different groups is the same between those groups.</p>
-<p>For example, do males and females like spinach equally?</p>
-<p>Here, the <code>prop.test()</code> function requires <code>x</code> a vector of the number of successes in each group, <code>n</code> a vector of the number of trials in each group. <code>x</code> could also be a matrix or table of 2 columns with successes and failures (in which case you don't need <code>n</code>).</p>
-<p>For example, here we measure 4/40 males who like spinach and 196/3270 females who like spinach.</p>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">prop.test</span>(<span class="kw">c</span>(<span class="dv">4</span>, <span class="dv">196</span>), <span class="kw">c</span>(<span class="dv">40</span>, <span class="dv">3270</span>))</code></pre>
-<pre><code>## Warning in prop.test(c(4, 196), c(40, 3270)): Chi-squared approximation may
-## be incorrect</code></pre>
-<pre><code>## 
+## X-squared = 33.333, df = 1, p-value = 7.764e-09
+```
+
+Yes.
+
+
+## Two variables
+### Testing associations, proportion test: prop.test()
+
+
+We can compare if the counts of things in different groups is the same between those groups.
+
+For example, do males and females like spinach equally?
+
+Here, the `prop.test()` function requires x a vector of the number of successes in each group, `n` a vector of the number of trials in each group. `x` could also be a matrix or table of 2 columns with successes and failures (in which case you don't need `n`).
+
+For example, here we measure 4/40 males who like spinach and 196/3270 females who like spinach.
+
+```r
+prop.test(c(4, 196), c(40, 3270))
+```
+
+```
+## Warning in prop.test(c(4, 196), c(40, 3270)): Chi-squared approximation may
+## be incorrect
+
+## 
 ##  2-sample test for equality of proportions with continuity
 ##  correction
 ## 
@@ -124,46 +204,86 @@ title: Introduction to R
 ##  -0.06591631  0.14603864
 ## sample estimates:
 ##     prop 1     prop 2 
-## 0.10000000 0.05993884</code></pre>
-<p>So, no. There is no difference in the proportion of males and females who like spinach.</p>
-<p>Rather than test whether all groups are equal, we can also specify <code>p</code> to say what probabilities we expect each group to have.</p>
-<h2 id="testing-associations-chi-square-chisq.test">Testing associations, Chi square: chisq.test()</h2>
-<p>We have used <code>chisq.test()</code> to test the goodness-of-fit of a one-dimensional contingency table. If we have a table of at least two rows and two columns, the function interprets this as a two-dimensional contingency table: A Pearson's chi-squared test is performed of the null hypothesis that the joint distribution of the cell counts in a 2-dimensional contingency table is the product of the row and column marginals.</p>
-<p>The data we have are our <em>observed</em> (O) data. The <em>expected</em> (E) data are calculated from the contingency table for each cell using the formula (Row Total x Column Total) / sum of all rows and columns.</p>
-<p>The chi-square value is then the sum of [ (O - E)^2 / E ] for each cell.</p>
-<p>For example, we might ask whether people who prefer gnocchi to pasta are the same as those who prefer grass to peas.</p>
-<pre class="sourceCode r"><code class="sourceCode r">count &lt;-<span class="st"> </span><span class="kw">matrix</span>(<span class="kw">c</span>(<span class="dv">38</span>, <span class="dv">14</span>, <span class="dv">11</span>, <span class="dv">51</span>), <span class="dt">nrow =</span> <span class="dv">2</span>, 
-                <span class="dt">dimnames =</span> <span class="kw">list</span>(<span class="kw">c</span>(<span class="st">&#39;gnocchi&#39;</span>, <span class="st">&#39;pasta&#39;</span>), <span class="kw">c</span>(<span class="st">&#39;grass&#39;</span>, <span class="st">&#39;peas&#39;</span>)))
-count</code></pre>
-<pre><code>##         grass peas
+## 0.10000000 0.05993884
+```
+
+So, no. There is no difference in the proportion of males and females who like spinach.
+
+Rather than test whether all groups are equal, we can also specify `p` to say what probabilities we expect each group to have.
+
+
+### Testing associations, Chi square: chisq.test()
+
+We have used `chisq.test()` to test the goodness-of-fit of a one-dimensional contingency table. If we have a table of at least two rows and two columns, the function interprets this as a two-dimensional contingency table: A Pearson's chi-squared test is performed of the null hypothesis that the joint distribution of the cell counts in a 2-dimensional contingency table is the product of the row and column marginals.
+
+The data we have are our *observed* (O) data. The *expected* (E) data are calculated from the contingency table for each cell using the formula (Row Total x Column Total) / sum of all rows and columns.
+
+The chi-square value is then the sum of [ (O - E)^2 / E ] for each cell.
+
+For example, we might ask whether people who prefer gnocchi to pasta are the same as those who prefer grass to peas
+
+```r
+count <- matrix(c(38, 14, 11, 51), nrow = 2, 
+                dimnames = list(c('gnocchi', 'pasta'), c('grass', 'peas')))
+count
+```
+
+```
+##         grass peas
 ## gnocchi    38   11
-## pasta      14   51</code></pre>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">chisq.test</span>(count)</code></pre>
-<pre><code>## 
-##  Pearson&#39;s Chi-squared test with Yates&#39; continuity correction
+## pasta      14   51
+```
+
+```r
+chisq.test(count)
+```
+
+```
+## 
+##  Pearson's Chi-squared test with Yates' continuity correction
 ## 
 ## data:  count
-## X-squared = 33.112, df = 1, p-value = 8.7e-09</code></pre>
-<p>The results suggest an association between those who like both grass and gnocchi, and those who like both peas and pasta.</p>
-<h4 id="whats-the-difference-between-prop.test-and-chisq.test">What's the difference between <code>prop.test()</code> and <code>chisq.test()</code>?</h4>
-<p>For a 2x2 table, they are essentially the same. See <a href="https://stats.stackexchange.com/questions/2391/what-is-the-relationship-between-a-chi-squared-test-and-test-of-equal-proportion">here</a>.</p>
-<h2 id="testing-associations-fishers-exact-test-fisher.test">Testing associations, Fisher's Exact Test: fisher.test()</h2>
-<p><a href="https://en.wikipedia.org/wiki/Fisher%27s_exact_test">Fisher's Exact Test</a> is similarly used in the analysis of contingency tables. Fisher is said to have devised it after hearing that a colleague could tell whether the <a href="https://en.wikipedia.org/wiki/Lady_tasting_tea">milk or tea was poured into the cup first</a>.</p>
-<p>To test this claim, she was given 8 cups of tea, in four of which milk was added first. The null hypothesis is that there is no association between the true order of pouring and the woman's guess, the alternative that there is a positive association (that the odds ratio is greater than 1).</p>
-<pre class="sourceCode r"><code class="sourceCode r">TeaTasting &lt;-
-<span class="kw">matrix</span>(<span class="kw">c</span>(<span class="dv">3</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">3</span>),
-       <span class="dt">nrow =</span> <span class="dv">2</span>,
-       <span class="dt">dimnames =</span> <span class="kw">list</span>(<span class="dt">Guess =</span> <span class="kw">c</span>(<span class="st">&quot;Milk&quot;</span>, <span class="st">&quot;Tea&quot;</span>),
-                       <span class="dt">Truth =</span> <span class="kw">c</span>(<span class="st">&quot;Milk&quot;</span>, <span class="st">&quot;Tea&quot;</span>)))
+## X-squared = 33.112, df = 1, p-value = 8.7e-09
+```
 
-TeaTasting</code></pre>
-<pre><code>##       Truth
+
+The results suggest an association between those who like both grass and gnocchi, and those who like both peas and pasta.
+
+What's the difference between `prop.test()` and `chisq.test()`?
+
+For a 2x2 table, they are essentially the same. See [here](https://stats.stackexchange.com/questions/2391/what-is-the-relationship-between-a-chi-squared-test-and-test-of-equal-proportion).
+
+### Testing associations, Fisher's Exact Test: fisher.test()
+
+[Fisher's Exact Test](https://en.wikipedia.org/wiki/Fisher%27s_exact_test) is similarly used in the analysis of contingency tables. Fisher is said to have devised it after hearing that a colleague could tell whether the [milk or tea was poured into the cup first](https://en.wikipedia.org/wiki/Lady_tasting_tea).
+
+To test this claim, she was given 8 cups of tea, in four of which milk was added first. The null hypothesis is that there is no association between the true order of pouring and the woman's guess, the alternative that there is a positive association (that the odds ratio is greater than 1).
+
+
+```r
+TeaTasting <-
+matrix(c(3, 1, 1, 3),
+       nrow = 2,
+       dimnames = list(Guess = c("Milk", "Tea"),
+                       Truth = c("Milk", "Tea")))
+
+TeaTasting
+```
+
+```
+##       Truth
 ## Guess  Milk Tea
 ##   Milk    3   1
-##   Tea     1   3</code></pre>
-<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">fisher.test</span>(TeaTasting, <span class="dt">alternative =</span> <span class="st">&quot;greater&quot;</span>)</code></pre>
-<pre><code>## 
-##  Fisher&#39;s Exact Test for Count Data
+##   Tea     1   3
+```
+
+```r
+fisher.test(TeaTasting, alternative = "greater")
+```
+
+```
+## 
+##  Fisher's Exact Test for Count Data
 ## 
 ## data:  TeaTasting
 ## p-value = 0.2429
@@ -172,13 +292,17 @@ TeaTasting</code></pre>
 ##  0.3135693       Inf
 ## sample estimates:
 ## odds ratio 
-##   6.408309</code></pre>
-<p>The p = 0.2429 tells us that the association could not be established.</p>
-<hr />
+##   6.408309
+```
+
+The p = 0.2429 tells us that the association could not be established.
 
 
-<h1 id="further-reading">Further Reading</h1>
-<p>Agresti, A. 2002. <em>Categorical Data Analysis</em>. Wiley. <a href="https://www.amazon.com/Categorical-Analysis-Agresti-Alan-Hardcover/dp/B008YSYQCS">Amazon</a> <a href="http://onlinelibrary.wiley.com/book/10.1002/0471249688">Wiley</a></p>
-<p>Thompson, L. 2006. <a href="http://statweb.stanford.edu/~owen/courses/306a/Splusdiscrete2.pdf">S-Plus (and R) *Manual to Accompany Agresti's <em>Categorical Data Analysis</em> *(2002) 2nd edition</a></p>
-<hr />
-<p>Updated: 2018-10-02</p>
+ - - -
+
+Further Reading
+
+Agresti, A. 2002. Categorical Data Analysis. Wiley. [Amazon](https://www.amazon.com/Categorical-Analysis-Agresti-Alan-Hardcover/dp/B008YSYQCS), [Wiley](http://onlinelibrary.wiley.com/book/10.1002/0471249688)
+
+Thompson, L. 2006. S-Plus (and R) *Manual to Accompany Agresti's Categorical Data Analysis *(2002) [2nd edition](http://statweb.stanford.edu/~owen/courses/306a/Splusdiscrete2.pdf).
+
