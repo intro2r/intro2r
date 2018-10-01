@@ -14,7 +14,7 @@ Scroll down to download the SWIRL lessons.
 
 ## Lesson 1. How to choose a statistical test
 
-Lecture: [Which test? Which assumptions?](/which-test.html)
+Lecture: [Which test? Which assumptions?](../unit3/which-test.html)
 
 Learning Goals:
 
@@ -23,7 +23,7 @@ Learning Goals:
  - Test assumptions such as normality, homogeneity of variance, outliers,
  - Plot data to examine distributions.
 
-SWIRL: [Testing assumptions and exploring data](data-exploration.html)
+SWIRL: [Testing assumptions and exploring data](../unit3/swirl/testing_assumptions.html)
 
 Lab: [Unit 3: Lab 1](../unit3/labs.html)
 
@@ -34,7 +34,7 @@ Functions: `qqplot()`, `ks.test()`, `shapiro.test()`, `bartlett.test()`
 
 ## Lesson 2. How to compare counts between groups
 
-Lecture: [Testing ratios and tabulating data](/testing-ratios.html)
+Lecture: [Testing ratios and tabulating data](../unit3/testing-ratios.html)
 
 Learning Goals:
 
@@ -42,7 +42,7 @@ Learning Goals:
  - Convert continuous data to groups,
  - Run simple sign, proportion, binomial, and Chi-square tests.
 
-SWIRL: [Testing Ratios](testing-ratios.html)
+SWIRL: [Testing Ratios](../unit3/swirl/testing-ratios.html)
 
 Lab: [Unit 3: Lab 2](../unit3/labs.html)
 
@@ -52,16 +52,20 @@ Functions: table(), prop.test(), binom.test(), chisq.test()
 
 ## Lesson 3. How to calculate group-level stats in dataframes
 
-Lecture: [The Split-Apply-Combine approach](group-means.html)
+Lecture: [The Split-Apply-Combine approach](../unit3/group-means.html)
 
 Learning Goals:
 
  - Understand and use `tapply()`, `sapply()`, `lapply()`, `apply()`.
  - Calculate and plot group-level means and sd.
 
-SWIRL: [The *apply() group of functions](/swirl/apply.html)
+SWIRL: The *apply() group of functions:
 
-Lab: [Unit 3: Lab 3](/labs.html)
+ - [lapply and sapply](../unit3/swirl/lapply_and_sapply.html)
+ 
+ - [vapply and tapply](../unit3/swirl/vapply_and_tapply.html)
+
+Lab: [Unit 3: Lab 3](../unit3/labs.html)
 
 Reading:
 
@@ -70,7 +74,7 @@ Functions: `apply()`, `tapply()`, `sapply()`, `lapply()`
 
 ## Lesson 4. How to test for associations
 
-Lecture: [t-tests and ANOVAS](/anova.html)
+Lecture: [t-tests and ANOVAS](../unit3/anova.html)
 
 Best Practice:
 
@@ -81,7 +85,7 @@ Learning Goals:
  - Extract details from model output,
  - Plot these data with boxplots and barplots.
 
-SWIRL: [Testing Populations](/swirl/testing-populations.html)
+SWIRL: [Testing Populations](../unit3/swirl/testing-populations.html)
 
 Lab: [Unit 3: Recap](../unit3/labs.html)
 
