@@ -27,7 +27,7 @@ Learning Goals:
  - Test assumptions such as normality, homogeneity of variance, outliers,
  - Plot data to examine distributions.
 
-SWIRL: [Testing assumptions and exploring data](../unit3/swirl/testing_assumptions.html)
+SWIRL: [Testing assumptions and exploring data](../unit3/swirl/Testing_Assumptions_and_Exploring_Data.html)
 
 Lab: [Unit 3: Lab 1](../unit3/labs.html)
 
