@@ -59,7 +59,7 @@ Functions can modify the variables in a formula. E.g., age > 40
 | ^ 	| crossed | 
 | %in% 	| nested within | 
 | / 	| nested within | 
-| | 	| conditional on; defines separate panels or shingles in lattice  | 
+| \| 	| conditional on; defines separate panels or shingles in lattice  | 
 {: .table table-bordered .table-striped}
 
 ## Example right side of formulas
