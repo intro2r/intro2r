@@ -41,7 +41,7 @@ Lab 3 and recap: 2018-10-12 23:58
 
   b. Which variables are categorical? Are any binomial?
 
-  c. Check the distribution of class height and number of Harry Potter books read. Do they appear normally distributed? Note that you can use the `breaks` argument in hist() if you want to decrease the bin size of your histogram.
+  c. Check the distribution of class height and number of Harry Potter books read. Do they appear normally distributed? Note that you can use the `breaks` argument in `hist()` if you want to decrease the bin size of your histogram.
 
   d. Plot ideal temperature. Are there any outliers?
 
