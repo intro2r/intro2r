@@ -72,7 +72,7 @@ Reading:
 Functions: `apply()`, `tapply()`, `sapply()`, `lapply()`
 
 
-## Lesson 4. How to test for associations
+## Lesson 4. How to compare means from different groups or populations
 
 Lecture: [t-tests and ANOVAS](../unit3/testing-populations.html)
 
