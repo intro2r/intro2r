@@ -69,11 +69,11 @@ Functions can modify the variables in a formula. E.g., age > 40
 | A + B 	| main effects of A and B |  
 | A:B 	| interaction of A with B |  
 | A*B 	| main effects and interactions = A + B + A:B |  
-| ABC 	| main effects and interactions A+B+C+A:B+A:C+B:C+A:B:C | 
-| (A+B+C)^2 	| A, B, and C crossed to level 2: A+B+C+A:B+A:C+B:C | 
+| ABC 	| main effects and interactions A + B + C + A:B + A:C + B:C + A:B:C | 
+| (A+B+C)^2 	| A, B, and C crossed to level 2: A + B + C + A:B + A:C + B:C | 
 | ABC-A:B:C 	| same as above: main effects plus 2-way interactions | 
 | 1 + state + state:county 	| nested ANOVA | 
-| 1 + state + county%in%state 	| nested ANOVA emphasizing county nested in state | 
+| 1 + state + county %in% state 	| nested ANOVA emphasizing county nested in state | 
 | state / county 	| nested ANOVA | 
 | (1 / subject) 	| fit random intercepts for subjects | 
 | (1+time / subject) 	| fit both random intercepts and random subject-specific slopes  | 
