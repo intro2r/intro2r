@@ -25,7 +25,7 @@ Learning Goals:
 
 SWIRL: [Testing assumptions and exploring data](data-exploration.html)
 
-Lab: [Unit 3: Lab 1](/labs.html)
+Lab: [Unit 3: Lab 1](../unit3/labs.html)
 
 Reading:
 
@@ -44,7 +44,7 @@ Learning Goals:
 
 SWIRL: [Testing Ratios](testing-ratios.html)
 
-Lab: [Unit 3: Lab 2](/labs.html)
+Lab: [Unit 3: Lab 2](../unit3/labs.html)
 
 Reading:
 
@@ -59,7 +59,7 @@ Learning Goals:
  - Understand and use `tapply()`, `sapply()`, `lapply()`, `apply()`.
  - Calculate and plot group-level means and sd.
 
-SWIRL: [The *apply() group of functions](apply.html)
+SWIRL: [The *apply() group of functions](/swirl/apply.html)
 
 Lab: [Unit 3: Lab 3](/labs.html)
 
@@ -81,9 +81,9 @@ Learning Goals:
  - Extract details from model output,
  - Plot these data with boxplots and barplots.
 
-SWIRL: [Testing Populations](testing-populations.html)
+SWIRL: [Testing Populations](/swirl/testing-populations.html)
 
-Lab: [Unit 3: Recap](/labs.html)
+Lab: [Unit 3: Recap](../unit3/labs.html)
 
 Reading:
 
@@ -91,5 +91,5 @@ Functions: `t.test()`, `aov()`,
 
  - - -
  
- Updated: 2018-09-08
+ Updated: 2018-10-01
  
