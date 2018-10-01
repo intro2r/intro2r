@@ -82,17 +82,16 @@ In contrast to temporal and spatial autocorrelation, sequential autocorrelation 
 
 ### 1. Based on the five questions.
 
+![]()
 
-<figure><img src = '../statistics/img/selection-methods-8-21-2010.png' height = 600px></figure>
-From: [https://statswithcats.wordpress.com/2010/08/27/the-right-tool-for-the-job/](https://statswithcats.wordpress.com/2010/08/27/the-right-tool-for-the-job/)
+[*Source*](https://statswithcats.wordpress.com/2010/08/27/the-right-tool-for-the-job/)
 
 
 ### 2. Based on the data.
 
-<figure><img src = '../statistics/img/flowchart-data.jpg' height = 600px></figure>
 
-
-
+![]( intro2r.github.io/unit3/img/flowchart-data.jpg )
+[*Source*]()
 
 
  - - - 
