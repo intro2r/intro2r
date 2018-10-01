@@ -80,4 +80,12 @@ Data on the presence/absence of mammals on (most) of the islands of the Galapago
 
 [download](../data/galapagos_mammals.csv)
 
+
+## Unit 3: Analyzing Grouped Data
+
+### Anonymized class survey data
+
+[download](../data/class_survey.txt)
+
+
  
