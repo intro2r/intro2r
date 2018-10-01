@@ -62,20 +62,72 @@ The class survey data are found on the [Data](http://www.intro2r.info/data/) pag
   e. Plot the model residuals as a function of the fitted values (remember `~` from the lesson). Does it seem like our model fit the data? 
   
   - - -
-
+  
 
 ## Lab 2
 
-1. Binomial tests for flowering trees example
+### 1. Using `table()` or `hist()`, tabulate the following.
 
-2. Chi sq tests
-  a. Fish data
-  b. Bird data
+a. From the New Haven road race data: 
+  
+  i. the number of people running who were and were not from New Haven,
+  
+  ii. ten equal-sized categories (i.e., bins of equal range) of running time,
+  
+  iii. the number of people of each gender in each age category.
 
-3. Use survey data to answer a question (it will be helpful to make use of the table() function here)
-  a. Tea to coffee is it 50/50
-  b. Your TA Andrew loves pineapple on his pizza – prior to this class, he was the only one we knew about. Using class responses, test whether Andrew is truly the only one who likes pineapple on his pizza.
-  c. Do people with shoe sizes over 10 prefer pineapple?
+b. From the Michigan tree data:
+
+  i. the number of trees in each species,
+  
+  ii. the number of trees greater and less than 1-m,
+  
+  iii. the number of trees per species that are alive versus dead.
+
+c. From the class survey data:
+
+  i. The number of people in each House,
+  
+  ii. the number of people of each eye colour,
+  
+  iii. the number of people of each eye colour and House,
+  
+  iv. the number of people less than 1 m, 1--2 m, and >2 m tall,
+  
+  v. the number of people who can roll/not their tongue and number of siblings.
+ 
+
+### 2. Backyard Birds
+
+In the October of 2015, Jane saw 12 black-capped chickadees, 2 red-bellied woodpeckers, and a canada goose in her back yard. This year, she saw 10 back-capped chickadees, 5 red-bellied woodpeckers, and 1 zebra. Has the bird population changed significantly?
+
+### 3. Tree phenology
+
+John studies the reproductive phenology of trees. In 2014, 59 male trees flowered and 34 female trees. 
+
+  i. Is this population male-biased?
+
+  ii. In 2015, 71 male trees flowered and 39 female trees. Had the proportion of male-flowering trees changed?
+
+
+### 4. A fish survey 
+
+was done to see if the proportion of fish types is consistent with previous years. Suppose, the 3 types of fish recorded: parrotfish, grouper, tang are historically in a 5:3:4 proportion and in a survey the following counts are found:
+
+| Fish | pf | gr | ta |
+|----- | -- | -- | -- |
+|observed | 53 | 22 | 49 |
+{: .table table-bordered .table-striped}
+
+Have the proportions of each species changed?
+
+### 3. Using the class survey data: 
+
+a. Is the ratio of people who like tea to coffee 50:50?
+  
+b. Your TA, Andrew, loves pineapple on his pizza---prior to this class, he was the only one we knew about. Using class responses, test whether Andrew is truly the only one who likes pineapple on his pizza.
+  
+c. Do people with shoe sizes over 10 prefer pineapple on their pizza?
 
 
 ## Lab 3
