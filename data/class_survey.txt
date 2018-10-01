@@ -1,0 +1,35 @@
+height	eye_color	shoe_size	siblings	home_pop	HP_books	HP_house	ideal_temp	fav_color	tea_coffee	pineapple	tongue_roll	allergy	vacation
+175	Brown	10	2	4621	7	Hufflepuff	21	Blue	Coffee	Yes	Yes	Both (ouch)	Island
+177.8	Blue	10	2	200000	7	Ravenclaw	21	Blue	Coffee	Yes	Yes	Neither	Island
+167.64	Hazel	9.5	3	4988	0	Hufflepuff	15.56	Blue	Coffee	Disgusting	No	Both (ouch)	Cabin
+183	Hazel	11.5	2	62243	5	Ravenclaw	21	Blue	Coffee	Yes	Yes	Both (ouch)	Island
+163	Hazel	9	1	3300	7	Hufflepuff	18.9	Green	Coffee	Disgusting	Yes	Both (ouch)	Cabin
+175.26	Blue	11	2	21845	7	Gryffindor	26	Red	Tea	Yes	Yes	Neither	Island
+165	Brown	8	0	9000000	7	Hufflepuff	20	Purple	Coffee	Yes	Yes	Neither	Cabin
+162.56	Brown	7	2	27865	7	Gryffindor	23	Yellow	Coffee	Disgusting	Yes	Neither	Island
+167	Brown	7.5	0	80000	7	Ravenclaw	23	Blue	Coffee	Disgusting	Yes	Both (ouch)	Island
+167	Brown	8.5	5	3500	0	Hufflepuff	27	Blue	Coffee	Disgusting	Yes	Neither	Island
+157.5	Brown	6.5	3	4000000	7	Ravenclaw	26	Green	Coffee	Yes	Yes	Neither	Island
+180	Blue	8.5	1	27763	7	Ravenclaw	27	Blue	Coffee	Disgusting	No	Neither	Island
+167	Brown	8.5	5	3500	0	Hufflepuff	27	Blue	Coffee	Disgusting	Yes	Neither	Island
+157	Brown	7	3	500000	7	Ravenclaw	24	Blue	Coffee	Yes	Yes	Grass	Island
+165	Brown	7	0	24000	7	Ravenclaw	75	Purple	Tea	Disgusting	Yes	Neither	Island
+182.88	Blue	10	2	12000	7	Hufflepuff	70	Orange	Coffee	Yes	Yes	Tree	Cabin
+172	Brown	8	1	50000	7	Ravenclaw	16	Blue	Coffee	Yes	Yes	Neither	Cabin
+179	Brown	10	1	18000000	0	Gryffindor	25	Blue	Tea	Yes	Yes	Neither	Cabin
+188	Brown	10.5	2	11000	5	Gryffindor	25	Blue	Coffee	Yes	Yes	Grass	Island
+160	Green	8	3	2000	7	Hufflepuff	22	Green	Tea	Disgusting	Yes	Neither	Island
+158	Blue	8.5	2	14485	7	Hufflepuff	19.4	Green	Coffee	Disgusting	Yes	Neither	Cabin
+155	Brown	7	3	81579	7	Ravenclaw	70	Blue	Tea	Yes	Yes	Neither	Island
+167	Brown	7	1	252551	4	Slytherin	19	Red	Coffee	Disgusting	No	Neither	Cabin
+187.96	Brown	7.5	1	131591	7	Hufflepuff	17.5	Blue	Coffee	Disgusting	Yes	Both (ouch)	Cabin
+172	Brown	8	1	45000	4	Gryffindor	28	Blue	Tea	Yes	No	Neither	Island
+239	Brown	9	5	20000	0	Slytherin	24	Blue	Tea	Yes	Yes	Neither	Island
+160.02	Green	6	1	8280	7	Ravenclaw	26.67	Green	Tea	Disgusting	Yes	Both (ouch)	Island
+66	Brown	8.5	2	3900000	0	Gryffindor	24	Blue	Tea	Yes	Yes	Neither	Island
+193	Brown	13	1	600000	7	Gryffindor	22	Blue	Coffee	Yes	Yes	Neither	Island
+173	Brown	10	2	1000000	5	Ravenclaw	23	Blue	Coffee	Disgusting	No	Neither	Island
+185	Blue	9	1	100000	7	Slytherin	21.1	Blue	Tea	Disgusting	No	Both (ouch)	Island
+173	Hazel	8.5	1	450000	7	Gryffindor	24	Orange	Tea	Yes	Yes	Neither	Island
+63	Brown	7.5	2	13387	0	Hufflepuff	21	Purple	Coffee	Yes	Yes	Tree	Island
+
