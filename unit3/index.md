@@ -48,11 +48,11 @@ Lab: [Unit 3: Lab 2](../unit3/labs.html)
 
 Reading:
 
-Functions: table(), prop.test(), binom.test(), chisq.test()
+Functions: `table()`, `prop.test()`, `binom.test()`, `chisq.test()`
 
 ## Lesson 3. How to calculate group-level stats in dataframes
 
-Lecture: [The Split-Apply-Combine approach](../unit3/group-means.html)
+Lecture: [The Split-Apply-Combine approach](../unit3/split-apply-combine.html)
 
 Learning Goals:
 
