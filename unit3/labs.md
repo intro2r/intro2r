@@ -31,11 +31,13 @@ Lab 3 and recap: 2018-10-12 23:58
 
   c. We sampled soil organic nitrogen content in 30 random plots across 4 different sites, and want to know whether average soil nitrogen differs between each site.
 
-  d. Our survey respondents answered either `yes` or `no` when asked whether they believed in anthropogenic climate change, and we want to know whether their age has an effect.
+  *For bonus points...* d. Our survey respondents answered either `yes` or `no` when asked whether they believed in anthropogenic climate change, and we want to know whether their age has an effect.
 
  
 
 ### 2) Read in the class survey data and answer the following questions.
+
+The class survey data are found on the [Data](http://www.intro2r.info/data/) page.
 
   a. Which variables are continuous?
 
