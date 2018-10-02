@@ -10,6 +10,177 @@ title: Testing Ratios
 *Type of Data*: Discrete, categorical (counts or frequencies)
 
 
+## How to calculate a ratio
+
+In the section, we are concerned with comparing counts, proportions, and ratios.
+
+In all the examples below, we are presented with the counts. But, how do we arrive at these values from our data?
+
+For small data set, it is straightforward to keep a running total of the counts in each group.
+
+For larger data, or for data where we have only the raw data, we will need to extract this summary information ourselves.
+
+R has several functions available for this purpose.
+
+Consider a sample factor: `x <- c(rep('A', times = 10), rep('B', times = 20), rep('C', times = 15))`, and a simple integer vector `y <- 1:length(x)`.
+
+### length()
+
+The `length()` function returns the number of elements in a vector.```
+
+
+We can calculate the total number of elements in x:
+```r
+length(x)
+```
+```
+[1] 45
+```
+
+Or, subsets of x:
+```r
+length(x[x == 'A'])
+```
+```
+[1] 10
+```
+
+Note that without subsetting, the length of x remains at the total length, because the logical statement returns a vector of equal length to x, of TRUE or FALSE, depending how each element of x satisfies that condition.
+```r
+length(x == 'A')
+```
+```
+[1] 45
+```
+
+We can also calculate the length of one column that satisfies logical conditions of any number of other columns.
+```r
+length(x[y < 10])
+```
+```
+[1] 9
+```
+
+### table()
+
+The function `length()` returns just one value.
+
+We can use`table()` to count up all instances of each level in a factor.
+```r
+table(x)
+```
+```
+x
+ A  B  C 
+10 20 15 
+```
+
+Or, the parts of x that match a logical condition (compare this to the similar use of `length()` above).
+```r
+table(x == 'A')
+```
+```
+FALSE  TRUE 
+   35    10 
+```
+
+Similarly, for a numeric vector.
+```r
+table(y > 20)
+```
+```
+FALSE  TRUE 
+   20    25 
+```
+
+
+If we subset, we can again return a single value.
+```r
+table(x[x == 'A'])
+```
+```
+ A 
+10 
+```
+
+We can also create multi-dimensional tables.
+```r
+table(x, y > 15)
+```
+```
+x   FALSE TRUE
+  A    10    0
+  B     5   15
+  C     0   15
+```
+
+### hist()
+
+The function `hist()` is used to create histograms.
+
+However, we can also use it to create a table of the number of counts in each of the bins (what `hist()` and also `barplot()` require).
+
+Let's generate a vector of 45 numbers from a Normal distribution: `z <- rnorm(n= 45)`.
+
+The usual use of `hist()` is to make a plot. However, we can change a default argument to `plot = FALSE`.
+
+```r
+hist(z, plot= FALSE)
+```
+```
+$breaks
+ [1] -2.5 -2.0 -1.5 -1.0 -0.5  0.0  0.5  1.0  1.5  2.0  2.5
+
+$counts
+ [1]  2  1  5  8  5 10  7  3  3  1
+
+$density
+ [1] 0.08888889 0.04444444 0.22222222 0.35555556 0.22222222 0.44444444
+ [7] 0.31111111 0.13333333 0.13333333 0.04444444
+
+$mids
+ [1] -2.25 -1.75 -1.25 -0.75 -0.25  0.25  0.75  1.25  1.75  2.25
+
+$xname
+[1] "z"
+
+$equidist
+[1] TRUE
+
+attr(,"class")
+[1] "histogram"
+```
+
+Above, you can see all the parts that are usually unseen in a call to `hist()`.
+
+The `$counts` section contains the number of elements in each bin. These are used to plot the histogram.
+
+We can access them directly.
+```r
+hist(z, plot= FALSE)$counts
+```
+```
+ [1]  2  1  5  8  5 10  7  3  3  1
+```
+
+We can modify the default `breaks = ` argument to either set the number of bins ...
+```r
+hist(z, plot= FALSE, breaks = 5)$counts
+```
+```
+[1]  2  6 13 17  6  1
+```
+
+... or the specific break points.
+```r
+hist(z, plot= FALSE, breaks = c(-3,0, 3))$counts
+```
+```
+[1] 21 24
+```
+
+
+
 ## One variable
 
 ### The probabilty of success in a Bernoulli/binomial experiment
