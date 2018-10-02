@@ -132,12 +132,42 @@ c. Do people with shoe sizes over 10 prefer pineapple on their pizza?
 
 ## Lab 3
 
+Use the `*apply()` group of functions to answer the following questions. 
 
-1. Michigan Tree Plot data. You may need to use google or the R help files…
+Each question should require only one line of code, once the data are read in.
 
-2. New Haven road race data
 
-3. Survey data
+### 1. Michigan tree plot data 
+
+Calculate:
+
+a. The mean and standard deviation of dbh of each species, for all trees.
+
+b. The mean and standard deviation of dbh of each species for alive and dead trees. 
+
+c. The number of trees of each species that are alive and dead.
+
+
+### 2. New Haven road race data
+
+Calculate:
+
+  a. Mean race time for all genders.
+
+  b. The fastest race time for each age class.
+
+  c. The number of runners in each age class-gender combination.
+  
+
+### 3. Class survey data
+
+Calculate:
+
+  a. The median shoe size of people in each House.
+  
+  b. The mean height of folks according to whether they prefer tea or coffee and whether they can roll their tongue.
+  
+  c. The maximum home town population of people according to their preferred vacation, pizza topping, and favorite color.
 
  - - -
 
