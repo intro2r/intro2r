@@ -6,10 +6,9 @@ title: Split-Apply-Combine
 
 # The Split-Apply-Combine Strategy for Data Analysis
 
- **Problem:** How to calculate mean tree DBH per species?
-
-
+ 
 ![](img/treeplot.png)
+**Figure 1.** A map of tree locations in a 1-ha plot. Each circle represents a stem, the size corresponds to the DBH, x- and y-axes are the position.
 
 
 
@@ -35,49 +34,20 @@ str(dat_tree)
 #  $ status  : int  1 1 1 0 1 1 1 0 1 1 ...
 ```
 
+### Problem: How to calculate mean tree DBH per species?
 
-## Solution 1: pull out data for each species at a time
+We can split the dataset up into chunks of rows based on species, and calculate mean DBH for each group.
 
- - tedious and time-consuming
- 
- - high chance of errors
- 
- 
-```r
-# subset out blackoak
-bo <-  dat_tree[dat_tree$species == "blackoak", ]
-
-head(bo)
-# x     y  species  dbh status
-# 1   0.078 0.091 blackoak 0.85      1
-# 2   0.076 0.266 blackoak 0.90      1
-# 3   0.051 0.225 blackoak 1.11      1
-# 4   0.015 0.366 blackoak 0.18      0
-# 5   0.030 0.426 blackoak 0.32      1
-# 6   0.102 0.474 blackoak 0.11      1
-
-mean(bo$dbh)
-# [1] 1.258519
-```
-
- 
-## Solution 2: run a loop
-
- - time-consuming and tedious
- 
- - lower chance of errors
+This is an example of the split-apply-combine approach to data analysis.
 
 
-
-## Solution 3: Split-apply-combine is a common data analysis pattern
+## Split-apply-combine is a common data analysis pattern
 
 **Split:** Break a big problem into manageable pieces
 
 **Apply:** operate on each piece independently
 
 **Combine:** stick pieces back together
-
-
 
 
 ### Examples of split-apply-combine
@@ -99,17 +69,37 @@ mean(bo$dbh)
 **Modelling**
 
  - fitting separate models for groups (= panel)
+
+
+With your current knowledge, we could do the following:
+
+## Solution 1: Subset data for each species at a time
+
+```r
+# subset out blackoak
+bo <-  dat_tree[dat_tree$species == "blackoak", ]
+
+head(bo)
+# x     y  species  dbh status
+# 1   0.078 0.091 blackoak 0.85      1
+# 2   0.076 0.266 blackoak 0.90      1
+# 3   0.051 0.225 blackoak 1.11      1
+# 4   0.015 0.366 blackoak 0.18      0
+# 5   0.030 0.426 blackoak 0.32      1
+# 6   0.102 0.474 blackoak 0.11      1
+
+mean(bo$dbh)
+# [1] 1.258519
+```
+
+*But*, given that we are repeating many of the same steps, this is both tedious and time-consuming, and also increases the chance of errors creeping in to our code.
+
  
+## Solution 2: The *apply group of functions
 
+R has several handy-dandy functions that do this process of splitting the dataset into chunks, applying a calculation, and combining the answers together again.
 
-
-### Equivalents in other software
-
-Excel pivot tables
-
-APL's array operators
-
-SQL 'group by operator'
+*Equivalents in other software*: Excel pivot tables, APL's array operators, SQL 'group by operator'.
 
 
 ## The *apply group of functions
