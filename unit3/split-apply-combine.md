@@ -112,7 +112,7 @@ R has several handy-dandy functions that do this process of splitting the datase
 
 For when you want to apply a function to subsets of a vector and the subsets are defined by some other vector, usually a factor
 
-`tapply()` has three arguments.
+`tapply()` has three main arguments.
 
   - `X`: the column of numeric data,
   
@@ -155,15 +155,20 @@ whiteoak  3.648913 3.858632
 
 
 
-
-
-
-
 ### apply()
 
 *Works on*: matrix, array.
 
 When you want to apply a function to the rows or columns of a matrix (and higher-dimensional analogues).
+
+
+`apply()` has three main arguments.
+
+  - `X`: an array or matrix,
+  
+  - `MARGIN`: a vector where `1` indicates rows, `2` indicates columns, and `c(1, 2)` indicates rows and columns,
+  
+  - `FUN`: the function to be applied.
 
 ```r
 # Two dimensional matrix
@@ -196,6 +201,13 @@ If you want row/column means or sums for a 2D matrix, look at highly optimized, 
 *Works on*: lists (incl. dataframes)
 
 When you want to apply a function to each element of a list in turn and get a list back. 
+
+
+`lapply()` has two main arguments.
+
+  - `X`: a vector (atomic or list),
+  
+  - `FUN`: the function to be applied to each element of `X`.
 
 ```r
 x <- list(a = 1, b = 1:3, c = 10:100) 
@@ -239,6 +251,15 @@ $c
 *Works on*: lists
 
 When you want to apply a function to each element of a list in turn, but you want a vector back, rather than a list.
+
+
+
+`sapply()` has two main arguments.
+
+  - `X`: a vector (atomic or list),
+  
+  - `FUN`: the function to be applied to each element of `X`.
+
 
 ```r
 x <- list(a = 1, b = 1:3, c = 10:100)
