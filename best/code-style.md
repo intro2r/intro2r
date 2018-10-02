@@ -261,6 +261,8 @@ x <- 1:10
 x = 1:10
 ```
 
+See [here](https://stackoverflow.com/questions/1741820/what-are-the-differences-between-and-in-r?rq=1) for lots of gory details and discussion.
+
 
 ## 7. Semicolons
 
