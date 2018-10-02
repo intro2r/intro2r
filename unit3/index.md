@@ -84,7 +84,7 @@ Functions: `apply()`, `tapply()`, `sapply()`, `lapply()`
 
 Lecture: [t-tests and ANOVAS](../unit3/testing-populations.html)
 
-Best Practice: [Writing](../best/writing/html)
+Best Practice: [Writing](../best/writing.html)
 
 Learning Goals:
 
