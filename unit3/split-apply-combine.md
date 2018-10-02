@@ -121,7 +121,7 @@ For when you want to apply a function to subsets of a vector and the subsets are
   - `FUN`: the function to be applied.
 
 ```r
-tapply(dat_tree$dbh, dat_tree$species, mean)
+tapply(X = dat_tree$dbh, INDEX = dat_tree$species, FUN = mean)
 ```
 ```
 blackoak  hickory    maple     misc   redoak whiteoak 
