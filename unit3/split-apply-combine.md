@@ -112,46 +112,47 @@ R has several handy-dandy functions that do this process of splitting the datase
 
 For when you want to apply a function to subsets of a vector and the subsets are defined by some other vector, usually a factor
 
+`tapply()` has three arguments.
+
+  - `X`: the column of numeric data,
+  
+  - `INDEX`: one or more factors,
+  
+  - `FUN`: the function to be applied.
 
 ```r
-z <- data.frame(x = 1:20,
-                 y = factor(rep(letters[1:5], each = 4))
-                 )
+tapply(dat_tree$dbh, dat_tree$species, mean)
+```
+```
+blackoak  hickory    maple     misc   redoak whiteoak 
+1.258519 2.124154 3.025350 3.394286 9.991156 3.837098 
+```
 
-z
-    x y
-1   1 a
-2   2 a
-3   3 a
-4   4 a
-5   5 b
-6   6 b
-7   7 b
-8   8 b
-9   9 c
-10 10 c
-11 11 c
-12 12 c
-13 13 d
-14 14 d
-15 15 d
-16 16 d
-17 17 e
-18 18 e
-19 19 e
-20 20 e
+Any arguments to the function can be included.
+```r
+tapply(dat_tree$dbh, dat_tree$species, mean, na.rm = TRUE)
+```
+```
+blackoak  hickory    maple     misc   redoak whiteoak 
+1.258519 2.124154 3.025350 3.394286 9.991156 3.837098
 ```
 
 
-
+You can split the dataframe according to any number of columns, by putting them inside a list.
 ```r
-# Add up the values of x 
-#   within each subgroup defined by y:
-
-tapply(z$x, z$y, sum)  
- a  b  c  d  e  
-10 26 42 58 74 
+tapply(dat_tree$dbh, list(dat_tree$species, dat_tree$status), mean)
 ```
+```
+                 0        1
+blackoak  1.217500 1.265652
+hickory   2.339538 2.102210
+maple     3.148750 3.010262
+misc      4.347500 3.315670
+redoak   10.002000 9.989739
+whiteoak  3.648913 3.858632
+```
+
+
 
 
 
