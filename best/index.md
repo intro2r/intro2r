@@ -29,9 +29,9 @@ Here, we will illustrate principles and practical tips for working (mostly in R)
  - More details on how to design your data files.
  
  
- ## Writing
+## Writing
  
- ### [Resources on Writing](../best/writing.html)
+### [Resources on Writing](../best/writing.html)
  
   - Resources to help you think and write well and productively.
  
