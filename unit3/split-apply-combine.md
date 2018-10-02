@@ -69,7 +69,7 @@ mean(bo$dbh)
 
 
 
-## Split-apply-combine is a common data analysis pattern
+## Solution 3: Split-apply-combine is a common data analysis pattern
 
 **Split:** Break a big problem into manageable pieces
 
@@ -116,6 +116,8 @@ SQL 'group by operator'
 
 ### `apply()`
 
+*Works on*: matrix, array.
+
 When you want to apply a function to the rows or columns of a matrix (and higher-dimensional analogues).
 
 ```r
@@ -145,6 +147,8 @@ If you want row/column means or sums for a 2D matrix, look at highly optimized, 
 
 
 ### `lapply()`
+
+*Works on*: list
 
 When you want to apply a function to each element of a list in turn and get a list back. 
 
@@ -187,6 +191,8 @@ $c
 
 ### `sapply()`
 
+*Works on*: list
+
 When you want to apply a function to each element of a list in turn, but you want a vector back, rather than a list.
 
 ```r
@@ -225,6 +231,8 @@ a    b    c
 
 
 ### `tapply()`
+
+*Works on*: vectors and factors (usually in a dataframe)
 
 For when you want to apply a function to subsets of a vector and the subsets are defined by some other vector, usually a factor
 
