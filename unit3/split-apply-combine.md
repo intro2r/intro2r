@@ -8,7 +8,8 @@ title: Split-Apply-Combine
 
  
 ![](img/treeplot.png)
-**Figure 1.** A map of tree locations in a 1-ha plot. Each circle represents a stem, the size corresponds to the DBH, x- and y-axes are the position.
+
+**Figure 1.** A map of tree locations in a 1-ha plot. Each circle represents a stem, color indicates species, the size corresponds to the DBH, x- and y-axes are the position.
 
 
 
@@ -104,123 +105,8 @@ R has several handy-dandy functions that do this process of splitting the datase
 
 ## The *apply group of functions
 
-### `apply()`
 
-*Works on*: matrix, array.
-
-When you want to apply a function to the rows or columns of a matrix (and higher-dimensional analogues).
-
-```r
-# Two dimensional matrix
-M <- matrix(seq(1,16), 4, 4)
-
-M
-     [,1] [,2] [,3] [,4]
-[1,]    1    5    9   13
-[2,]    2    6   10   14
-[3,]    3    7   11   15
-[4,]    4    8   12   16
-
-# apply min to rows
-apply(M, 1, min)
-[1] 1 2 3 4
-
-# apply max to columns
-apply(M, 2, max)
-[1]  4  8 12 16
-```
-
-Not generally advisable for data frames as it will coerce to a matrix first.
-
-If you want row/column means or sums for a 2D matrix, look at highly optimized, lightning-quick ``` colMeans() ```, ``` rowMeans() ```, ``` colSums() ```, ``` rowSums() ```
-
-
-
-### `lapply()`
-
-*Works on*: list
-
-When you want to apply a function to each element of a list in turn and get a list back. 
-
-```r
-x <- list(a = 1, b = 1:3, c = 10:100) 
-
-x
-$a
-[1] 1
-
-$b
-[1] 1 2 3
-
-$c
- [1]  10  11  12  13  14  15  ... 100
- 
-```
-
-
-
-```r 
-lapply(x, FUN = length) 
-$a 
-[1] 1
-$b 
-[1] 3
-$c 
-[1] 91
-
-lapply(x, FUN = sum) 
-$a 
-[1] 1
-$b 
-[1] 6
-$c 
-[1] 5005
-```
-
-
-
-### `sapply()`
-
-*Works on*: list
-
-When you want to apply a function to each element of a list in turn, but you want a vector back, rather than a list.
-
-```r
-x <- list(a = 1, b = 1:3, c = 10:100)
-
-# Compare with above; a named vector, not a list 
-sapply(x, FUN = length)  
-a  b  c   
-1  3 91
-
-sapply(x, FUN = sum)   
-a    b    c    
-1    6 5005 
-```
-
-
-
-```r
-# lapply:
-lapply(x, FUN = sum) 
-$a 
-[1] 1
-$b 
-[1] 6
-$c 
-[1] 5005
-
-# sapply:
-
-sapply(x, FUN = sum)   
-a    b    c    
-1    6 5005 
-```
-
-
-
-
-### `tapply()`
+### tapply()
 
 *Works on*: vectors and factors (usually in a dataframe)
 
@@ -268,6 +154,122 @@ tapply(z$x, z$y, sum)
 ```
 
 
+
+
+
+
+### apply()
+
+*Works on*: matrix, array.
+
+When you want to apply a function to the rows or columns of a matrix (and higher-dimensional analogues).
+
+```r
+# Two dimensional matrix
+M <- matrix(seq(1,16), 4, 4)
+
+M
+     [,1] [,2] [,3] [,4]
+[1,]    1    5    9   13
+[2,]    2    6   10   14
+[3,]    3    7   11   15
+[4,]    4    8   12   16
+
+# apply min to rows
+apply(M, 1, min)
+[1] 1 2 3 4
+
+# apply max to columns
+apply(M, 2, max)
+[1]  4  8 12 16
+```
+
+Not generally advisable for data frames as it will coerce to a matrix first.
+
+If you want row/column means or sums for a 2D matrix, look at highly optimized, lightning-quick ``` colMeans() ```, ``` rowMeans() ```, ``` colSums() ```, ``` rowSums() ```
+
+
+
+### lapply()
+
+*Works on*: lists (incl. dataframes)
+
+When you want to apply a function to each element of a list in turn and get a list back. 
+
+```r
+x <- list(a = 1, b = 1:3, c = 10:100) 
+
+x
+$a
+[1] 1
+
+$b
+[1] 1 2 3
+
+$c
+ [1]  10  11  12  13  14  15  ... 100
+ 
+```
+
+
+
+```r 
+lapply(x, FUN = length) 
+$a 
+[1] 1
+$b 
+[1] 3
+$c 
+[1] 91
+
+lapply(x, FUN = sum) 
+$a 
+[1] 1
+$b 
+[1] 6
+$c 
+[1] 5005
+```
+
+
+
+### sapply()
+
+*Works on*: lists
+
+When you want to apply a function to each element of a list in turn, but you want a vector back, rather than a list.
+
+```r
+x <- list(a = 1, b = 1:3, c = 10:100)
+
+# Compare with above; a named vector, not a list 
+sapply(x, FUN = length)  
+a  b  c   
+1  3 91
+
+sapply(x, FUN = sum)   
+a    b    c    
+1    6 5005 
+```
+
+
+
+```r
+# lapply:
+lapply(x, FUN = sum) 
+$a 
+[1] 1
+$b 
+[1] 6
+$c 
+[1] 5005
+
+# sapply:
+
+sapply(x, FUN = sum)   
+a    b    c    
+1    6 5005 
+```
 
 
 
