@@ -46,7 +46,7 @@ Lecture: [Testing ratios and tabulating data](../unit3/testing-ratios.html)
 
 Learning Goals:
 
- - Use of `table()`,
+ - Use of `table()` and `hist()`,
  - Convert continuous data to groups,
  - Run simple sign, proportion, binomial, and Chi-square tests.
 
