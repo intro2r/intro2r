@@ -121,7 +121,7 @@ was done to see if the proportion of fish types is consistent with previous year
 
 Have the proportions of each species changed?
 
-### 3. Using the class survey data: 
+### 5. Using the class survey data: 
 
 a. Is the ratio of people who like tea to coffee 50:50?
   
