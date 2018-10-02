@@ -9,14 +9,16 @@ title: Testing Ratios
 
 *Type of Data*: Discrete, categorical (counts or frequencies)
 
+*Use*: testing counts, proportions, and ratios; plotting barplots and histograms.
+
 
 ## How to calculate a ratio
 
-In the section, we are concerned with comparing counts, proportions, and ratios.
+In this section, we are concerned with comparing counts, proportions, and ratios.
 
 In all the examples below, we are presented with the counts. But, how do we arrive at these values from our data?
 
-For small data set, it is straightforward to keep a running total of the counts in each group.
+For small data sets, it is straightforward to keep a running total of the counts in each group.
 
 For larger data, or for data where we have only the raw data, we will need to extract this summary information ourselves.
 
@@ -179,6 +181,13 @@ hist(z, plot= FALSE, breaks = c(-3,0, 3))$counts
 [1] 21 24
 ```
 
+In contrast to `table()`, hist *requires* a numeric vector.
+```r
+hist(x)
+```
+```
+Error in hist.default(x) : 'x' must be numeric
+```
 
 
 ## One variable
