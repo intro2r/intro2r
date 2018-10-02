@@ -77,6 +77,8 @@ Lab: [Unit 3: Lab 3](../unit3/labs.html)
 
 Reading: Wickham, H. 2001. [The Split-Apply-Combine Strategy for Data Analysis](https://www.jstatsoft.org/article/view/v040i01/v40i01.pdf). *Journal of Statistical Software* 40. 
 
+ - (This paper describes the idea and principles, but also a specific R package (plyr) that we do not cover).
+
 Functions: `apply()`, `tapply()`, `sapply()`, `lapply()`
 
 
