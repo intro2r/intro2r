@@ -50,7 +50,7 @@ Learning Goals:
  - Convert continuous data to groups,
  - Run simple sign, proportion, binomial, and Chi-square tests.
 
-SWIRL: [Testing Ratios](../unit3/swirl/testing-ratios.html)
+SWIRL: [Testing Ratios](../unit3/swirl/Testing_Ratios.html)
 
 Lab: [Unit 3: Lab 2](../unit3/labs.html)
 
