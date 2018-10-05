@@ -80,7 +80,7 @@ b. From the Michigan tree data:
 
   i. the number of trees in each species,
   
-  ii. the number of trees greater and less than 1-m,
+  ii. the number of trees greater and less than 1 meter dbh,
   
   iii. the number of trees per species that are alive versus dead.
 
@@ -92,7 +92,7 @@ c. From the class survey data:
   
   iii. the number of people of each eye colour and House,
   
-  iv. the number of people less than 1 m, 1--2 m, and >2 m tall,
+  iv. the number of people less than 1 meter, 1--2 meters, and >2 meters tall,
   
   v. the number of people who can roll/not their tongue and number of siblings.
  
