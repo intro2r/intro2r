@@ -42,7 +42,7 @@ Functions: `qqplot()`, `ks.test()`, `shapiro.test()`, `bartlett.test()`
 
 ## Lesson 2. How to compare counts between groups
 
-Lecture: [Testing ratios and tabulating data](../unit3/Testing_Ratios.html)
+Lecture: [Testing ratios and tabulating data](../unit3/testing-ratios.html)
 
 Learning Goals:
 
@@ -84,7 +84,7 @@ Functions: `apply()`, `tapply()`, `sapply()`, `lapply()`
 
 ## Lesson 4. How to compare means from different groups or populations
 
-Lecture: [t-tests and ANOVAS](../unit3/Testing_Populations.html)
+Lecture: [t-tests and ANOVAS](../unit3/testing-populations.html)
 
 Best Practice: [Writing](../best/writing.html)
 
@@ -95,7 +95,7 @@ Learning Goals:
  - Extract details from model output,
  - Plot these data with boxplots and barplots.
 
-SWIRL: [Testing Populations](../unit3/swirl/testing-populations.html)
+SWIRL: [Testing Populations](../unit3/swirl/Testing_Populations.html)
 
 Lab: [Unit 3: Recap](../unit3/labs.html)
 
