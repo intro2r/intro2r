@@ -79,15 +79,15 @@ In contrast to temporal and spatial autocorrelation, sequential autocorrelation 
 
 
 ## How to choose a Test: Table!
-
-| No. variables | Response:      | 1                         |                     |                                       |                                                    | >1                 |
-|---------------|----------------|---------------------------|---------------------|---------------------------------------|----------------------------------------------------|--------------------|--------------------|
-                    |
-|               | Predictor type | factor                       | factor                 | numeric                                   | numeric                                                | numeric                | factor                |
-| Predictors    | Response type  | factor                       | numeric                 | numeric                                   | factor                                                | numeric                | numeric                |
-| 1             |                | binom.test()              | hist()              | regression, lm();  correlation, cor() | logistic regression, glm(), multinomial regression | multivariate stats | multivariate stats |
+| No. variables | Response:      | 1           |                 |                 |                             | >1                 |                    |
+|---------------|----------------|-------------|-----------------|-----------------|-----------------------------|--------------------|--------------------|
+|               | Predictor type | factor      | factor          | numeric         | numeric                     | numeric            | factor             |
+| Predictors    | Response type  | factor      | numeric         | numeric         | factor                      | numeric            | numeric            |
+|---------------|----------------|-------------|-----------------|-----------------|-----------------------------|--------------------|--------------------|
+| 1             |                | binom.test()| hist()          | regression, lm();  correlation, cor() | logistic regression, glm(), multinomial regression | multivariate stats | multivariate stats |
 | 2             |                | prop.test(), chisq.test() | t.test()            | multiple regression, lm()             | logistic regression, glm(), multinomial regression | multivariate stats | multivariate stats |
 | >2            |                | prop.test(), chisq.test() | ANOVA,  aov(), lm() | multiple regression, lm()             | logistic regression, glm(), multinomial regression | multivariate stats | multivariate stats |
+
 {: .table table-bordered .table-striped}
 
 ## How to Choose a Test: Flowcharts!
