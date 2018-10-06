@@ -79,6 +79,7 @@ In contrast to temporal and spatial autocorrelation, sequential autocorrelation 
 
 
 ## How to choose a Test: Table!
+
 | No. variables | Response:      | 1           |          |          |          | >1                |               |
 |---------  |----------  |--------   |-----------  |---------  |-------------------  |------------  |-------------  |
 |               | Predictor type | factor      | factor          | numeric         | numeric                     | numeric            | factor             |
