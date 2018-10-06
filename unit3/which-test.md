@@ -80,13 +80,13 @@ In contrast to temporal and spatial autocorrelation, sequential autocorrelation 
 
 ## How to choose a Test: Table!
 
-| No. variables | Response     | 1   |             |           |                      | >1          |               |
-|---------  |----------  |--------   |-----------  |---------  |-------------------   |-----------  |-------------  |
-|     | **Response type:**  | *factor*  | *numeric*      | *numeric*     | *factor*  | *numeric*   | *numeric*  |
-| **Predictors**     | **Predictor type:** | *factor*    | *factor*   | *numeric*  | *numeric*  | *numeric*   | *factor*    |
-| **1**             |                | `binom.test()` | `mean()`, `sd()`, `hist()`          | regression, `lm()`;  correlation, `cor()` | generalized linear model (logistic, Poisson, etc), `glm()` | multivariate stats | multivariate stats |
-| **2**             |                | `prop.test()`, `chisq.test()` | `t.test()`            | multiple regression, `lm()`             | generalized linear model (logistic, Poisson, etc), `glm()` | multivariate stats | multivariate stats |
-| **>2**            |                | `prop.test()`, `chisq.test()` | ANOVA,  `aov()`, `lm()` | multiple regression, `lm()`             | generalized linear model (logistic, Poisson, etc), `glm()` | multivariate stats | multivariate stats |
+| No. variables | Response     | 1   |             |           |           |           | >1          |               |
+|---------  |----------  |--------   |-----------  |---------  |------------------- |---   |-----------  |-------------  |
+|     | **Response type:**  | *factor*  | *numeric*      | *numeric*     | *binomial*  | *count* | *numeric*   | *numeric*  |
+| **Predictors**     | **Predictor type:** | *factor*    | *factor*   | *numeric*  | *fac/num* | *fac/num* | *numeric*   | *factor*    |
+| **1**             |                | `binom.test()` | `mean()`, `sd()`, `hist()`          | regression, `lm()`;  correlation, `cor()` | generalized linear model (logistic), `glm( ..., family = 'binomial')` | generalized linear model (Poisson), `glm( ..., family = 'Poisson')` | multivariate stats | multivariate stats |
+| **2**             |                | `prop.test()`, `chisq.test()` | `t.test()`            | multiple regression, `lm()`             | generalized linear model (logistic), `glm( ..., family = 'binomial')` | generalized linear model (Poisson), `glm( ..., family = 'Poisson')` | multivariate stats | multivariate stats |
+| **>2**            |                | `prop.test()`, `chisq.test()` | ANOVA,  `aov()`, `lm()` | multiple regression, `lm()`             | generalized linear model (logistic), `glm( ..., family = 'binomial')` | generalized linear model (Poisson), `glm( ..., family = 'Poisson')` | multivariate stats | multivariate stats |
 {: .table table-bordered .table-striped}
 
 ## How to Choose a Test: Flowcharts!
