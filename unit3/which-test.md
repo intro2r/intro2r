@@ -82,8 +82,8 @@ In contrast to temporal and spatial autocorrelation, sequential autocorrelation 
 
 | No. variables | Response     | 1   |             |           |                      | >1          |               |
 |---------  |----------  |--------   |-----------  |---------  |-------------------   |-----------  |-------------  |
-|           | **Predictor type:** | *factor*    | *factor*   | *numeric*  | *numeric*  | *numeric*   | *factor*    |
-| **Predictors**    | **Response type:**  | *factor*  | *numeric*      | *numeric*     | *factor*  | *numeric*   | *numeric*  |
+|     | **Response type:**  | *factor*  | *numeric*      | *numeric*     | *factor*  | *numeric*   | *numeric*  |
+| **Predictors**     | **Predictor type:** | *factor*    | *factor*   | *numeric*  | *numeric*  | *numeric*   | *factor*    |
 | **1**             |                | `binom.test()` | `hist()`          | regression, `lm()`;  correlation, `cor()` | logistic regression, `glm()`, multinomial regression | multivariate stats | multivariate stats |
 | **2**             |                | `prop.test()`, `chisq.test()` | `t.test()`            | multiple regression, `lm()`             | logistic regression, `glm()`, multinomial regression | multivariate stats | multivariate stats |
 | **>2**            |                | `prop.test()`, `chisq.test()` | ANOVA,  `aov()`, `lm()` | multiple regression, `lm()`             | logistic regression, `glm()`, multinomial regression | multivariate stats | multivariate stats |
