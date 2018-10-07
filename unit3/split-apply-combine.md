@@ -105,6 +105,19 @@ R has several handy-dandy functions that do this process of splitting the datase
 
 ## The *apply group of functions
 
+## Calculate over all/subsets of columns or rows
+
+| Species   | DBH1      | DBH2      | DBH3      | `apply()`              | `tapply()`      |
+|-----------|-----------|-----------|-----------|------------------------|-----------------|
+| A         | 11        | 11        | 12        | mean(DBH1, DBH2, DBH3) |  mean DBH1 of A |
+| A         | 13        | 14        | 15        | mean(DBH1, DBH2, DBH3) |                 |
+| B         | 10        | 10        | 12        | mean(DBH1, DBH2, DBH3) | mean DBH1 of B  |
+| B         | 9         | 10        | 11        | mean(DBH1, DBH2, DBH3) |                 |
+| B         | 14        | 115       | 17        | mean(DBH1, DBH2, DBH3) |                 |
+| `apply()` | sum(DBH1) | sum(DBH2) | sum(DBH3) |                        |                 |
+{: .table table-bordered .table-striped}
+
+
 
 ### tapply()
 
