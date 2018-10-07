@@ -23,7 +23,7 @@ BirdData <- data.frame(
             )
 ```
             
-To display these data, we can use a histogram (*good for one sample*), barplot (*ok ...*), or boxplot (*better ... *), or a dotplot (*even better ...*), or a combined dot-boxplot or overlapping histograms (*the best!*).
+To display these data, we can use a histogram (*good for one sample*), barplot (*ok ...*), or boxplot (*better ...*), or a dotplot (*even better ...*), or a combined dot-boxplot or overlapping histograms (*the best!*).
 
 
             
