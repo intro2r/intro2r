@@ -12,6 +12,7 @@ title: Split-Apply-Combine
 **Figure 1.** A map of tree locations in a 1-ha plot. Each circle represents a stem, color indicates species, the size corresponds to the DBH, x- and y-axes are the position.
 
 
+Here are the data:
 
 ```r
 head(dat_tree)
