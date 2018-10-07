@@ -29,6 +29,13 @@ To display these data, we can use a histogram (*good for one sample*), barplot (
             
             
 ## One sample
+
+```r
+hist(BirdData$Tarsus)
+abline(v = 20, lwd = 2, col = 'red')
+```
+
+![](http://www.intro2r.info/unit3/img/BirdHist.png)
             
 ### t-test: `t.test(x = , mu = )`
 
@@ -60,6 +67,18 @@ The `p = 0.01351` suggests that our sparrows are different.
             
             
 ## Two samples
+
+```r
+par(mfrow = c(1, 4), cex = 1.25)
+barplot( tapply(BirdData$Tarsus, BirdData$Species, mean))
+boxplot(BirdData$Tarsus ~ BirdData$Species)
+dotchart(BirdData$Tarsus, BirdData$Species)
+boxplot(BirdData$Tarsus ~ BirdData$Species)
+points(x = jitter(as.numeric(BirdData$Species)), y = BirdData$Tarsus)
+```
+
+![](http://www.intro2r.info/unit3/img/BirdTtest.png)
+
 
 ### Independent two-sample t-test: `t.test(x = , y = )`
 
