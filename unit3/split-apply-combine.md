@@ -7,7 +7,7 @@ title: Split-Apply-Combine
 # The Split-Apply-Combine Strategy for Data Analysis
 
  
-![](img/treeplot.png)
+![](http://www.intro2r.info/unit3/img/treeplot.png)
 
 **Figure 1.** A map of tree locations in a 1-ha plot. Each circle represents a stem, color indicates species, the size corresponds to the DBH, x- and y-axes are the position.
 
