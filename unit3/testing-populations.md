@@ -284,7 +284,7 @@ segments(x0 = MidPoints, x1 = MidPoints,
          y0 = MeanTarsus + SDTarsus, y1 = MeanTarsus - SDTarsus)
 ```
 
-![]()
+![](http://www.simonqueenborough.info/R/statistics/figure/unnamed-chunk-10-1.png)
 *Differences in Tarsus length measured by different Observers*
 
 The function `aov()` runs the ANOVA model. We need to provide a `formula = ` argument, and can also give a `data = `.
