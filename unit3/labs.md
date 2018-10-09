@@ -174,22 +174,29 @@ Calculate:
 
 ## Lab 4
 
-Use the sparrow data
+Use the sparrow data (see the Data page).
 
-1. Read in and evaluate data
-  a. Check assumptions/for data abnormalities
-  b. Make histograms
+Read in the data.
 
-2. Answer the following questions
-  a. Is there a skewed gender ratio, and make a plot to visualize
-  b. Are there equal number of adults and juveniles, and make a plot to visualize
+### 1. Is there a skewed gender ratio between males and females for all the sparrows pooled? 
 
-3. Answer the following questions
-  a. Tarsus in females vs males, show with boxplot and barplot
-  b. Head size in adults vs juveniles, show with boxplot and barplot
-  c. Wing size by observer, post hoc tests to identify problem observers
-  d. Anatomy measuring by both species and sex, is there an interaction and what is it telling you
-  e. Compare means of the four combinations of variables
+Perform the appropriate test, and create an appropriate plot to visualize. The barplot() function may be helpful here.
+
+### 2. Do the two species have different gender ratios? 
+
+Perform the appropriate test.
+
+### 3. Is there a difference in tarsus size between species? 
+
+Check assumptions, perform the appropriate test, and create an appropriate plot to visualize. 
+
+### 4. Was there an influence of observer on culmen measurements? If so, which observers had significantly different measurements from each other? 
+
+Check assumptions and perform the appropriate test. Be sure that your observer variable is properly encoded as a factor. 
+
+### 5. Is there an interaction between Sex and Species on Culmen size? 
+
+Perform the appropriate test and, if so, interpret the model coefficients. 
 
 
  
