@@ -87,5 +87,10 @@ Data on the presence/absence of mammals on (most) of the islands of the Galapago
 
 [download](../data/class_survey.txt)
 
+### Sparrows
+
+[download](../data/sparrows.txt)
+
+
 
  
