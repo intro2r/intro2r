@@ -196,7 +196,7 @@ Check assumptions and perform the appropriate test. Be sure that your observer v
 
 ### 5. Is there an interaction between Sex and Species on Culmen size? 
 
-Perform the appropriate test and, if so, interpret the model output. Run a post-hoc test if needed.
+Perform the appropriate test and interpret the model output. Run a post-hoc test if needed.
 
 
  
