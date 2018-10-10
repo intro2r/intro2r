@@ -313,6 +313,8 @@ a    b    c
 
 ## Other resources
 
+Crawley, M. *The R Book*. Ch. 6 Tables.
+
 https://nsaunders.wordpress.com/2010/08/20/a-brief-introduction-to-apply-in-r/
 
 https://stackoverflow.com/questions/3505701/grouping-functions-tapply-by-aggregate-and-the-apply-family
