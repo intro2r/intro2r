@@ -485,3 +485,7 @@ Agresti, A. 2002. Categorical Data Analysis. Wiley. [Amazon](https://www.amazon.
 
 Thompson, L. 2006. S-Plus (and R) *Manual to Accompany Agresti's Categorical Data Analysis *(2002) [2nd edition](http://statweb.stanford.edu/~owen/courses/306a/Splusdiscrete2.pdf).
 
+Crawley, M. *The R Book*. Ch. 8 Classical Tests
+
+
+
