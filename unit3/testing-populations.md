@@ -7,14 +7,28 @@ title: Testing Populations
 
 We use the following methods to test whether samples are drawn from populations with different means, or test whether one sample is drawn from a population with a mean different from some theoretical mean.
 
-*Functions*: `t.test()`, `wilcox.test()`
+## Type of data
 
-*Type of data*: Integer or continuous in two or more groups.
+*Response:* Integer or continuous
+
+*Predictor/s*: Categorical
+
+
+## Choosing a test
+
+1. One sample of continuous data: Compare to a known value, `hist()`, `mean()`, `sd()`
+
+2. Two samples of continuous data from two groups: T-test, `t.test()`
+
+3. Samples of continuous data from more than two groups and/or two predictors: ANOVA, `aov()`
+
+
+## Examples
 
 We can continue to use the small bird data...
 
 ```r
-BirdData <- data.frame(
+1BirdData <- data.frame(
             Tarsus  = c(22.3, 19.7, 20.8, 20.3, 20.8, 21.5, 20.6, 21.5),
             Head    = c(31.2, 30.4, 30.6, 30.3, 30.3, 30.8, 32.5, 31.6),
             Weight  = c(9.5, 13.8, 14.8, 15.2, 15.5, 15.6, 15.6, 15.7),
