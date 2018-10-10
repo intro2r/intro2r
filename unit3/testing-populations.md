@@ -16,7 +16,7 @@ We use the following methods to test whether samples are drawn from populations 
 
 ## Choosing a test
 
-1. One sample of continuous data: Compare to a known value, `hist()`, `mean()`, `sd()`
+1. One sample of continuous data: Compare to a known value, `hist()`, `mean()`, `sd()`, `t.test()`
 
 2. Two samples of continuous data from two groups: T-test, `t.test()`
 
