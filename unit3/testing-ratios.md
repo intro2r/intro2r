@@ -271,7 +271,7 @@ We would use a two-tailed test if we wanted to know whether the die rolled too m
 
 ### Comparing direction: the sign test
 
-We can also use this same test to compare outcomes that we can see but cannot (or do not) measure, when it is called the [sign test]9https://en.wikipedia.org/wiki/Sign_test). The sign test is essentially a special case of the binomial test where the probability of success under the null hypothesis is p = 0.5.
+We can also use this same test to compare outcomes that we can see but cannot (or do not) measure, when it is called the [sign test](https://en.wikipedia.org/wiki/Sign_test). The sign test is essentially a special case of the binomial test where the probability of success under the null hypothesis is p = 0.5.
 
 It is often used to compare paired samples before and after some intervention, for example we could ask whether people felt better or worse after taking some cold medicine.
 
