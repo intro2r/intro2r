@@ -463,6 +463,16 @@ posthoc
 ## Male-Female 0.5802367 0.4951247 0.6653487     0                       
 ```                       
                        
+                       
+## Reading
+ 
+Crawley, M. *The R Book*. Ch.8 Classical Tests 
+
+Crawley, M. *The R Book*. Ch.11 Analysis of Variance 
+ 
+ 
+ 
+ 
  - - -
             
             
