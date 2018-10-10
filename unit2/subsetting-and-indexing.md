@@ -562,6 +562,9 @@ row1         i  1  5  9    9
 
 - - -
 
+Crawley, M. *The R Book.* Ch. 4 Dataframes
+
+
 More details and advanced details on subsetting:
 
 Hadley Wickham's [Advanced R: Subsetting](http://adv-r.had.co.nz/Subsetting.html)
