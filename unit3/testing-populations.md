@@ -42,7 +42,7 @@ To display these data, we can use a histogram (*good for one sample*), barplot (
 
             
             
-## One sample
+## 1. One sample
 
 ```r
 hist(BirdData$Tarsus)
@@ -80,7 +80,7 @@ t.test(BirdData$Tarsus, mu = 20)
 The `p = 0.01351` suggests that our sparrows are different.
             
             
-## Two samples
+## 2. Two samples
 
 ```r
 par(mfrow = c(1, 4), cex = 1.25)
@@ -234,7 +234,7 @@ wilcox.test(x = BirdData$Tarsus[BirdData$Species == 'A'],
 ## alternative hypothesis: true location shift is not equal to 0
 ```
          
-## More than two samples
+## 3. More than two samples
          
 ### Analysis of Variance
 
@@ -393,7 +393,7 @@ A more detailed calculation of ANOVA in R is provided here
   
             
             
-## Post-hoc tests: TukeyHSD
+### Post-hoc tests: TukeyHSD
 
 To compare the significant difference across all the group means 
 [Tukeys Honest Significant Differences](https://en.wikipedia.org/wiki/Tukey%27s_range_test) 
