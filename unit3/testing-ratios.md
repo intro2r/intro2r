@@ -189,6 +189,16 @@ hist(x)
 Error in hist.default(x) : 'x' must be numeric
 ```
 
+## Choosing a Test
+
+| No. Variables  |  No. levels   | Test             |
+|-----           |-------        |----------        |
+|   1            |    2          | `binom.test()`, `chisq.test()`   |
+|   2            |    2          | `prop.test()`, `chisq.test()`, `fisher.test()`    |
+|   >2           |    >2         | `chisq.test()`    |
+{: .table table-bordered .table-striped}
+
+
 
 ## One variable
 
