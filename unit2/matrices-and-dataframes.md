@@ -309,3 +309,7 @@ row3       iii  3  7 11   11
 row4        iv  4  8 12   12
 ```
 
+## Reading
+
+Crawley, M. *The R Book.* Ch. 4 Dataframes
+
