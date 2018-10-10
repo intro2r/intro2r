@@ -20,7 +20,7 @@ We use the following methods to test whether samples are drawn from populations 
 
 2. Two samples of continuous data from two groups: T-test, `t.test()`
 
-3. Samples of continuous data from more than two groups and/or two predictors: ANOVA, `aov()`
+3. Samples of continuous data from more than two groups and/or two predictors: ANOVA, `aov()`, `lm()`
 
 
 ## Examples
