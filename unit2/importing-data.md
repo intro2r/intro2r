@@ -239,6 +239,9 @@ Use ``` summary() ``` or ``` table() ``` to check all your columns carefully. Ar
  - - -
  
 ## Further Reading
+
+Crawley, M. *The R Book.* Ch. 3 Data Input
+
  
  Borer, et al. 2009. [Some simple guidelines for  effective data management](http://www.zoology.ubc.ca/biol548/readings/borer%20et%20al%202009%20besa%20-%20effective%20data%20management.pdf). *Bulletin of the ESA* **90**, 205--214.
  
