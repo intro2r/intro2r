@@ -14,7 +14,7 @@ Scroll down to download the SWIRL lessons.
 
 ## Lesson 1. How to test for correlation and causation
 
-Lecture: Testing Associations -- [simple linear regression](../unit4/testing-associations.html)
+Lecture: [Testing associations](../unit4/testing-associations.html)
 
 Learning Goals:
  - Run correlation and simple regression models,
@@ -36,7 +36,7 @@ Lecture: [Multiple regression](../unit4/multiple-regression.html)
 
 Learning Goals:
  - Understand how to code different statistical relationships,
- - Interpret model output and diagnose model fit
+ - Interpret model output and diagnose model fit.
 
 SWIRL: [Multiple_Regression](../unit4/swirl/Multiple_Regression.html)
 
