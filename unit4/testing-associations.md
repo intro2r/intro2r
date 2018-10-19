@@ -23,7 +23,7 @@ Here, we will look at methods to test whether two or more samples of continuous 
 
 1. Do the two continuous variables come from the same distribution? `ks.test()`. 
 
-2. We assume no causal relationship between the continuous 'predictor' and the continuous 'response': correlation, `cor()`.
+2. We assume no causal relationship between the continuous 'predictor' and the continuous 'response': correlation, `cor()`, `cor.test()`.
 
 3. We are testing if the continuous/categorical predictor variables are causing some of the variation in the  continuous response data data from more than two groups and/or two predictors: linear regression, `lm()`.
 
