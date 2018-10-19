@@ -448,8 +448,3 @@ We have the same parts to the model summary as above, but the interpretation of 
 
  - `F statistic ` From the ANOVA table of the model.
 
-[More details here](https://stats.stackexchange.com/questions/5135/interpretation-of-rs-lm-output)
-
- - - -
- 
- 
