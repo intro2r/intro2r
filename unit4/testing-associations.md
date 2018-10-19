@@ -38,7 +38,7 @@ y <- rnorm(100)
 plot(y ~ x)
 ```
 
-![](img/scatterplot.pdf)
+![](http://www.intro2r.info/unit4/img/scatterplot.png)
 
 
 
@@ -71,7 +71,7 @@ hist(x, breaks = 6)
 hist(y, breaks = 6)
 ```
 
-![](img/ks-fig.pdf)
+![](http://www.intro2r.info/unit4/img/ks-fig.png)
 
 
 The `ks.test()` function takes `x = ` and `y = `. 
@@ -149,7 +149,7 @@ We can use the `pairs()` function to plot all the variables against one another.
 pairs(BirdData)
 ```
 
-![](img/birdplots.pdf)
+![](http://www.intro2r.info/unit4/img/birdplots.png)
 
 
 We have no a priori reason to believe that any of these measurements of sparrows drives variation in the others. However, we can test whether they are correlated. For example, do sparrows with larger heads also have larger wings?
