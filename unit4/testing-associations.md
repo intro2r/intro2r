@@ -210,7 +210,16 @@ The p-value of the test is 0.0868, not less than the usual alpha of 0.05; so we 
 
 If we think that one variable is driving variation in the other, we should use regression rather than correlation.
 
-The function `lm()` is used to develop linear models. At its simplest, it takes one argument: `formula = `.
+### Function
+
+ - `lm()`
+
+#### Arguments
+
+ - `formula = ` a formula,
+
+ - `data = ` a data object, usually a data.frame.
+
 
 Models are specified symbolically. A typical model has the form `response ~ terms` where:
 
@@ -297,6 +306,8 @@ summary(m)
 [More details here](https://stats.stackexchange.com/questions/5135/interpretation-of-rs-lm-output)
 
 
+### Accessing the model output
+
 We can access the model coefficients with the function `coef()`
 
 ```
@@ -363,7 +374,7 @@ abline(m)
 
 
 
-### `lm()` with a categorical predictor
+### lm() with a categorical predictor
 
 
 
