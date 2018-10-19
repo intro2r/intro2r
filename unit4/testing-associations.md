@@ -208,6 +208,35 @@ The p-value of the test is 0.0868, not less than the usual alpha of 0.05; so we 
 ## Linear Regression
 
 
+If we think that one variable is driving variation in the other, we should use regression rather than correlation.
+
+The function `lm()` is used to develop linear models. At its simplest, it takes one argument: `formula = `.
+
+Models are specified symbolically. A typical model has the form `response ~ terms` where:
+
+ - response is the (numeric) response/dependent vector and
+ 
+ - terms is a series of terms which specifies a linear predictor (or independent variable) for the response.
+
+The response variable is fitted as a function of the predictor variable. The tilde symbol (` ~ `) signifies *as a function of*, and separates the response and predictor variables. Adding further predictor variables to the right hand side is possible (see [Formulae](http://www.intro2r.info/unit3/formulae.html)).
+
+For now, we will carry out a simple regression of a single predictor and response. This model estimates values for the three elements of the equation:
+
+$y ~ beta0 + beta1 * x + sigma$
+
+In other words:
+
+$y ~ intercept + slope * x + sd of the error$
+
+`lm()` provides estimates of the intercept, slope and sd.
+
+We will illustrate the use of `lm()` using the sparrow data (even though we know there is no causality here).
+
+First, we plot the data.
+
+```
+plot(BirdData$Tarsus ~ BirdData$Wingcrd)
+```
 
 
 
