@@ -216,9 +216,9 @@ If we think that one variable is driving variation in the other, we should use r
 
 #### Arguments
 
- - `formula = ` a formula,
+ - `formula = ` a symbolic (pseudocode) formula,
 
- - `data = ` a data object, usually a data.frame.
+ - `data = ` (optional) a data object, usually a data.frame.
 
 
 Models are specified symbolically. A typical model has the form `response ~ terms` where:
@@ -304,6 +304,15 @@ summary(m)
  - `F statistic ` From the ANOVA table of the model.
 
 [More details here](https://stats.stackexchange.com/questions/5135/interpretation-of-rs-lm-output)
+
+
+### The coefficients
+
+ - **Intercept:** Where the line of the linear model crosses the y-axis,
+
+ - **Slope:** For continuous predictors, the estimate is the slope, i.e., the change in the response for a 1-unit increase in the predictor,
+
+ - **p-value:** The probability of obtaining a result equal to or more extreme than what was actually observed, if the null hypothesis is true. The null hypothesis is rejected if the p-value is less than the *alpha* (usually 0.05). [More](https://en.wikipedia.org/wiki/P-value). 
 
 
 ### Accessing the model output
