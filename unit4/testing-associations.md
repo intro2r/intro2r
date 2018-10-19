@@ -297,7 +297,7 @@ summary(m)
 
  - `Residuals: ` The quartiles of the residuals from the model,
 
- - `Coefficients: ` The Estimate and Standard Error for the intercept and slope. It also includes the t-values and associated p-values testing if the estimates are significantly different from 0.
+ - `Coefficients: ` **For continuous predictors** The Estimate and Standard Error for the intercept and slope. It also includes the t-values and associated p-values testing if the estimates are significantly different from 0.
 
  - `R-squared ` The proportion of the variation in the response variable that is explained by the predictor,
 
@@ -363,9 +363,11 @@ m$residuals
 ```
 
 
+
 ### Adding a fitted line to a plot
 
-we can use `abline()` to add the fitted line of the model to a plot of the raw data.
+We can use `abline()` to add the fitted line of the model to a plot of the raw data.
+
 
 ```
 plot(BirdData$Tarsus ~ BirdData$Wingcrd)
@@ -385,5 +387,69 @@ abline(m)
 
 ### lm() with a categorical predictor
 
+You can also include categorical predictors in linear models.
+
+If we include only one predictor, and that predictor is categorical, we could think of this as an ANOVA (remember that ANOVA and regression are [essentially](https://stats.stackexchange.com/questions/175246/why-is-anova-equivalent-to-linear-regression) the [same](https://stats.stackexchange.com/questions/76250/r-anova-and-linear-regression) kind of [thing](https://stats.stackexchange.com/questions/34616/difference-between-regression-analysis-and-analysis-of-variance) in many cases). 
+
+Let's model Tarsus as a function of Species.
+
+A good plot of this model would be a boxplot.
+
+```
+plot(Tarsus ~ Species, data = BirdData)
+```
+
+![](http://www.intro2r.info/unit4/img/birdbox.png)
 
 
+Now we can run the model. Notice that we can use `lm()` to run this model (whereas in Unit 3 we used `aov()`).
+
+```
+m <- lm(Tarsus ~ Species, data = BirdData)
+```
+
+And look at the summary.
+
+```
+summary(m)
+```
+
+```
+Call:
+lm(formula = Tarsus ~ Species, data = BirdData)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+ -1.08  -0.51   0.02   0.30   1.52 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  20.7800     0.3763  55.222 2.37e-09 ***
+SpeciesB      0.4200     0.6145   0.683     0.52    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.8414 on 6 degrees of freedom
+Multiple R-squared:  0.07224,	Adjusted R-squared:  -0.08239 
+F-statistic: 0.4672 on 1 and 6 DF,  p-value: 0.5198
+```
+
+#### Interpreting the output
+
+We have the same parts to the model summary as above, but the interpretation of the coefficient estimates is slightly different.
+
+ - `Call: ` The model formula,
+
+ - `Residuals: ` The quartiles of the residuals from the model,
+
+ - `Coefficients: ` **For categorical predictors** the default is to display the mean of the base level (in this case Species A), and then the *difference* between the mean of each level and the base level. So, here we have the difference between the mean Tarsus size of Species B from Species A. It also includes the t-values and associated p-values testing if the estimates of this difference are significantly different from 0.
+
+ - `R-squared ` The proportion of the variation in the response variable that is explained by the predictor,
+
+ - `F statistic ` From the ANOVA table of the model.
+
+[More details here](https://stats.stackexchange.com/questions/5135/interpretation-of-rs-lm-output)
+
+ - - -
+ 
+ 
