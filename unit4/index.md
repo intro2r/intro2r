@@ -14,61 +14,65 @@ Scroll down to download the SWIRL lessons.
 
 ## Lesson 1. How to test for correlation and causation
 
-Lecture:
+Lecture: Testing Associations -- [simple linear regression](../unit4/testing-associations.html)
 
 Learning Goals:
  - Run correlation and simple regression models,
  - Interpret output,
  - Extract and plot details from output.
 
-SWIRL: Testing associations
+SWIRL: [Testing_Associations](../unit4/swirl/Testing_Associations.html)
 
-Lab: [Unit 4: Lab 1](URL)
+Lab: [Unit 4: Lab 1](../unit4/labs.html)
 
-Reading:
+Reading: Crawley, M. The R Book. Ch 10 Regression.
 
-Functions: `cor()`, `lm()`, `abline()`, `coef()`
+Functions: `ks.test()`, `cor()`, `lm()`, `abline()`, `coef()`.
 
 
-## Lesson 2. How to check your model
+## Lesson 2. How to work with multiple predictors
 
-Lecture: Formulae, and model diagnostics and assumptions
+Lecture: [Multiple regression](../unit4/multiple-regression.html)
 
 Learning Goals:
  - Understand how to code different statistical relationships,
  - Interpret model output and diagnose model fit
 
-SWIRL:
+SWIRL: [Multiple_Regression](../unit4/swirl/Multiple_Regression.html)
 
-Lab: [Unit 4: Lab 3](URL)
+Lab: [Unit 4: Lab 2](../unit4/labs.html)
 
-Reading:
+Reading: Crawley, M. The R Book. Ch 12. Analysis of Covariance.
 
 Functions:
 
 ## Lesson 3. How to deal with binomial and count data
 
-Lecture: GLMs
+Lecture: [Generalised linear models](../unit4/Generalised-linear-models.html)
 
 Learning Goals:
  - Understand binomial and count data,
  - Know how to analyse and plot these data,
  - Extract, predict, and plot these data.
 
-SWIRL:
+SWIRL: 
 
-Lab: [Unit 4: Lab 3](URL)
+ - [Binomial_Data](../unit4/swirl/Binomial_Data.html)
+ 
+ - [Count_Data](../unit4/swirl/Count_Data.html)
+ 
+Lab: [Unit 4: Lab 3](../unit4/labs.html)
 
-Reading:
+Reading: Crawley, M. The R Book. Chs 13--17.
 
-Functions: `glm()`, `predict()`, `lines()`
+Functions: `glm()`, `predict()`, `lines()`.
 
 
 ## Lesson 4. How to modify standard plots
 
-Lecture: How to choose a graph
+Lecture: [Choosing and using graphs]()
 
-Best Practice: Principles of graphic design
+Best Practice: [Principles of graphic design]()
 
 Learning Goals:
  - Be able to select and justify the choice of data presentation,
@@ -77,9 +81,9 @@ Learning Goals:
  - Search for help.
 
 
-SWIRL: Modifying default graphs
+SWIRL: [Modifying default graphs](../unit4/swirl/ ..)
 
-Lab: [Unit 4: Recap](URL)
+Lab: [Unit 4: Recap](../unit4/labs.html)
 
 Reading:
 
