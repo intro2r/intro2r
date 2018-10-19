@@ -222,11 +222,11 @@ The response variable is fitted as a function of the predictor variable. The til
 
 For now, we will carry out a simple regression of a single predictor and response. This model estimates values for the three elements of the equation:
 
-$y ~ beta0 + beta1 * x + sigma$
+y ~ beta0 + beta1 * x + sigma
 
 In other words:
 
-$y ~ intercept + slope * x + sd of the error$
+y ~ intercept + slope * x + sd of the error
 
 `lm()` provides estimates of the intercept, slope and sd.
 
@@ -238,20 +238,132 @@ First, we plot the data.
 plot(BirdData$Tarsus ~ BirdData$Wingcrd)
 ```
 
+![](http://www.intro2r.info/unit4/img/birdwing.png)
+
+**Fig.** Sparrow Wingcrd as a function of Tarsus length
+
+Second, we run the model. We can specify the formula, with or without the `data = ` argument.
+
+```
+m <- lm(BirdData$Tarsus ~ BirdData$Wingcrd)
+
+# or
+m <- lm(Tarsus ~ Wingcrd, data = BirdData)
+```
+
+### The output from lm()
+
+The output of `lm()` is a list. 
+
+We can use `str()` to examine the elements of the output, as well as pull out various parts directly, or use other functions to do so.
+
+For example, `summary()` pulls out various elements and formats them nicely to display the whole model table.
+
+```r
+summary(m)
+```
+
+```
+## 
+## Call:
+## lm(formula = Tarsus ~ Wingcrd, data = BirdData)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -1.2229 -0.1594  0.1844  0.4492  0.5770 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(>|t|)  
+## (Intercept)   8.1210     6.2706   1.295   0.2429  
+## Wingcrd       0.2328     0.1138   2.045   0.0868 .
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Residual standard error: 0.6705 on 6 degrees of freedom
+## Multiple R-squared:  0.4108, Adjusted R-squared:  0.3126 
+## F-statistic: 4.184 on 1 and 6 DF,  p-value: 0.0868
+```
+
+ - `Call: ` The model formula,
+
+ - `Residuals: ` The quartiles of the residuals from the model,
+
+ - `Coefficients: ` The Estimate and Standard Error for the intercept and slope. It also includes the t-values and associated p-values testing if the estimates are significantly different from 0.
+
+ - `R-squared ` The proportion of the variation in the response variable that is explained by the predictor,
+
+ - `F statistic ` From the ANOVA table of the model.
+
+[More details here](https://stats.stackexchange.com/questions/5135/interpretation-of-rs-lm-output)
+
+
+We can access the model coefficients with the function `coef()`
+
+```
+coef(m)
+```
+
+```
+(Intercept)     Wingcrd 
+  8.1209721   0.2327633
+```
+
+or directly with `m$coefficients`
+
+```
+m$coefficients
+```
+```
+(Intercept)     Wingcrd 
+  8.1209721   0.2327633
+```
+
+We can access the residuals with `resid()`
+
+```
+resid(m)
+```
+```
+##            1            2            3            4            5 
+##  0.445994599 -1.222952295  0.226192619 -0.622952295  0.458955896 
+##            6            7            8 
+## -0.004860486  0.142574257  0.577047705
+```
+
+or `m$residuals`
+
+```
+m$residuals
+```
+```
+           1            2            3            4            5            6 
+ 0.445994599 -1.222952295  0.226192619 -0.622952295  0.458955896 -0.004860486 
+           7            8 
+ 0.142574257  0.577047705 
+```
+
+
+### Adding a fitted line to a plot
+
+we can use `abline()` to add the fitted line of the model to a plot of the raw data.
+
+```
+plot(BirdData$Tarsus ~ BirdData$Wingcrd)
+abline(lm(BirdData$Tarsus ~ BirdData$Wingcrd))
+
+# or
+m <- lm(BirdData$Tarsus ~ BirdData$Wingcrd)
+abline(m)
+```
+
+![](http://www.intro2r.info/unit4/img/birdline.png)
+
+
+**Fig.** Sparrow Wingcrd as a function of Tarsus length, with fitted line
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+### `lm()` with a categorical predictor
 
 
 
