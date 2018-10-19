@@ -28,9 +28,9 @@ Here, we will look at methods to test whether two or more samples of continuous 
 3. We are testing if the continuous/categorical predictor variables are causing some of the variation in the  continuous response data data from more than two groups and/or two predictors: linear regression, `lm()`.
 
 
-## Figures
+### Figures
 
-If we have continuous data  both side, we will most likely make some kind of scatter plot.
+If we have continuous data on both sides, we will most likely make some kind of scatter plot.
 
 ```
 x <- rnorm(100)
@@ -92,7 +92,7 @@ ks.test(x, y)
 The p-value less than 0.001 suggests that x and y are indeed drawn from different distributions (as we shushpected … ).
 
 
-## Correlation
+## 2. Correlation
 
 Whether we run correlation or a regression depends on how we think the two variables are related. If we think that there is no causal relationship between the two, then we would test for a correlation. If we think that there is a causal relationship between the two, then we would run a regressin.
 
@@ -205,7 +205,7 @@ The p-value of the test is 0.0868, not less than the usual alpha of 0.05; so we 
 
  - - -
 
-## Linear Regression
+## 3. Linear Regression
 
 
 If we think that one variable is driving variation in the other, we should use regression rather than correlation.
