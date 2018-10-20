@@ -266,6 +266,8 @@ F-statistic: 393.5 on 4 and 28 DF,  p-value: < 2.2e-16
 
 This model gives us the actual intercepts and slopes for each sex. The p-values test whether each value is significantly different from 0 (not that useful, because these are the actual values not the differences).
 
+We can then extract these estimates and pass them directly to `abline()` without any calculations.
+
 
 
 
