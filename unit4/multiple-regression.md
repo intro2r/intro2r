@@ -120,7 +120,7 @@ Both horse power and transmission type have a significant effect on miles per ga
 ### How to compare the models
 
 
-We can compare m0 and m0 with the `anova()` function to assess if removing the interaction significantly affects the fit of the model.
+We can compare m0 and m1 with the `anova()` function to assess if removing the interaction significantly affects the fit of the model.
 
 ```
 anova(m1, m0)
