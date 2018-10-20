@@ -188,15 +188,17 @@ The third row gives us the *difference* between the intercept of `am == 1` and `
 
 The forth row gives us the *difference* between the slopes  of `am == 1` and `am == 0` (0.0004).
 
-So, one way to add a line for each transmission type is as follows. 
-
-We can extract the intercept and slope for auto and manual and then pass these values to `abline()`.
-
 We can also access the coefficient estimates with `coef()`
 
 ```
 coef(m1)
 ```
+
+So, one way to add a line for each transmission type is as follows. 
+
+
+We can extract the intercept and slope for auto and manual and then pass these values to `abline()`.
+
 
 ```
   (Intercept)            hp            am         hp:am 
@@ -232,7 +234,7 @@ We can modify the formula to return the actual coefficient estimates for each se
 
 First, we nest hp in am: `am/hp`. Then, we remove the single intercept using ` - 1`.
 
-(In this case, we also have to convert the `$am` column to a factor within the model.
+(In this case, we also have to convert the `$am` column to a factor within the model.)
 
 ```
 m2 <- lm(mpg ~ as.factor(am)/hp - 1, data = mtcars)
