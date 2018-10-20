@@ -194,17 +194,14 @@ We can also access the coefficient estimates with `coef()`
 coef(m1)
 ```
 
-So, one way to add a line for each transmission type is as follows. 
-
-
-We can extract the intercept and slope for auto and manual and then pass these values to `abline()`.
-
-
 ```
   (Intercept)            hp            am         hp:am 
 26.6248478696 -0.0591369818  5.2176533777  0.0004028907 
 ```
 
+So, one way to add a line for each transmission type is as follows. 
+
+We can extract the intercept and slope for auto and manual and then pass these values to `abline()`.
 
 ```
 A_intercept <- coef(m1)['(Intercept)']
