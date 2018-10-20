@@ -3,14 +3,14 @@ title: Multiple Regression
 layout: default
 ---
 
-# Multiple Regression
+# Extending Regression
 
 In the ANOVA and simple regression models that we have run so far, most of them have been a single response/dependent variable as a function of a single predictor/independent variable. But in many cases we know that there are several things that could reasonably influence the response variable. For example, species and sex could both affect sparrow size; age and sex could both influence running time.
 
 It is straightforward to include multiple predictors. We start with the simple, special case of Analysis of Covariance (ANCOVA), which includes one categorical and one continuous predictor. Multiple linear regression can include any number of categorical and continuous predictors.
 
 
-# Analysis of Covariance (ANCOVA)
+# 1. Analysis of Covariance (ANCOVA)
 
 Statisticians realised early on that ANOVA was merely the beginning of analysing experiments---other factors apart from the experimental treatment might influence the response variable they were interested in. 
 
@@ -143,7 +143,125 @@ Therefore, we conclude that the most parsimonious model is m0, the additive mode
 So mpg will respond similarly to variation in horse power for both automatic and manual cars.
 
 
-### Plotting the lines
+
+### Plotting the lines, two ways
+
+
+We can plot `mpg` as a function of `hp`, and include the different `am` using the `pch = ` (plotting character) argument.
+
+```
+plot(mpg ~ hp, data = mtcars, pch = am + 2)
+```
+
+![](http://www.intro2r.info/unit4/img/cars.png)
+
+
+
+**Function:**  `abline()` Can take either a model object (for simple regression), or an intercept and slope. 
+
+To add a line for automatic and a line for manual cars, we need to extract the intercept and slope for each type from the model.
+
+Recall that we can use `aov()` and `lm()` interchangeably. 
+
+We can also use `summary()`, `summary.aov()`, and `summary.lm()` interchangeabley, too.
+
+We want to view the coefficient estimates of the linear model.
+
+
+#### i. Use the original model
+
+```
+summary.lm(m1)$coef
+```
+
+```
+                 Estimate Std. Error     t value     Pr(>|t|)
+(Intercept) 26.6248478696 2.18294320 12.19676624 1.014017e-12
+hp          -0.0591369818 0.01294486 -4.56837583 9.018508e-05
+am           5.2176533777 2.66509311  1.95777527 6.028998e-02
+hp:am        0.0004028907 0.01646022  0.02447662 9.806460e-01
+```
+
+This table shows the intercept (26.58, first row) and slope (-0.059, second row) of the base level of `am` (which is 0).
+
+The third row gives us the *difference* between the intercept of `am == 1` and `am == 0` (5.28).
+
+The forth row gives us the *difference* between the slopes  of `am == 1` and `am == 0` (0.0004).
+
+So, one way to add a line for each transmission type is as follows. 
+
+We can extract the intercept and slope for auto and manual and then pass these values to `abline()`.
+
+We can also access the coefficient estimates with `coef()`
+
+```
+coef(m1)
+```
+
+```
+  (Intercept)            hp            am         hp:am 
+26.6248478696 -0.0591369818  5.2176533777  0.0004028907 
+```
+
+
+```
+A_intercept <- coef(m1)['(Intercept)']
+A_slope     <- coef(m1)['hp']
+A_line       <- c(A_intercept, A_slope)
+
+M_intercept <- A_intercept + coef(m1)['am']
+M_slope     <- A_slope + coef(m1)['hp:am']
+M_line      <- c(M_intercept, M_slope)
+```
+```
+par(lwd = 2, cex = 1.5)
+plot(mpg ~ hp, data = mtcars, 
+     pch = am + 2, col = c('black','red')[am + 1])
+
+abline(A_line, col = 'black')
+abline(M_line, col = 'red')
+```
+
+![](http://www.intro2r.info/unit4/img/carplot.png)
+
+
+
+#### ii. A new model
+
+We can modify the formula to return the actual coefficient estimates for each sex, rather than the differences (see formulas for more info on the kinds of formulas we can write).
+
+First, we nest hp in am: `am/hp`. Then, we remove the single intercept using ` - 1`.
+
+(In this case, we also have to convert the `$am` column to a factor within the model.
+
+```
+m2 <- lm(mpg ~ as.factor(am)/hp - 1, data = mtcars)
+summary(m2)
+```
+
+```
+Call:
+lm(formula = mpg ~ as.factor(am)/hp - 1, data = mtcars)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.3818 -2.2696  0.1344  1.7058  5.8752 
+
+Coefficients:
+                  Estimate Std. Error t value Pr(>|t|)    
+as.factor(am)0    26.62485    2.18294  12.197 1.01e-12 ***
+as.factor(am)1    31.84250    1.52888  20.827  < 2e-16 ***
+as.factor(am)0:hp -0.05914    0.01294  -4.568 9.02e-05 ***
+as.factor(am)1:hp -0.05873    0.01017  -5.777 3.34e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.961 on 28 degrees of freedom
+Multiple R-squared:  0.9825,	Adjusted R-squared:   0.98 
+F-statistic: 393.5 on 4 and 28 DF,  p-value: < 2.2e-16
+```
+
+This model gives us the actual intercepts and slopes for each sex. The p-values test whether each value is significantly different from 0 (not that useful, because these are the actual values not the differences).
 
 
 
@@ -151,11 +269,6 @@ So mpg will respond similarly to variation in horse power for both automatic and
 
 
 
-
-
-
-
-
-# Multiple Linear Regression
+# 2. Multiple linear regression
 
 
