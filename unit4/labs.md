@@ -82,15 +82,16 @@ data(Orange)
  
 
 
-Read in the housing value data set for question 2.
 
-### 2. Perform 3 separate multiple regressions with housing value as your response, combining predictors in any way you see fit. 
 
-You can include as many predictors as you think are important for each model, with a minimum of 2, including any interactions you think might exist.
+### 2. Read in the housing value data set for question 2.
+
     
-  a. Ensure your predictors aren’t collinear in each model.
+  a. Perform 3 separate multiple regressions with housing value as your response, combining predictors in any way you see fit. You can include as many predictors as you think are important for each model, with a minimum of 2, including any interactions you think might exist.
 
-  b. Which of your models best fits the data? Test this statistically. 
+  b. Ensure your predictors aren’t collinear in each model.
+  
+  c. Which of your models best fits the data? Test this statistically. 
 
 
 
