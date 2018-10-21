@@ -92,5 +92,33 @@ Data on the presence/absence of mammals on (most) of the islands of the Galapago
 [download](../data/sparrows.txt)
 
 
+## Unit 4: Analyzing Continuous Data
+
+### Housing value
+
+[download](../data/housing_value.txt)
+
+  - `$crim`  per capita crime rate by town.
+
+  - `$zn` proportion of residential land zoned for lots over 25,000 sq.ft.
+
+  - `$indus` proportion of non-retail business acres per town.
+
+  - `$nox` nitrogen oxides concentration (parts per 10 million).
+
+  - `$rm`  average number of rooms per dwelling.
+
+  - `$age`  proportion of owner-occupied units built prior to 1940.
+
+  - `$dis`  weighted mean of distances to five Boston employment centres.
+
+  - `$rad`  index of accessibility to radial highways.
+
+  - `$house_value`  median value of owner-occupied homes in $1000s.
+
+
+
+
+
 
  
