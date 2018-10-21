@@ -1,62 +1,97 @@
 ---
 layout: default
-title: Unit 3: Labs
+title: Unit 4: Labs
 ---
 
 
-# Unit 3. Analyzing Grouped Data: Labs
+# Unit 4. Analyzing Continuous Data: Labs
 
 These labs test and build on the material presented in the SWIRL lessons.
 
-Scroll down or click [here](../unit3/labs.html#how-to-submit-your-labs) to to check how to submit them.
+Scroll down or click [here](../unit4/labs.html#how-to-submit-your-labs) to to check how to submit them.
 
 ## Due Dates
 
-Lab 1 and 2: 2018-10-05 23:58
+Lab 1 and 2: 2018-10-26 23:58
 
-Lab 3 and recap: 2018-10-12 23:58
+Lab 3 and recap: 2018-11-02 23:58
 
-(no best practice lab)
 
  - - -
  
-
 ## Lab 1
 
-Read in the housing value [data set](http://www.intro2r.info/data/) and answer the following questions. 
-
-This lab will be a little more open ended – we are looking for key elements, but there is flexibility to correct responses.
-
-Refer to the data page for variable names.
-
- 
+Read in the housing value [data set](http://www.intro2r.info/data/) for questions 1-3.
 
 ### 1. Plot the entire data set.
-
+  
   a. Which variables appear correlated with housing value?
 
   b. Find the correlation coefficients between housing value and those variables identified in a.
-
  
-
 ### 2. Perform a simple linear regression with one predictor and housing value as your response variable (your y).
-
+    
   a. Plot this relationship, and be sure to add your regression line to the plot.
 
   b. How well does your model fit? Plot the residuals against the fitted values, and identify any possible issues if they exist.
 
+  c. Check the normality of your residuals, another key assumption.
  
-### 3. Perform a multiple regression with housing value as your response. You can include as many predictors as you think are important, including any interactions you think might exist.
+### 3. Plot the data set again.
+  
+  a. Are there any apparent relationships with housing values that aren’t linear?
+  
+  b. Identify one, and do the following:
+  
+    i. Try to linearize the relationship by applying a transformation to the predictor. Common transformations include log, square root, and square. Make two plots, one of housing value against the untransformed predictor, and the other against the transformed predictor.
+    
+    ii. Make two models, where you predictor is either transformed vs untransformed.
 
-  a. Ensure your predictors aren’t collinear.
+    iii. Check the model summaries. Which has a better R-squared value (a measure of model fit)?
+ 
+### 4. Enter the following data and answer the following questions
 
-  b. Interpret your model coefficients. What are each telling you?
+```
+pirate <- data.frame(Temp = c(14.2, 14.4, 14.55, 14.8, 15.25, 15.5, 15.85),
+                     Npirates = c(35000, 45000, 20000, 15000, 5000, 400, 17),
+                     Year = c(1820, 1860, 1880, 1920, 1940, 1980, 2000))
+```
 
-  c. Between this model and your single regression model from Q2, which better fits the data? Test this statistically with `anova()`. Hint: You want a smaller residual sum of squares (RSS).
+  a. Plot the relationship between temperature and number of pirates.
+  
+  b. Test this relationship statistically. Why did you choose this test?
+ 
 
-
-
+ 
 ## Lab 2
+
+### 1. Access the Orange data set and answer the following questions.
+
+```
+data(Orange)
+?Orange
+```
+
+  a. Plot circumference as a function of age.
+
+  b. Test for an effect of age on circumference.
+
+  c. Is this relationship the same for all Trees? Run a model to test this.
+
+  d. Add fitted lines for each Tree to the figure.
+ 
+
+
+Read in the housing value data set for question 2.
+
+### 2. Perform 3 separate multiple regressions with housing value as your response, combining predictors in any way you see fit. 
+
+You can include as many predictors as you think are important for each model, with a minimum of 2, including any interactions you think might exist.
+    
+  a. Ensure your predictors aren’t collinear in each model.
+
+  b. Which of your models best fits the data? Test this statistically. 
+
 
 
 
