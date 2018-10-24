@@ -128,5 +128,15 @@ Data on the presence/absence of mammals on (most) of the islands of the Galapago
  - `$distance ` Distance from the mainland (km).
  
  
+### Awards
 
+[download](../data/poisson-awards.txt)
+
+ - `$student ` student id
+ 
+ - `$num-awards ` Number of awards won by the student,
+ 
+ - `$program ` Program type (academic/general/vocational),
+ 
+ - `$math_score ` in the final maths exam.
  
