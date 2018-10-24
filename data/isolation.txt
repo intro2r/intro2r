@@ -1,4 +1,4 @@
-incidence	area	isolation
+incidence	area	distance
 1	7.928	3.317
 0	1.925	7.554
 1	2.045	5.883
