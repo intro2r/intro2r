@@ -231,7 +231,7 @@ abline(M_line, col = 'red')
 
 #### ii. A new model
 
-We can modify the formula to return the actual coefficient estimates for each sex, rather than the differences (see formulas for more info on the kinds of formulas we can write).
+We can modify the formula to return the actual coefficient estimates for each sex, rather than the differences (see [formulas](http://www.intro2r.info/unit3/formulae.html) for more info on the kinds of formulas we can write).
 
 First, we nest hp in am: `am/hp`. Then, we remove the single intercept using ` - 1`.
 
@@ -271,9 +271,119 @@ We can then extract these estimates and pass them directly to `abline()` without
 
 
 
-
-
-
 # 2. Multiple linear regression
 
+Multiple linear regression is simply an extension of linear regression and ANCOVA, with more variables.
+
+Multiple regression allows us to see the relationship between two variables *accounting for other variables in the model*.
+
+Let's continue with the mtcars dataset, and model mpg as a function of hp, am, and another continuous variable, the weight of the car  (`$wt`, in 1000 lbs).
+
+```
+m3 <- lm(mpg ~ hp + am + wt, data = mtcars)
+summary(m3)
+```
+
+```
+Call:
+lm(formula = mpg ~ hp + am + wt, data = mtcars)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.4221 -1.7924 -0.3788  1.2249  5.5317 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 34.002875   2.642659  12.867 2.82e-13 ***
+hp          -0.037479   0.009605  -3.902 0.000546 ***
+am           2.083710   1.376420   1.514 0.141268    
+wt          -2.878575   0.904971  -3.181 0.003574 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.538 on 28 degrees of freedom
+Multiple R-squared:  0.8399,	Adjusted R-squared:  0.8227 
+F-statistic: 48.96 on 3 and 28 DF,  p-value: 2.908e-11
+```
+
+### Interpretation of the output
+
+We can interpret the output similarly to our previous discussion of linear regression and ANCOVA.
+
+ - `Call: ` The model formula,
+
+ - `Residuals: ` The quartiles of the residuals from the model,
+
+ - `Coefficients: ` 
+
+   + **For continuous predictors** The Estimate and Standard Error for the intercept and slope. Each estimate is the change in y for a change in 1 unit of x. It also includes the t-values and associated p-values testing if the estimates are significantly different from 0.
+
+   + **For categorical predictors** the default is to display the mean of the base level (in this case Species A), and then the *difference* between the mean of each level and the base level. So, here we have the difference between the mean Tarsus size of Species B from Species A. It also includes the t-values and associated p-values testing if the estimates of this difference are significantly different from 0.
+
+ - `R-squared: ` The proportion of the variation in the response variable that is explained by the predictor,
+
+ - `Adjusted R-squared: ` R2 corrected for the number of variables in the model.
+
+ - `F statistic ` From the ANOVA table of the model.
+
+
+### Considerations 
+
+**Colinearity of the predictors** 
+
+If any of the predictors are strongly correlated, the model may not give sensible estimates for the coefficients. Thus, you should explore the data, plot the variables, and think about the research questions. This may entail including only certain variables in the model, or using a multivariate approach (e.g., PCA) to reduce the number of variables.
+
+
+**Rescaling the predictors**
+
+If the continuous predictors have very different ranges and scales, it may be hard to sensibly compare the coefficient estimates. Thus, you may want to rescale all the continuous predictors using the function `scale()`. Usually you want to subtract the mean and divide by the standard deviation. The coefficient estimates in the model output are then the change in y for a 1-unit change in the sd of x.
+
+
+### Make a plot of the coefficient estimates
+
+First, extract the coefficient estimates from the model output, leaving out the top line (the intercept, which we are not usually the interested in for this kind of figure).
+
+```
+res <- summary(m3)$coef[-1, ]
+res
+```
+
+```
+      Estimate  Std. Error   t value     Pr(>|t|)
+hp -0.03747873 0.009605422 -3.901830 0.0005464023
+am  2.08371013 1.376420152  1.513862 0.1412682367
+wt -2.87857541 0.904970538 -3.180850 0.0035740311
+```
+
+Then, we can plot these values.
+
+```
+# plot data in order
+plot(1:3 ~ res[, 'Estimate'], 
+## set range and label of x-axis
+     xlim = c(-4, 4), xlab = 'Estimate',
+## do not plot y-axis
+     yaxt = 'n', ylab = '')
+
+# add dashed zero line in grey
+abline(v = 0, lty = 3, col = 'grey')
+
+# add axis to side 2 (left, the y-axis)
+axis(side = 2, at = 1:3, labels = rownames(res), las = 1)
+
+# Then we can add the error bars, using `segments()`
+segments(x0 = res[, 'Estimate'] - res[, 'Std. Error'], x1 = res[, 'Estimate'] + res[, 'Std. Error'],
+         y0 = 1:3, y1 = 1:3)
+
+
+# Finally, we can color each point depending on whether is has a significant p-value.
+## Set new vector of two colours
+COL <- c('white', 'black')
+## plot filled points 
+points(x = res[, 'Estimate'], y = 1:3, pch = 21, cex = 2,
+## with colour based on the P value
+       bg = COL[(res[, 'Pr(>|t|)'] < 0.05)+1])
+```
+
+![](http://www.intro2r.info/unit4/img/coef-plot.png)
 
