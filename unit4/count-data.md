@@ -256,6 +256,7 @@ dat$phat.exp <- exp(dat$phat.log)
 head(dat)
 ```
 
+```
 ##   student num_awards    program math_score       phat   phat.log
 ## 1       1          0 vocational         40 0.12603202 -2.0712193
 ## 2       2          0 vocational         33 0.07712822 -2.5622861
