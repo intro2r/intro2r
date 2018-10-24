@@ -241,7 +241,7 @@ First, generate a sequence of x's from which to make predictions. Because area a
 x.seq <- seq(from = 0, to = 9, by = 0.1)
 ```
 
-# Make a new dataframe, of x.seq for area and x.seq for distance, along with the mean of the corresponding column
+Make a new dataframe, of x.seq for area and x.seq for distance, along with the mean of the corresponding column
 
 ```
 xv3 <- data.frame(area = c(x.seq, rep(mean(isol$area), times = length(x.seq))), 
