@@ -248,7 +248,7 @@ lines(phat ~ math_score, data = dat2[dat2$program == 'vocational', ], col = 3)
 
 
 
-**Note:** In the call to `predict()`, we could leave out ```type = "response". This would generate predicted values on the log scale, and we would need to antilog (exponentiate) them to get counts.
+**Note:** In the call to `predict()`, we could leave out `type = "response"`. This would generate predicted values on the log scale, and we would need to antilog (exponentiate) them to get counts.
 
 ```
 dat$phat.log <- predict(m1)
