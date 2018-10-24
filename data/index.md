@@ -123,9 +123,9 @@ Data on the presence/absence of mammals on (most) of the islands of the Galapago
 
  - `$incidence `  Presence (1) or absence (0) of a bird species on each island,
  
- - `$area ` Area of the island,
+ - `$area ` Area of the island (km^2),
  
- - `$distance ` Distance from the mainland.
+ - `$distance ` Distance from the mainland (km).
  
  
 
