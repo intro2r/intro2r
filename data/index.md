@@ -132,9 +132,9 @@ Data on the presence/absence of mammals on (most) of the islands of the Galapago
 
 [download](../data/poisson-awards.txt)
 
- - `$student ` student id
+ - `$student ` student id,
  
- - `$num-awards ` Number of awards won by the student,
+ - `$num_awards ` Number of awards earned by the student,
  
  - `$program ` Program type (academic/general/vocational),
  
