@@ -491,7 +491,7 @@ plot(x = log(numbers$density), y = numbers$p, ylab = "Proportion male",
 lines(xv, yv, col = "red", lwd = 2)
 ```
 
-![](http://www.intro2r.info/unit4/img/seratio.png)
+![](http://www.intro2r.info/unit4/img/sexratio.png)
 
 
 
