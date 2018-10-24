@@ -50,8 +50,6 @@ Functions:
 
 Lecture: 
 
- - [Generalised linear models](../unit4/Generalised-linear-models.html)
- 
  - [Binomial data](../unit4/binomial-data.html)
  
  - [Count data](../unit4/count-data.html)
