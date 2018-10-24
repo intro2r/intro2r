@@ -48,7 +48,13 @@ Functions:
 
 ## Lesson 3. How to deal with binomial and count data
 
-Lecture: [Generalised linear models](../unit4/Generalised-linear-models.html)
+Lecture: 
+
+ - [Generalised linear models](../unit4/Generalised-linear-models.html)
+ 
+ - [Binomial data](../unit4/binomial-data.html)
+ 
+ - [Count data](../unit4/count-data.html)
 
 Learning Goals:
  - Understand binomial and count data,
