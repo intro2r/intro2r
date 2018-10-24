@@ -117,8 +117,16 @@ Data on the presence/absence of mammals on (most) of the islands of the Galapago
   - `$house_value`  median value of owner-occupied homes in $1000s.
 
 
+### Isolation
 
+[download](../data/isolation.txt)
 
-
+ - `$incidence `  Presence (1) or absence (0) of a bird species on each island,
+ 
+ - `$area ` Area of the island,
+ 
+ - `$distance ` Distance from the mainland.
+ 
+ 
 
  
