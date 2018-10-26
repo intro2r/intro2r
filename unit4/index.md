@@ -38,7 +38,7 @@ Learning Goals:
  - Understand how to code different statistical relationships,
  - Interpret model output and diagnose model fit.
 
-SWIRL: [Multiple_Regression](../unit4/swirl/Multiple_Regression.html)
+SWIRL: [Testing_Associations](../unit4/swirl/Testing_Associations.html)
 
 Lab: [Unit 4: Lab 2](../unit4/labs.html)
 
