@@ -98,6 +98,36 @@ data(Orange)
 
 ## Lab 3
 
+### 1. Flowering trees
+
+Read in the data
+
+```
+dat <- read.table(file = "http://www.intro2r.info/data/flowering.txt", 
+                  header = TRUE, sep = '\t')
+```
+
+This dataset contains information on flowering of 1500 Myrsticaceae trees in 2002 in the Yasuni Forest Dynamics Plot, a tropical lowland rain forest in Ecuador. 
+
+There are data on seven species (`$SpCode`), their size (`$dbh`), their sex (`$Sex`: 0, F, M), if they flowered that year (`$Flowers`: 1/0), and an index of light availability in the canopy (`$CII`:, 0-5, with 0 being no light and 5 being full overhead and side light).
+
+  a. Examine the structure of the data.
+
+  b. Look at the first 7 rows.
+
+  c. Is the ratio of flowering to non-flowering trees different from 1:1 (over all species)?
+
+  d. Is the ratio of M to F trees different from 1:1 (over all species)?
+
+  e. Size is likely a key factor affecting the chance of flowering in one year. Model the probability of flowering as a function of size for the species iryapa.
+
+  f. Plot the data and the predicted curve of this relationship.
+
+  g. Do male and female trees of this species have a different probability of flowering as a function of size?
+
+  h. Plot these flowering curves for male and female iryapa trees.
+
+
 
 ## Recap
 
