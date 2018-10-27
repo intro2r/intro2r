@@ -127,6 +127,17 @@ There are data on seven species (`$SpCode`), their size (`$dbh`), their sex (`$S
 
   h. Plot these flowering curves for male and female iryapa trees.
 
+### 2.Horse kicks
+
+The [horsekick data](http://www.intro2r.info/data/horsekicks.txt) give the number of soldiers in the Prussian cavalry killed by horse kicks, by corp membership and by year. The years are from 1875 to 1894, and there are 14 different cavalry corps: the first column corresponds to the guard corp and the other columns to corps 1 through 11, 14, and 15. 
+
+The data are from Distributome project and are derived from the book by Andrews and Herzberg. The original source of the data is the classic book by von Bortkiewicz (references are given below). The data are famous because they seem to fit the Poisson model reasonably well.
+
+You will likely need to reformat the data.
+
+  a. Test whether there were differences in the number of deaths between companies.
+
+  b. Was any year particularly bad for deaths?
 
 
 ## Recap
