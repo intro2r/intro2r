@@ -140,3 +140,29 @@ Data on the presence/absence of mammals on (most) of the islands of the Galapago
  
  - `$math_score ` in the final maths exam.
  
+
+### Flowering trees
+
+This dataset contains information on flowering of 1500 Myrsticaceae trees in 2002 in the Yasuni Forest Dynamics Plot, a tropical lowland rain forest in Ecuador.
+
+[download](../data/flowering.txt)
+
+ - `$SpCode `  seven species,
+ 
+  - `$dbh ` tree size, 
+  
+  - `$Sex ` their sex (0, F, M),
+  
+  - `$Flowers ` if they flowered that year (1/0), 
+  
+  - `$CII ` an index of light availability in the canopy (0-5, with 0 being no light and 5 being full overhead and side light).
+  
+### Horsekicks
+
+The horsekick data give the number of soldiers in the Prussian cavalry killed by horse kicks, by corp membership and by year. The years are from 1875 to 1894, and there are 14 different cavalry corps: the first column corresponds to the guard corp and the other columns to corps 1 through 11, 14, and 15.
+
+The data are from Distributome project and are derived from the book by Andrews and Herzberg. The original source of the data is the classic book by von Bortkiewicz. The data are famous because they seem to fit the Poisson model reasonably well.
+
+[source](http://www.randomservices.org/random/data/HorseKicks.html)
+
+[download](../data/horsekicks.txt)
