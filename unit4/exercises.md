@@ -3,9 +3,11 @@ title: Exercises
 layout: default
 ---
 
-## 4. Modifying Plots
+## Modifying Plots
 
-### i. 
+### 1. New Haven road race data
+
+
 
 ### ii.
 
