@@ -76,39 +76,39 @@ PRINCIPLES
 
 
 
-1. Show the data
-==================
+## 1. Show the data
 
-
-![](http://www.intro2r.info/unit4/img/graphics2.png)
-
-*vs*
 
 ![](http://www.intro2r.info/unit4/img/graphics3.png)
 
-
-2. Avoid disorting the data
-==========================
-
-![](http://www.intro2r.info/unit4/img/graphics4.png)
-
 *vs*
+
+![](http://www.intro2r.info/unit4/img/graphics2.png)
+
+
+
+## 2. Avoid disorting the data
 
 ![](http://www.intro2r.info/unit4/img/graphics5.png)
 
 
-3. Aid comparisons
-==================
-
-![](http://www.intro2r.info/unit4/img/graphics7.png)
-
 *vs*
+
+
+![](http://www.intro2r.info/unit4/img/graphics4.png)
+
+
+## 3. Aid comparisons
 
 ![](http://www.intro2r.info/unit4/img/graphics8.png)
 
+*vs*
 
-4. Maximise data:ink
-=================
+![](http://www.intro2r.info/unit4/img/graphics7.png)
+
+
+## 4. Maximise data:ink
+
 
 ![](http://www.intro2r.info/unit4/img/tufte.png)
 
@@ -117,20 +117,17 @@ PRINCIPLES
 ![](http://www.intro2r.info/unit4/img/graphics9.png)
 
 
-5. Label data, minimize legends
-================================
+## 5. Label data, minimize legends
 
 ![](http://www.intro2r.info/unit4/img/graphics10.png)
 
 
-6. Use clearly different symbols, colours
-=======================================
+## 6. Use clearly different symbols, colours
 
 ![](http://www.intro2r.info/unit4/img/wallst.jpg)
 
 
-7. Consider 0
-============
+## 7. Consider 0
 
 ![](http://www.intro2r.info/unit4/img/graphics11.png)
 
@@ -141,8 +138,7 @@ PRINCIPLES
 ![](http://www.intro2r.info/unit4/img/graphics12.png)
 
 
-8. Dot plots are often better than bar charts
-=============================================
+## 8. Dot plots are often better than bar charts
 
 Bar charts:
 
@@ -157,8 +153,7 @@ Bar charts:
 - Labels on vertical bar charts are difficult to read
 
 
-Less is More
-============
+## 9. Less is often More
 
 ![](http://www.intro2r.info/unit4/img/less-is-more-darkhorse-analytics.gif)
 
