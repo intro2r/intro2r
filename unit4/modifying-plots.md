@@ -192,7 +192,7 @@ plot(Head ~ Tarsus, data = BirdData,
 
 To add an axis, we need a new function, `axis()`. 
 
-This is covered in [Adding to Plots]()
+This is covered in [Adding to Plots](../unit4/adding-to-plots.html)
 
 
 
@@ -212,9 +212,9 @@ plot(Head ~ Tarsus, data = BirdData,
 ![](http://www.intro2r.info/unit4/img/img12.png)
 
 
-![](http://www.intro2r.info/unit4/img/.png)
+![](http://www.intro2r.info/unit4/img/pch.png)
 
-**Fig.** The range of characters in R. [Source](). 
+**Fig.** The range of characters in R. [Source](http://rgraphics.limnology.wisc.edu/images/miscellaneous/pch.png). 
 
 
 Line type (solid, dashed, etc.) can be altered with the `lty = ` argument:
