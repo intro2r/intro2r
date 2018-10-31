@@ -74,7 +74,7 @@ Functions: `glm()`, `predict()`, `lines()`.
 
 ## Lesson 4. How to modify standard plots
 
-Lecture: [Choosing and using graphs]()
+Lecture: [Modifying plots](../unit4/modifying-plots.html)
 
 Best Practice: [Principles of graphic design]()
 
@@ -85,7 +85,7 @@ Learning Goals:
  - Search for help.
 
 
-SWIRL: [Modifying default graphs](../unit4/swirl/ ..)
+SWIRL: [Modifying default graphs](../unit4/swirl/Plotting_Data.html)
 
 Lab: [Unit 4: Recap](../unit4/labs.html)
 
