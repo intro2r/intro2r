@@ -123,9 +123,9 @@ There are data on seven species (`$SpCode`), their size (`$dbh`), their sex (`$S
 
   f. Plot the data and the predicted curve of this relationship.
 
-  g. Do male and female trees of this species have a different probability of flowering as a function of size?
+  ~~g. Do male and female trees of this species have a different probability of flowering as a function of size?~~
 
-  h. Plot these flowering curves for male and female iryapa trees.
+  ~~h. Plot these flowering curves for male and female iryapa trees.~~
 
 ### 2.Horse kicks
 
