@@ -14,42 +14,13 @@ dat <- read.table('http://www.intro2r.info/data/NewHavenRoadRace_clean.txt', hea
 ```
 
 
-1. Make a bar plot of the number of runners in each age class.
+1. Make a bar plot of the number of runners in each age class. Make axis labels in a larger font, and each bar a different colour.
 
-The plot should include:
+2. Plot each runner's pace (y) as a function of their sex (x). Ensure proper axis labels, axis numbers in a larger font, and males and females in different colours.
 
- - axis labels in a larger font,
+3. Plot pace as a function of age class. Include axis labels, and make each box a different colour.
 
- - each bar a different colour.
-
-
-2. Plot each runner's pace (y) as a function of their sex (x).
-
-The plot should include:
-
- - Proper axis labels,
-
- - Axis numbers in a larger font,
-
- - Males and females in different colours.
-
-
-3. Plot pace as a function of age class.
-
-The plot should include:
-
- - Axis labels,
-
- - Each box a different colour.
-
-
-4. Plot each runner's time as a function of their pace.
-
-The plot should have:
-
- - Correct axis labels,
-
- - Increasing symbol size with increasing pace.
+4. Plot each runner's time as a function of their pace. Ensure correct axis labels and increasing symbol size with increasing pace.
 
 
 ### Michigan tree species
