@@ -87,6 +87,8 @@ Learning Goals:
 
 SWIRL: [Modifying default graphs](../unit4/swirl/Plotting_Data.html)
 
+Exercises: [Unit 4 Exercises](../unit4/exercises.html)
+
 Lab: [Unit 4: Recap](../unit4/labs.html)
 
 Reading:
