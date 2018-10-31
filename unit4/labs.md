@@ -142,6 +142,68 @@ You will likely need to reformat the data.
 
 ## Recap
 
+ For the unit recap, we will use the “state.x77” dataset that comes preloaded in R.
+
+```r
+data(state)
+head(state.x77)
+```
+ 
+```
+           Population Income Illiteracy Life Exp Murder HS Grad Frost   Area
+Alabama          3615   3624        2.1    69.05   15.1    41.3    20  50708
+Alaska            365   6315        1.5    69.31   11.3    66.7   152 566432
+Arizona          2212   4530        1.8    70.55    7.8    58.1    15 113417
+Arkansas         2110   3378        1.9    70.66   10.1    39.9    65  51945
+California      21198   5114        1.1    71.71   10.3    62.6    20 156361
+Colorado         2541   4884        0.7    72.06    6.8    63.9   166 103766
+```
+
+
+### 1. First prepare the dataset to make it useful for analysis.
+
+  a. Check the structure of your data.
+
+  b. Convert it into a data frame.
+
+  c. Rename problematic variable names in your new data frame.
+
+ 
+
+### 2. Lets try to explain life expectancy based on some of our variables.
+
+  a. Explore the data to identify variables associated with life expectancy (identify at least 2)
+
+  b. Do a simple regression for each association identified. Which one fits best?
+
+  c. Plot each of these associations. Make sure to give your plots proper axis labels and a title. Add the fitted line to each plot, give it a color other than black, and double its line width.
+
+ d. Now do a multiple regression with all of your predictors. Are all the predictors you identified in 2a still important?
+
+
+### 3. Now lets practice some logistic regression
+
+  a. Maybe we have an expectation that there’s an important threshold at 50% high school graduation rate, and wish to model this. Convert the high school graduation variable into a binary dummy variable, where <50% is 0 and >50% is 1.
+
+  b. Perform a logistic regression, using any predictor you think might be important.
+
+  c. Plot this relationship, give your plot proper labels, and include the fitted logistic regression line (which you’ll have to predict)
+
+ 
+
+### 4. Now lets practice modeling count data
+
+  a. Check the distribution of the population variable. Does it appear normal?
+
+  b. Check the distribution of the area variable. Does it appear normal?
+
+  c. Lets model population as a function of area
+
+   i. Transform your predictor (area) so that its normally distributed.
+
+   ii. Make the model. Is area a significant predictor of population?
+
+   iii. Model this relationship without specifying the family argument (i.e. make glm() think your response variable is normally distributed). Is area still important?
 
 
 
