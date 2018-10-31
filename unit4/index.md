@@ -76,7 +76,7 @@ Functions: `glm()`, `predict()`, `lines()`.
 
 Lecture: [Modifying plots](../unit4/modifying-plots.html)
 
-Best Practice: [Principles of graphic design]()
+Best Practice: [Principles of graphic design](../unit4/principles-of-graphics.html)
 
 Learning Goals:
  - Be able to select and justify the choice of data presentation,
