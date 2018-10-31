@@ -21,11 +21,11 @@ BirdData <- data.frame(
 ```
 
 
-## Modify all the plots or just one?
+## 1. Modify all the plots or just one?
 
 There are two ways to set graphical parameters.
 
-### 1. For all the plots
+### i. For all the plots
 
 Graphical parameters are arguments of the function `par()`.
 
@@ -40,7 +40,7 @@ plot() # make another plot with the same parameters
 You should also spend some time exploring the help page of `par()`, there are many more options and details than covered here.
 
 
-### 2. For each plot in turn
+### ii. For each plot in turn
 
 All plotting functions (`plot()`, `hist()`, etc) have the argument `, ... `. 
 
@@ -52,7 +52,7 @@ We will use this method below.
 
 
  
-## How to make different kinds of plots
+## 2. How to make different kinds of plots
 
 ### Use `plot()` to make a scatter or line plot
 
@@ -81,7 +81,7 @@ plot(Head ~ Tarsus, data = BirdData, type = 'b')
 ![](http://www.intro2r.info/unit4/img/img4.png)
 
 
-## How to modify the axes 
+## 3. How to modify the axes 
 
 R tries to make the axes look as nice as possible, with sensible gaps between the tick marks, and ranges, etc.
 
@@ -197,9 +197,9 @@ This is covered in [Adding to Plots](../unit4/adding-to-plots.html)
 
 
 
-## How to modify lines and symbols
+## 4. How to modify lines and symbols
 
-### Specify line and symbol type
+### Specify symbol type
 
 We can choose from a variety of different symbols, or plotting characters, using e.g., `pch = 0`.
 
@@ -216,6 +216,8 @@ plot(Head ~ Tarsus, data = BirdData,
 
 **Fig.** The range of characters in R. [Source](http://rgraphics.limnology.wisc.edu/images/miscellaneous/pch.png). 
 
+
+### Specify line type
 
 Line type (solid, dashed, etc.) can be altered with the `lty = ` argument:
 
@@ -235,7 +237,7 @@ plot(Head ~ Tarsus, data = BirdData,
 
 
 
-## How to modify size
+## 5. How to modify size
 
 In many cases, the size of text, points, and labels is too small.
 
@@ -258,7 +260,7 @@ plot(Head ~ Tarsus, data = BirdData,
 ![](http://www.intro2r.info/unit4/img/img14.png)
 
 
-## Basics of colour
+## 6. Basics of colour
 
 For publication in print, most often you will use shades of grey, but R has access to a wide range of colours.
 
@@ -306,7 +308,7 @@ plot(Head ~ Tarsus, data = BirdData,
 
 
 
-## How to change the font
+## 7. How to change the font
 
 Many journals require specific fonts.
 
