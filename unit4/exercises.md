@@ -52,4 +52,22 @@ The plot should have:
  - Increasing symbol size with increasing pace.
 
 
+### Michigan tree species
+
+```r
+dat <- read.table('http://www.intro2r.info/data/treespecies_cleandata.txt', header = TRUE, sep = '\t')
+```
+
+1. Make a map of the locations of all the trees.
+
+2. Map the alive and dead trees different symbols and colours.
+
+3. Map the symbol size as a function of DBH.
+
+4. Make a map of only black oak trees.
+
+5. Plot tree DBH as a function of species. Make each box a different colour.
+
+6. Plot mean DBH as a function of status for each species.
+
 
