@@ -318,7 +318,15 @@ However, there are some straightforward things we can do easily.
 
 ### Font style
 
-You can use `font = ` to specify whether the font is plain (1, default), **bold** (2), *italic* (3), or **bold** *italic* (4).
+You can use `font = ` to specify whether the font is:
+
+ - plain (`font = 1`, default), 
+ 
+ - **bold** (2), 
+ 
+ - *italic* (3), or 
+ 
+ - **_bold italic_** (4).
 
 Use `font.axis = `, `font.lab = `, `font.main = `, `font.sub = ` to set fonts for each respective piece of text.
 
