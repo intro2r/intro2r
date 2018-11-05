@@ -14,7 +14,11 @@ Scroll down to download the SWIRL lessons.
 
 ## Lesson 1. How to add stuff to plots
 
-Lecture: [Adding elements to plots and organising plots in space](../unit5/adding-to-plots.html)
+Lectures: 
+
+ - [Designing Figures](../unit5/designing-figures.html)
+
+ - [Adding elements to plots and organising plots in space](../unit5/adding-to-plots.html)
 
 Learning Goals:
  - Add elements to graphics (lines, text, symbols, labels, legends),
