@@ -159,43 +159,43 @@ In this case, points are better
 Relationships
 ============
 
-## Time series 
+### Time series 
  
 Values change through time (e.g., $ per mo.)
 
  
-## Ranking
+### Ranking
 
 Values ordered by size (e.g., sales, population)
  
  
-## Part-to-Whole
+### Part-to-Whole
  
 Values represent parts/proportions of a whole (e.g., relative cover, regional sales)
  
  
-## Deviation
+### Deviation
 
 Values represent the difference between two sets of values (e.g., income vs outgoing)
 
 
 
-## Distribution
+### Distribution
  
 Counts of values per interval/bin (e.g., number of trees per size class)
 
 
-## Correlation
+### Correlation
 
 Comparison of two paired sets of values (e.g., height vs weight)
  
  
-## Geospatial
+### Geospatial
  
 Values displayed on a map (e.g., population per city, species richness per site) 
  
  
-## Nominal Comparison
+### Nominal Comparison
 
 Values are compared for unordered categories (e.g., regions, fruit type)
 
