@@ -31,7 +31,7 @@ Lab: [Unit 5: Lab 1](../unit5/labs.html)
 
 Reading: [Bestiary of Graphics](../unit5/bestiary-graphics.html)
 
-Functions: `pdf()`, `png()`, `abline()`, `text()`, `mtext()`, `points()`, `legend()`, `mfrow()`, `mfcol()`,
+Functions: `abline()`, `text()`, `mtext()`, `points()`, `legend()`, `mfrow()`, `mfcol()`,
 
 
 ## Lesson 2. How to encoding values in graphics
@@ -47,9 +47,9 @@ SWIRL:
 
 Lab: [Unit 5: Lab 2](../unit5/labs.html)
 
-Reading:
+Reading: [Exporting graphics](../unit5/exporting-graphics.md)
 
-Functions: `palette()`
+Functions: `palette()`, `pdf()`, `png()`
 
 
 ## Lesson 3. How to write less code
