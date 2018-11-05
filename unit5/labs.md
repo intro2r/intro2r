@@ -24,7 +24,7 @@ Lab 3 and recap: 2018-11-16 23:58
 Using the sparrow data set.
 
 ```r
-dat <- read.table(file = "http://www.simonqueenborough.info/R/data/sparrows.txt", header = TRUE)
+dat <- read.table(file = "http://www.intro2r.info/data/sparrows.txt", header = TRUE)
 ```
 
 ## 1. Create a plot with 4 panels (2 x 2).
