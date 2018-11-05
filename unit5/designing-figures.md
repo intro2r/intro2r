@@ -200,6 +200,7 @@ Values displayed on a map (e.g., population per city, species richness per site)
 Values are compared for unordered categories (e.g., regions, fruit type)
 
 
+ - - -
 
 
 Graph Selection Matrix
