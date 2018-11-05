@@ -29,7 +29,7 @@ SWIRL: [Plotting More Data](../unit5/swirl/Plotting_More_Data.html)
 
 Lab: [Unit 5: Lab 1](../unit5/labs.html)
 
-Reading: 
+Reading: [Bestiary of Graphics](../unit5/bestiary-graphics.html)
 
 Functions: `pdf()`, `png()`, `abline()`, `text()`, `mtext()`, `points()`, `legend()`, `mfrow()`, `mfcol()`,
 
