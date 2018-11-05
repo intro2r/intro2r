@@ -16,14 +16,14 @@ Scroll down to download the SWIRL lessons.
 
 Lectures: 
 
- - [Designing Figures](../unit5/designing-figures.html)
+ - [Encoding values in points and lines](../unit5/encoding-values.html)
 
  - [Adding elements to plots and organising plots in space](../unit5/adding-to-plots.html)
 
 Learning Goals:
  - Add elements to graphics (lines, text, symbols, labels, legends),
  - Using different graphics devices,
-- scaling figures
+ - scaling figures
 
 SWIRL: [Plotting More Data](../unit5/swirl/Plotting_More_Data.html)
 
@@ -36,7 +36,7 @@ Functions: `pdf()`, `png()`, `abline()`, `text()`, `mtext()`, `points()`, `legen
 
 ## Lesson 2. How to encoding values in graphics
 
-Lecture: Encoding values in points, lines, shapes, color, etc.
+Lecture: [Encoding values in color]()
 
 Learning Goals:
  - Use plot elements (colour, size, shape, etc) to encode values,
