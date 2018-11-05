@@ -1,9 +1,8 @@
-Designing Figures
+Encoding Values
 ==================
 
 
-The effective display of quantitative information involves two fundamental challenges
-===================================
+## The effective display of quantitative information involves two fundamental challenges
 
 
 1. Best medium (table/graph type).
@@ -28,8 +27,7 @@ Usually based on an understanding of visual perception:
 2. Visually encode information for easy and accurate decoding by audience.
 
 
-Most Graphs Are ...
-=================
+## Most Graphs Are ...
 
  - 2D
  
@@ -45,11 +43,10 @@ Value-Encoding Objects
  
  - Bars
  
- - Boxes
  
 
-Points
-======
+## Points
+
 
  - Pinpoint specific location on graph,
  
@@ -66,8 +63,7 @@ Points
 ![](http://www.intro2r.info/unit5/img/designing-figures1.png)
 
 
-Lines
-======
+## Lines
 
  - Lines connect points.
  
@@ -86,8 +82,8 @@ Lines
 ![](http://www.intro2r.info/unit5/img/designing-figures2.png)
 
 
-Points & Lines
-==============
+## Points & Lines
+
 
  - Overall shape & individual values.
  
@@ -100,8 +96,7 @@ Points & Lines
 ![](http://www.intro2r.info/unit5/img/designing-figures3.png)
 
 
-Bars
-=====
+## Bars
 
  - Encode values 2 ways:
  
@@ -118,8 +113,8 @@ Bars
 
 
 
-Bars
-=====
+## Bars
+
 
  - Bars _can_ be used for connected values (e.g., time series) when:
  
@@ -130,8 +125,8 @@ Bars
 
 
 
-Bars need to start at zero
-===========================
+### Bars need to start at zero
+
 
 
 
@@ -142,8 +137,7 @@ Bars need to start at zero
 ![](http://www.intro2r.info/unit5/img/designing-figures7.png)
 
 
-In this case, points are better
-==============================
+### In this case, points are better
 
 
 ![](http://www.intro2r.info/unit5/img/designing-figures8.png)
@@ -156,8 +150,8 @@ In this case, points are better
 
 
  
-Relationships
-============
+# Relationships
+
 
 ### Time series 
  
@@ -203,8 +197,7 @@ Values are compared for unordered categories (e.g., regions, fruit type)
  - - -
 
 
-Graph Selection Matrix
-========================
+## Graph Selection Matrix
 
 ![](http://www.intro2r.info/unit5/img/designing-figures10.png)
 
