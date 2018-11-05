@@ -27,7 +27,7 @@ Using the sparrow data set.
 dat <- read.table(file = "http://www.intro2r.info/data/sparrows.txt", header = TRUE)
 ```
 
-## 1. Create a plot with 4 panels (2 x 2).
+### 1. Create a plot with 4 panels (2 x 2).
 
 The panels should show the following barplots:
 
@@ -41,7 +41,7 @@ To help aid comparisons, make sure that the y axes for the two plots in each row
 Each panel should have x and y axis labels in bold.
 
 
-# 2. For species SSTS, make a three-panel horizontal figure.
+### 2. For species SSTS, make a three-panel horizontal figure.
 
 Plot Tarsus, Head, and Weight each as a function of Sex in separate panels.
 
@@ -50,7 +50,7 @@ Ensure that males and females are different colours.
 Each panel should have the lines wider than the default width and horizontal y-axis numbers.
 
 
-## 3. Make a five-panel plot.
+### 3. Make a five-panel plot.
 
 Plot Wingcrd as a function of Tarsus, Head, Culmen, Weight, and Nalospi, differentiating each species by colour and/or symbol.
 
