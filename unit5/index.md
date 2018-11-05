@@ -14,18 +14,18 @@ Scroll down to download the SWIRL lessons.
 
 ## Lesson 1. How to add stuff to plots
 
-Lecture: Adding elements to plots and organising plots in space
+Lecture: [Adding elements to plots and organising plots in space](../unit5/adding-to-plots.html)
 
 Learning Goals:
  - Add elements to graphics (lines, text, symbols, labels, legends),
  - Using different graphics devices,
 - scaling figures
 
-SWIRL:
+SWIRL: [Plotting More Data](../unit5/swirl/Plotting_More_Data.html)
 
-Lab: [Unit 5: Lab 1](URL)
+Lab: [Unit 5: Lab 1](../unit5/labs.html)
 
-Reading:
+Reading: 
 
 Functions: `pdf()`, `png()`, `abline()`, `text()`, `mtext()`, `points()`, `legend()`, `mfrow()`, `mfcol()`,
 
@@ -41,7 +41,7 @@ Learning Goals:
 
 SWIRL:
 
-Lab: [Unit 5: Lab 2](URL)
+Lab: [Unit 5: Lab 2](../unit5/labs.html)
 
 Reading:
 
@@ -71,16 +71,16 @@ Functions: `function()`
 
 ## Lesson 4. How to automate your work
 
-Lecture:
+Lecture: [Loops, ifelse, etc.](../unit5/loops.html)
 
 Learning Goals:
  - Use loops and ifelse statements,
  - Identify situations where loops are useful
 
 
-SWIRL: Programming skilz
+SWIRL: Programming skilz](../unit5/swirl/Loops.html)
 
-Lab: [Unit 5: Lab 4](URL)
+Lab: [Unit 5: Lab 4](../unit5/labs.html)
 
 Reading:
 
@@ -98,7 +98,7 @@ Learning Goals:
 
 SWIRL: Sampling and simulation
 
-Lab: [Unit 5: Recap](URL)
+Lab: [Unit 5: Recap](../unit5/labs.html)
 
 Reading:
 
