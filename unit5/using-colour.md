@@ -188,7 +188,7 @@ Colour !- decoration / wallpaper.
 
 ### iii. Avoid problem colour combinations
 
-### See: [http://blog.usabilla.com/how-to-design-for-color-blindness/](http://blog.usabilla.com/how-to-design-for-color-blindness/)
+See: [http://blog.usabilla.com/how-to-design-for-color-blindness/](http://blog.usabilla.com/how-to-design-for-color-blindness/)
 
 =======
 
