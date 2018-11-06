@@ -1,10 +1,6 @@
-Using Colour
-========================================================
-autosize: true
+# Using Colour
 
-FES 720: Intro to R
-
-![](img/style/mcqueen-gun-col.jpeg)
+![](img/colour/mcqueen-gun-col.jpeg)
 
 
 
@@ -31,69 +27,51 @@ FES 720: Intro to R
 
 # 1. Physics of Colour
 
-# Colour is 'visible light'
+### Colour is 'visible light'
 
 ![](img/colour/Cones.png)
 
 
 =======
 
-# Describing colour
+## Describing colour:
 
-## 1. Hue, lightness, and colorfulness
+### i. Hue, lightness, and colorfulness
 
 ![](img/colour/color-naming2.png)
 
 
-
-=======
-
-# Describing colour
-
-## 2. RGB
+### ii. RGB
 
 ![](img/colour/rgb_cube2.png)
 
 
+## Background matters:
 
-
-=======
-
-# Background matters
-
-## Colors look darker and smaller against white and lighter and larger against black. 
+### Colors look darker and smaller against white and lighter and larger against black. 
 
 ![](img/colour/color-bw.png)
 
 
-
-
-=======
-
-# Use a consistent background colour 
+### Use a consistent background colour 
 
  - Avoid gradients of colour
  
  - Avoid any other variation in background colour
  
 
-## Simultaneous contrast can make the **same** colors look **different**
+### Simultaneous contrast can make the **same** colors look **different**
 
 ![](img/colour/same-diff.png)
 
 
-
-
-## Simultaneous contrast can make **different** colors look the **same**
+### Simultaneous contrast can make **different** colors look the **same**
 
 ![](img/colour/diff-same.png)
 
 
 
-=======
-
-
-# Ensure background contrasts with text and data colours
+## Ensure background contrasts with text and data colours
 
 ![](img/colour/legibility.png)
 
@@ -106,14 +84,13 @@ FES 720: Intro to R
 
 # 2. Practicalities of Colour
 
-# Use color to communicate information
+## Use color to communicate information
 
 Colour !- decoration / wallpaper.
 
 
-=======
 
-# Different colors should correspond to different meanings 
+## Different colors should correspond to different meanings 
 
 ![](img/colour/fruit.png)
 
@@ -123,7 +100,7 @@ Colour !- decoration / wallpaper.
 
 =======
 
-# Three main uses of colour to promote communication
+## Three main uses of colour to promote communication:
 
 • To highlight particular data
 
@@ -132,16 +109,13 @@ Colour !- decoration / wallpaper.
 • To encode quantitative values (sequential or diverging)
 
 
-=======
 
-
-# Use soft, natural colors to display most information and bright and/or dark colors to **highlight** information
+## i. Use soft, natural colors to display most information and bright and/or dark colors to **highlight** information
 
 ![](img/colour/color-naming2.png)
 
-=======
 
-# Use colours of the same hue to group/categorise data
+## ii. Use colours of the same hue to group/categorise data
 
 ![](img/colour/palette-qual.png)
 
@@ -150,11 +124,9 @@ Colour !- decoration / wallpaper.
 **Fig** A example categorical map from the US census of 2000.
 
 
-=======
+## iii. Use colours of increasing/decreasing brightness or colorfulness to illustrate quantitative data
 
-# Use colours of increasing/decreasing brightness or colorfulness to illustrate quantitative data
-
-## Sequential
+### Sequential
 
 ![](img/colour/palette-seq.png)
 
@@ -163,11 +135,9 @@ Colour !- decoration / wallpaper.
 **Fig.** A map of precipitation with a sequential lightness-hue ramp from climate.gov.
 
 
-=======
+## iv. Use colours of increasing/decreasing brightness or colorfulness to illustrate quantitative data
 
-# Use colours of increasing/decreasing brightness or colorfulness to illustrate quantitative data
-
-## Diverging
+### Diverging
 
 ![](img/colour/palette-div.png)
 
@@ -175,9 +145,8 @@ Colour !- decoration / wallpaper.
 
 **Fig** A map of temperature anomaly form climate.gov.
 
-=======
 
-# Use light colours for non-data components
+## v. Use light colours for non-data components
 
 | Component  | Default Color                                   |
 |------------|-------------------------------------------------|
@@ -185,9 +154,9 @@ Colour !- decoration / wallpaper.
 | Borders    | If needed, thin gray lines of medium intensity. |
 | Background | Use white or 'None'                             |
 
-=======
 
-# Some suggestions for data components of graphs
+
+### Some suggestions for data components of graphs
 
  - Use distincts hue of medium intensity for each data series.
  
@@ -211,14 +180,15 @@ Colour !- decoration / wallpaper.
 ![](img/colour/colorblind_01_03.jpg)
 
 
+## Recommendations:
 
-## Use colour **and** symbols
+### i. Use colour **and** symbols
 
-## Keep colours minimal
+### ii. Keep colours minimal
 
-## Avoid problem colour combinations
+## iii. Avoid problem colour combinations
 
-## See: [http://blog.usabilla.com/how-to-design-for-color-blindness/](http://blog.usabilla.com/how-to-design-for-color-blindness/)
+### See: [http://blog.usabilla.com/how-to-design-for-color-blindness/](http://blog.usabilla.com/how-to-design-for-color-blindness/)
 
 =======
 
