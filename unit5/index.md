@@ -36,18 +36,18 @@ Functions: `abline()`, `text()`, `mtext()`, `points()`, `legend()`, `mfrow()`, `
 
 ## Lesson 2. How to encoding values in graphics
 
-Lecture: [Encoding values in color]()
+Lecture: [Encoding values in color](../unit5/using-colour.html)
 
 Learning Goals:
  - Use plot elements (colour, size, shape, etc) to encode values,
  - Develop and use color palletes,
 
 
-SWIRL:
+SWIRL: [Plotting Colours](../unit5/swirl/Plotting_Colours.html)
 
 Lab: [Unit 5: Lab 2](../unit5/labs.html)
 
-Reading: [Exporting graphics](../unit5/exporting-graphics.md)
+Reading: [Exporting graphics](../unit5/exporting-graphics.html)
 
 Functions: `palette()`, `pdf()`, `png()`
 
