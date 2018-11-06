@@ -57,6 +57,36 @@ Plot Wingcrd as a function of Tarsus, Head, Culmen, Weight, and Nalospi, differe
 Ensure that the tick marks point inwards and the axis labels have units (you can make up what the units are).
 
 
+ - - -
+ 
+## Lab 2
+ 
+Using the sparrow data set.
+
+```r
+dat <- read.table(file = "http://www.intro2r.info/data/sparrows.txt", header = TRUE)
+```
+
+### 1. Calculate the mean Head size and Tarsus size for both species x sex combination.
+
+### 2. Make a 2-panel figure of two boxplots.
+
+ - plot Tarsus as a function of sex in one panel, and plot Head as a function of sex in the other. 
+ 
+ - Make sure that each sex has a consistent color.
+
+### 3. Plot the data again, but instead of boxplots, use stripcharts to illustrate all the data points. 
+
+ - Superimpose the mean values on top and add error bars. 
+ 
+ - Ensure that the data points are paler and the summary data stand out. Check the bestiary for details on stripcharts.
+
+### 4. Plot Head as a function of Tarsus.
+
+ - Ensure that the points for each sex and species are different but consistent (e.g., circles for species 1, squares for species 2, empty for males, filled for females). 
+ 
+ - Make some good use of colour!
+
  
  - - -
  
