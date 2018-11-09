@@ -91,6 +91,6 @@ Exercises: [Unit 4 Exercises](../unit4/exercises.html)
 
 Lab: [Unit 4: Recap](../unit4/labs.html)
 
-Reading:
+Reading: [Chart Chooser](http://intro2r.info/unit4/img/ChartChooser.pdf)
 
 Functions: `plot()`, `par()`,
