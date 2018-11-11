@@ -88,7 +88,37 @@ dat <- read.table(file = "http://www.intro2r.info/data/sparrows.txt", header = T
  - Make some good use of colour!
 
  
- - - -
+- - -
+
+## Lab 3
+
+## Tree plot in Michigan 
+
+![](../img/treeplot.png)
+
+*Trees in a 1-ha plot on East Lansing, MI, USA. Colours indicate different species; size of symbol indicates DBH.*
+
+```r
+# Read in the data
+dat_tree <- read.table("http://www.intro2r.info/data/treespecies_cleandata.txt", 
+                       header = TRUE, sep = '\t')
+```
+
+![](../img/dbh.png)
+
+
+1. Write a function to calculate basal area (remember that BA = radius^2 * pi).
+
+2. Calculate the basal area of each tree.
+
+3. Using `tapply()`, calculate the mean BA of each species 
+
+4. Using `tapply()`, what is the total BA of (i) all trees, (ii) alive trees, and (iii) dead trees?
+
+5. Write a function to generate a map (an x-y plot) of the trees. Set some nice defaults. Establish a 2 x 3 grid of panels in a figure, and use this function to make a map of each species.
+
+
+- - -
  
 # How to submit your labs
 
