@@ -94,7 +94,7 @@ dat <- read.table(file = "http://www.intro2r.info/data/sparrows.txt", header = T
 
 ## Tree plot in Michigan 
 
-![](../img/treeplot.png)
+![](../unit5/img/treeplot.png)
 
 *Trees in a 1-ha plot on East Lansing, MI, USA. Colours indicate different species; size of symbol indicates DBH.*
 
@@ -104,7 +104,7 @@ dat_tree <- read.table("http://www.intro2r.info/data/treespecies_cleandata.txt",
                        header = TRUE, sep = '\t')
 ```
 
-![](../img/dbh.png)
+![](../unit5/img/dbh.png)
 
 
 1. Write a function to calculate basal area (remember that BA = radius^2 * pi).
