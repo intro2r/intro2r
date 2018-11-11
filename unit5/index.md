@@ -54,7 +54,7 @@ Functions: `palette()`, `pdf()`, `png()`
 
 ## Lesson 3. How to write less code
 
-Lecture: Writing your own functions
+Lecture: [Writing your own functions](../unit5/functions.html)
 
 Learning Goals:
  - Understand principles of programming,
@@ -63,9 +63,9 @@ Learning Goals:
  - Write simple functions,
  - Nest functions within other functions.
 
-SWIRL: Writing functions
+SWIRL: [Writing functions](../unit5/swirl/Functions.html)
 
-Lab: [Unit 5: Lab 3](URL)
+Lab: [Unit 5: Lab 3](../unit5/labs.html)
 
 Reading: [Best practice for writing R code](https://swcarpentry.github.io/r-novice-inflammation/06-best-practices-R/index.html)
 
