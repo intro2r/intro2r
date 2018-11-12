@@ -111,11 +111,13 @@ dat_tree <- read.table("http://www.intro2r.info/data/treespecies_cleandata.txt",
 
 2. Calculate the basal area of each tree.
 
-3. Using `tapply()`, calculate the mean BA of each species 
+3. Calculate the total BA of all trees.
 
-4. Using `tapply()`, what is the total BA of (i) all trees, (ii) alive trees, and (iii) dead trees?
+4. Using `tapply()`, calculate the mean BA of each species 
 
-5. Write a function to generate a map (an x-y plot) of the trees. Set some nice defaults. Establish a 2 x 3 grid of panels in a figure, and use this function to make a map of each species.
+5. Using one call to `tapply()` what is the total BA of (i) alive trees, and (ii) dead trees?
+
+6. Write a function to generate a map (an x-y plot) of the trees. Set some nice defaults. Establish a 2 x 3 grid of panels in a figure, and use this function to make a map of each species.
 
 
 - - -
