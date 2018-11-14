@@ -156,7 +156,7 @@ http://www.intro2r.info/data/whiteoak.txt
  
  - Create a list, and have each element of this list be a community.
  
- - Plot the six communities using your plotting function. Ensure that point size is proportional to DBH.
+ - Plot the six communities. Ensure that point size is proportional to DBH.
  
  - Calculate the mean DBH of each community.
 
