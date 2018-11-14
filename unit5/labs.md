@@ -122,13 +122,15 @@ dat_tree <- read.table("http://www.intro2r.info/data/treespecies_cleandata.txt",
 - - -
 
 
-## Lab 4 More Trees!
+## Lab 4 & Recap: More Trees!
 
 ### 1. Write a loop to read in each of the following six files, one for each species.
 
 You can either read them in from the URLs, or download them to your hard drive and read them in from there.
 
 There are several ways to do this.
+
+Think about what data object/s you want to create.
 
 You might want to use `paste()`. 
 
@@ -141,10 +143,22 @@ http://www.intro2r.info/data/redoak.txt
 http://www.intro2r.info/data/whiteoak.txt
 ```
 
-### 2. Write a loop to make a 2 x 3 panel figure of maps, one panel for each species.
+### 2. Write a loop to make the same 2 x 3 panel figure of maps as for Lab 3 Q6.
  
  - Use your custom plotting function from Lab 3.
 
+ - Make sure to use a loop!
+
+
+### 3. Create six random tree communities of 100 trees from the full trees dataset
+
+ - Use `sample()`.
+ 
+ - Create a list, and have each element of this list be a community.
+ 
+ - Plot the six communities using your plotting function. Ensure that point size is proportional to DBH.
+ 
+ - Calculate the mean DBH of each community.
 
 
 - - -
