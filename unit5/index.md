@@ -75,7 +75,7 @@ Functions: `function()`
 
 ## Lesson 4. How to automate your work
 
-Lecture: [Loops](../unit5/loops.html)
+Lecture: [Control Structures](../unit5/control-structures.html) [slides](../unit5/control-structures-slides.html)
 
 Learning Goals:
  - Use loops and ifelse statements,
