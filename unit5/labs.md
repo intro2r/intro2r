@@ -126,6 +126,8 @@ dat_tree <- read.table("http://www.intro2r.info/data/treespecies_cleandata.txt",
 
 ### 1. Write a loop to read in each of the following six files, one for each species.
 
+You can either read them in from the URLs, or download them to your hard drive and read them in from there.
+
 There are several ways to do this.
 
 You might want to use `paste()`. 
