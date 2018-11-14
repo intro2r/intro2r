@@ -86,9 +86,9 @@ SWIRL: [Loops](../unit5/swirl/Loops.html)
 
 Lab: [Unit 5: Lab 4](../unit5/labs.html)
 
-Reading:
+Reading: Crawley, M. *The R Book* Ch 2. Essentials of the R Language. 2.10 Loops and repeats
 
-Functions: `for() {}`, `if()`, `else()`,
+Functions: `if()`, `else()`, `for() {}`, `while() {}`, `repeat {}`, `break`, `next`
 
 
 ## Lesson 5: How to sample and generate random values
