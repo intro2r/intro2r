@@ -119,6 +119,31 @@ dat_tree <- read.table("http://www.intro2r.info/data/treespecies_cleandata.txt",
 
 6. Write a function to generate a map (an x-y plot) of the trees. Set some nice defaults. Establish a 2 x 3 grid of panels in a figure, and use this function to make a map of each species.
 
+- - -
+
+
+## Lab 4 More Trees!
+
+### 1. Write a loop to read in each of the following six files, one for each species.
+
+There are several ways to do this.
+
+You might want to use `paste()`. 
+
+```
+http://www.intro2r.info/data/blackoak.txt
+http://www.intro2r.info/data/hickory.txt
+http://www.intro2r.info/data/maple.txt
+http://www.intro2r.info/data/misc.txt
+http://www.intro2r.info/data/redoak.txt
+http://www.intro2r.info/data/whiteoak.txt
+```
+
+### 2. Write a loop to make a 2 x 3 panel figure of maps, one panel for each species.
+ 
+ - Use your custom plotting function from Lab 3.
+
+
 
 - - -
  
