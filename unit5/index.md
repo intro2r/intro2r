@@ -93,7 +93,7 @@ Functions: `if()`, `else()`, `for() {}`, `while() {}`, `repeat {}`, `break`, `ne
 
 ## Lesson 5: How to sample and generate random values
 
-Lecture: Sampling,
+Lecture: [Sampling](../unit5/sampling.html).
 
 Learning Goals:
  - Generate and use random numbers,
@@ -104,7 +104,7 @@ SWIRL: [Sampling and simulation](../unit5/swirl/Simulation.html)
 
 Lab: [Unit 5: Recap](../unit5/labs.html)
 
-Reading:
+Reading: Crawley, M. *The R Book* Ch 2. Essentials of the R Language. 2.9 Random numbers, shuffling, and sampling
 
 Functions: `sample()`, `rbinom()`, `rnorm()`,
 
