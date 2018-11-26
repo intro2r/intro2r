@@ -29,6 +29,10 @@ Here, we will illustrate principles and practical tips for working (mostly in R)
  - More details on how to design your data files.
  
  
+## Packages
+
+ - Details on finding, installing, and using [packages](../best/packages.html).
+ 
 ## Writing
  
 ### [Resources on Writing](../best/writing.html)
