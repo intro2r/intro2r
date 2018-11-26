@@ -11,28 +11,28 @@ R can be extended almost infinitely with packages: add-ons that folks have contr
 
 Packages can be found in a variety of ways.
 
-1. The R project website
+#### 1. The R project website
 
 [CRAN](https://cran.r-project.org/web/packages/) Lists all the packages, 
   as well as different collections that work on different subject areas.
   
 
-2. Articles
+#### 2. Articles
 
 Many articles will cite the R packages they used.
 
 
-3. Google
+#### 3. Google
 
 Search for 'R package' and whatever task you are trying to accomplish.
 
 
-4. RStudio
+#### 4. RStudio
   
 RStudio has its' own collection of packages: [https://www.rstudio.com/products/rpackages/](https://www.rstudio.com/products/rpackages/)  
   
   
-5. Various websites
+#### 5. Various websites
 
 Various websites maintain different collections of packages.
 
@@ -68,22 +68,29 @@ library(lme4)
 
 ### linear mixed effect models
 
-- lme4,nlme
+General overview [here](https://bbolker.github.io/mixedmodels-misc/glmmFAQ.html)
+
+- lme4, nlme
 
 
 ### Plotting tricks and hacks
 
-- plotrix, vioplot
+- [plotrix](https://cran.r-project.org/web/packages/plotrix/index.html). Check the manual for all the cool things it can do!
+
 
 
 ### multivariate stats
 
- - vegan, labdsv
+Both these packages have good overviews and examples.
+
+ - [vegan](https://cran.r-project.org/web/packages/vegan/index.html), 
+ 
+ - [labdsv](http://ecology.msu.montana.edu/labdsv/R/)
 
 
 ### spatial
 
- - spatstat
+ - [spatstat](http://spatstat.org/)
  
  
 
