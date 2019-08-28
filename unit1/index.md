@@ -20,7 +20,7 @@ Learning Goals:
 
 Lab: [Unit 1: Lab 1](../unit1/labs.html)
 
-Reading: [NYT article, 2009](http://www.nytimes.com/2009/01/07/technology/business-computing/07program.html?_r=1&pagewanted=all), [Quartz article, 2019](https://qz.com/1661487/hadley-wickham-on-the-future-of-r-python-and-the-tidyverse/)
+Reading: [NYT article, 2009](http://www.nytimes.com/2009/01/07/technology/business-computing/07program.html?_r=1&pagewanted=all)  | [Quartz article, 2019](https://qz.com/1661487/hadley-wickham-on-the-future-of-r-python-and-the-tidyverse/)
 
 Functions: None.
 
