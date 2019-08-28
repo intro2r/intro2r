@@ -46,21 +46,29 @@
 
 3. How to deal with binomial and count data
 
-4. How to modify standard plots
+4. How to deal with multivariate data
 
 
 
-# Unit 5: [Advanced Graphics and Programming](/unit5/)
+# Unit 5: [Advanced Graphics](/unit5/)
 
-1. How to improve and organise plots
+1. How to plot different kinds of data
 
-2. How to encoding values in graphics
+2. How to modify existing plot elements 
 
-3. How to write less code
+3. How to add elements and organise plots
 
-4. How to automate your work
+4. How to encoding values in graphics
 
-5. How to sample and generate random values
+
+# Unit 6: [Basic Programming](/unit6/)
+
+1. How to write less code
+
+2. How to automate your work
+
+3. How to sample and generate random values
+
 
  - - -
 
