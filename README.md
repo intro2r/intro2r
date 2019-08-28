@@ -129,9 +129,9 @@ Each SWIRL lesson will have an associated lab that reinforces the material and d
 
 ### Best Practice 
 
-Each unit includes a task that reflects best practice.
+Each unit includes information on specific best practices.
 
-These tasks will include revising a figure, cleaning some code, cleaning a data set, writing up a statistical test result.
+These will include figure design, code syntax, data cleaning and management, presenting statistical test results.
 
 
 # Units
@@ -140,5 +140,5 @@ Go to the [Overview](/overview.html) page to get started!
 
  - - -
 
-Updated 2018-08-29
+Updated 2019-08-27
 
