@@ -4,7 +4,7 @@
 
 Statistics With Interactive R Learning
 
-![](img/swirl_new_large_final.png)
+![](img/swirl.png)
 
 *Every new tech thing needs a nice acronym and logo*
 
