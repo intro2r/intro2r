@@ -56,25 +56,6 @@ To install RStudio:
 
 
 
-# To install this course's lessons
-
-The lessons we will use are available online and you need to download them to your laptop.
-
-1. Open RStudio
-2. In the console panel, next to the arrow (>), type each line below followed by ENTER:
-
-
-```
-to be continued ...
-```
-
-
-This will download the most up-to-date lessons, ready for class next week.
-
-You will learn what these commands do later in the course.
-
-
-
 # Get ready for some gRRRReat fun!
 
 
