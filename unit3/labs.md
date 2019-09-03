@@ -45,7 +45,7 @@ The class survey data are found on the [Data](http://www.intro2r.info/data/) pag
 
   c. Check the distribution of class height and number of Harry Potter books read. Do they appear normally distributed? Note that you can use the `breaks` argument in `hist()` if you want to decrease the bin size of your histogram.
 
-  d. Plot ideal temperature. Are there any outliers?
+  d. Plot ideal temperature. Add relevant axis labels. Are there any outliers? 
 
  
 
@@ -60,6 +60,8 @@ The class survey data are found on the [Data](http://www.intro2r.info/data/) pag
   d. Enter the following code: ` m1 <- aov(dbh ~ species, data = data_name)` where data_name is the name of your data frame. You just performed an ANOVA!
 
   e. Plot the model residuals as a function of the fitted values (remember `~` from the lesson). Does it seem like our model fit the data? 
+  
+  f. Make a boxplot of dbh as a function of species. Add relevant axis labels. 
   
   - - -
   
