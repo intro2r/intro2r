@@ -7,7 +7,7 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
 
 # Lab 1
 
-1. Read the *New York Times* [article](http://www.nytimes.com/2009/01/07/technology/business-computing/07program.html?_r=1&pagewanted=all) on R.
+1. Read the [New York Times](http://www.nytimes.com/2009/01/07/technology/business-computing/07program.html?_r=1&pagewanted=all) and [Quartz](https://qz.com/1661487/hadley-wickham-on-the-future-of-r-python-and-the-tidyverse/) articles on R.
 
 2. [Install R and RStudio](http://www.intro2r.info/unit1/install-R-and-RStudio.html).
 
@@ -90,7 +90,7 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
 | 167.64 | Hazel     | 9.5       | 3        | 4988     | 0        | Hufflepuff | 15.56      | Blue      | Coffee     | Disgusting | No          | Both |
 | 183    | Hazel     | 11.5      | 2        | 62243    | 5        | Ravenclaw  | 21         | Blue      | Coffee     | Yes        | Yes         | Both |
 | 163    | Hazel     | 9         | 1        | 3300     | 7        | Hufflepuff | 18.9       | Green     | Coffee     | Disgusting | Yes         | Both |
-| 175.26 | Blue      | 11        | 2        | 21845    | 7        | Gryffindor | 26         | Red       | Tea        | Yes        | Yes         | Neither     |
+| 175.26 | Blue      | NA        | 2        | 21845    | 7        | Gryffindor | 26         | Red       | Tea        | Yes        | Yes         | Neither     |
 | 165    | Brown     | 8         | 0        | 9000000  | 7        | Hufflepuff | 20         | Purple    | Coffee     | Yes        | Yes         | Neither     |
 | 162.56 | Brown     | 7         | 2        | 27865    | 7        | Gryffindor | 23         | Yellow    | Coffee     | Disgusting | Yes         | Neither     |
 | 167    | Brown     | 7.5       | 0        | 80000    | 7        | Ravenclaw  | 23         | Blue      | Coffee     | Disgusting | Yes         | Both |
@@ -140,6 +140,8 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
   c. Divide the word count of each book by the number of chapters to find the average number of words per chapter.
 
   d. Create a basic plot of the number of words per book.
+  
+  e. Create the same plot as (d) but add a title, using an additional argument in your `plot()` function. Note that any time you would like to do something extra with a function but don’t know how, you can always use the query command `?` before the function name (but without the parentheses) to view a help file, which will explain the various arguments that can be passed to a function. For example, `?plot`.
 
 
 ## Further vector practice
@@ -153,6 +155,8 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
   c. Create a vector of the number of harry potter books your classmates have read. 
 
   d. Plot this vector.
+  
+  e. Add a title to the above plot.
 
 
 
@@ -196,6 +200,8 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
   e. Create a barplot of HP house.
 
   f. Create a barplot of yes vs nos to pineapple on pizza.
+  
+  g. What is the mean shoe size? (Note: you will likely have to use the help file for `mean()` here).
 
 
 ### 4. Is there anything that has been exceptionally confusing so far?
