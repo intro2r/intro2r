@@ -31,7 +31,7 @@ Read in the housing value [data set](http://www.intro2r.info/data/) for question
  
 ### 2. Perform a simple linear regression with one predictor and housing value as your response variable (your y).
     
-  a. Plot this relationship, and be sure to add your regression line to the plot.
+  a. Plot this relationship, and be sure to add your regression line to the plot. Add axis labels.
 
   b. How well does your model fit? Plot the residuals against the fitted values, and identify any possible issues if they exist.
 
@@ -43,7 +43,7 @@ Read in the housing value [data set](http://www.intro2r.info/data/) for question
   
   b. Identify one, and do the following:
   
-  i. Try to linearize the relationship by applying a transformation to the predictor. Common transformations include log, square root, and square. Make two plots, one of housing value against the untransformed predictor, and the other against the transformed predictor.
+  i. Try to linearize the relationship by applying a transformation to the predictor. Common transformations include log, square root, and square. Make two plots, one of housing value against the untransformed predictor, and the other against the transformed predictor. Add axis labels.
     
   ii. Make two models, where you predictor is either transformed vs untransformed.
 
@@ -57,7 +57,7 @@ pirate <- data.frame(Temp = c(14.2, 14.4, 14.55, 14.8, 15.25, 15.5, 15.85),
                      Year = c(1820, 1860, 1880, 1920, 1940, 1980, 2000))
 ```
 
-  a. Plot the relationship between temperature and number of pirates.
+  a. Plot the relationship between temperature and number of pirates. Add axis labels.
   
   b. Test this relationship statistically. Why did you choose this test?
  
@@ -72,7 +72,7 @@ data(Orange)
 ?Orange
 ```
 
-  a. Plot circumference as a function of age.
+  a. Plot circumference as a function of age. Add axis labels.
 
   b. Test for an effect of age on circumference.
 
@@ -121,11 +121,8 @@ There are data on seven species (`$SpCode`), their size (`$dbh`), their sex (`$S
 
   e. Size is likely a key factor affecting the chance of flowering in one year. Model the probability of flowering as a function of size for the species iryapa.
 
-  f. Plot the data and the predicted curve of this relationship.
+  f. Plot the data and the predicted curve of this relationship. Add axis labels.
 
-  ~~g. Do male and female trees of this species have a different probability of flowering as a function of size?~~
-
-  ~~h. Plot these flowering curves for male and female iryapa trees.~~
 
 ### 2.Horse kicks
 
