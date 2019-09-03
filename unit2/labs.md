@@ -32,8 +32,8 @@ Lab 3 and recap: 2018-09-28 23:59
  c. Sum the columns of the matrix, with `colSums()`.
 
  d. Give the matrix column names (whatever you want).
-
-
+ 
+ 
 ## 2. Create vectors from shoe size, number of siblings, and pineapple yes/no
 
 
@@ -57,9 +57,9 @@ Lab 3 and recap: 2018-09-28 23:59
 
  b. Convert this matrix to a data frame (you may need to google or find external help).
  
- b. Display the first 6 rows of the data frame.
+ b. Display the first 7 rows of the data frame. Check `?head` if needed.
  
- c. Display the last 6 rows of the data frame.
+ c. Display the last 4 rows of the data frame. Check `?tail` if needed.
  
  d. Add eye color as another column to the same data frame (do not create a new data frame).
  
@@ -100,7 +100,7 @@ Lab 3 and recap: 2018-09-28 23:59
  
  d. What is the minimum apple production across all countries?
  
- e. Plot the values of apple production on harvested area.
+ e. Plot the values of apple production on harvested area. Add labels to the x- and y-axes, and a title to the plot.
 
  - - -
 
@@ -179,23 +179,23 @@ Happiness <- data.frame(
 
 ### 4. Use this data frame:
 
- a. Display the first element of the first column
+ a. Display the first element of the first column.
  
- b. Display the entire first row
+ b. Display the entire first row.
  
- c. Display the entire 2nd column without its name
+ c. Display the entire 2nd column without its name.
  
- d. Display the 2-5th rows and the 3-4th columns
+ d. Display the 2-5th rows and the 3-4th columns.
  
- e. Display `$Score` column values that are more than 7
+ e. Display `$Score` column values that are more than 7.
  
- f. Display `$Score` column values for where column `$Generosity` is greater than 0.2
+ f. Display `$Score` column values for where column `$Generosity` is greater than 0.2.
  
- g. Make a boxplot of Perception of corruption for which GDP is greater than 1.3
+ g. Make a boxplot of 'Perception of corruption' for which GDP is greater than 1.3. Make the boxes green.
  
- h. Remove the 3rd row of data
+ h. Remove the 3rd row of data.
  
- i. Plot a histogram of Social support.
+ i. Plot a histogram of Social support. Change the number of breaks in the histogram to 10.
 
 
 
