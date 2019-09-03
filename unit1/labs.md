@@ -197,9 +197,9 @@ Scroll down or click [here](../unit1/labs.html#how-to-submit-your-labs) to check
 
   d. What is the average number of harry potter books read?
 
-  e. Create a barplot of HP house.
+  e. Create a barplot of HP house. Make your plot more informative by adding a title and y-axis label. Check `?barplot` if needed.
 
-  f. Create a barplot of yes vs nos to pineapple on pizza.
+  f. Create a barplot of yes vs nos to pineapple on pizza. Make your plot more informative by adding a title and y-axis label.
   
   g. What is the mean shoe size? (Note: you will likely have to use the help file for `mean()` here).
 
