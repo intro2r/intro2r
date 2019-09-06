@@ -7,6 +7,13 @@ title: Resources
 
 This page lists further reading and recommended resources on particular topics.
 
+## Reference documents
+
+List of [contributed documents](https://cran.r-project.org/other-docs.html) on the R website.
+
+A good [reference sheet](https://cran.r-project.org/doc/contrib/Short-refcard.pdf).
+
+
 ## Learning R
 
 [http://www.cookbook-r.com/](http://www.cookbook-r.com/)
