@@ -82,7 +82,7 @@ Learning Goals:
  - Know how to analyse and plot multivariate data,
  - Search for help on multivariate analyses.
 
-SWIRL: [Community ordination](../unit4/swirl/Community_Ordination.html)
+SWIRL: [Ordination](../unit4/swirl/Ordination.html)
 
 Lab: [Unit 4: Recap](../unit4/labs.html)
 
