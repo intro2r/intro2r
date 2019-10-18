@@ -22,9 +22,11 @@ Learning Goals:
  - Understand the default basic graph for certain data types,
  - Be able to select and justify the choice of data presentation.
 
-SWIRL: [Bestiary of Graphics](../unit5/bestiary-graphics.html)
+SWIRL: [Choosing_a_Plot]()
 
-Reading: [Chart Chooser](http://intro2r.info/unit4/img/ChartChooser.pdf)
+Reading: 
+ - [Chart Chooser](http://intro2r.info/unit4/img/ChartChooser.pdf)
+ - [Bestiary of Graphics](../unit5/bestiary-graphics.html)
 
 Lab: [Unit 5: lab 1](../unit5/labs.html)
 
