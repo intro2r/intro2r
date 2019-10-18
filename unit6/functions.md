@@ -1,7 +1,7 @@
 # Functions 
 ==========
 
-![](./img/Tools2.jpg)
+![](./img/Tools2.png)
 
 
 # Functions vs Objects: Reprise
