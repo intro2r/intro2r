@@ -1,18 +1,56 @@
 ---
 layout: default
-title: Advanced Graphics and Programming
+title: Advanced Graphics
 ---
 
-# Advanced Graphics and Programming
+# Advanced Graphics 
 
-In this unit, you will learn how to add and modify basic plots, create functions and learn some programming tricks.
+In this unit, you will learn how to add and modify basic plots, 
 
 Follow the links to each lecture, lab, and reading.
 
 Scroll down to download the SWIRL lessons.
 
 
-## Lesson 1. How to add stuff to plots
+
+## Lesson 1. Plotting Bestiary
+
+Best Practice: [Principles of graphic design](../unit4/principles-of-graphics.html)
+
+Learning Goals:
+ - Understand how people interpret graphics,
+ - Understand the default basic graph for certain data types,
+ - Be able to select and justify the choice of data presentation.
+
+SWIRL: [Bestiary of Graphics](../unit5/bestiary-graphics.html)
+
+Reading: [Chart Chooser](http://intro2r.info/unit4/img/ChartChooser.pdf)
+
+Lab: [Unit 5: lab 1](../unit5/labs.html)
+
+Functions: 
+
+## Lesson 2. How to modify standard plots
+
+Lecture: [Modifying plots](../unit5/modifying-plots.html)
+
+Learning Goals:
+
+ - Understand principles of best practice in figure design,
+ - Modify default graphs,
+ - Search for help.
+
+SWIRL: [Modifying default graphs](../unit5/swirl/Plotting_Data.html)
+
+Exercises: [Unit 5 Exercises](../unit5/exercises.html)
+
+Lab: [Unit 5: lab 2](../unit5/labs.html)
+
+Functions: `plot()`, `par()`.
+
+
+
+## Lesson 3. How to add stuff to plots
 
 Lectures: 
 
@@ -27,14 +65,12 @@ Learning Goals:
 
 SWIRL: [Plotting More Data](../unit5/swirl/Plotting_More_Data.html)
 
-Lab: [Unit 5: Lab 1](../unit5/labs.html)
-
-Reading: [Bestiary of Graphics](../unit5/bestiary-graphics.html)
+Lab: [Unit 5: Lab 3](../unit5/labs.html)
 
 Functions: `abline()`, `text()`, `mtext()`, `points()`, `legend()`, `mfrow()`, `mfcol()`,
 
 
-## Lesson 2. How to encoding values in graphics
+## Lesson 4. How to encoding values in graphics
 
 Lecture: [Encoding values in color](../unit5/using-colour.html)
 
@@ -45,66 +81,10 @@ Learning Goals:
 
 SWIRL: [Plotting Colours](../unit5/swirl/Plotting_Colours.html)
 
-Lab: [Unit 5: Lab 2](../unit5/labs.html)
+Lab: [Unit 5: Lab 4](../unit5/labs.html)
 
 Reading: [Exporting graphics](../unit5/exporting-graphics.html)
 
 Functions: `palette()`, `pdf()`, `png()`
 
-
-## Lesson 3. How to write less code
-
-Lecture: [Writing your own functions](../unit5/functions.html)
-
-Learning Goals:
- - Understand principles of programming,
- - Understand the elements of a function,
- - Style guide for function code,
- - Write simple functions,
- - Nest functions within other functions.
-
-SWIRL: [Writing functions](../unit5/swirl/Functions.html)
-
-Lab: [Unit 5: Lab 3](../unit5/labs.html)
-
-Reading: [Best practice for writing R code](https://swcarpentry.github.io/r-novice-inflammation/06-best-practices-R/index.html)
-
-Functions: `function()`
-
-
-
-## Lesson 4. How to automate your work
-
-Lecture: [Control Structures](../unit5/control-structures.html) [slides](../unit5/control-structures-slides.html)
-
-Learning Goals:
- - Use loops and ifelse statements,
- - Identify situations where loops are useful
-
-
-SWIRL: [Loops](../unit5/swirl/Loops.html)
-
-Lab: [Unit 5: Lab 4](../unit5/labs.html)
-
-Reading: Crawley, M. *The R Book* Ch 2. Essentials of the R Language. 2.10 Loops and repeats
-
-Functions: `if()`, `else()`, `for() {}`, `while() {}`, `repeat {}`, `break`, `next`
-
-
-## Lesson 5: How to sample and generate random values
-
-Lecture: [Sampling](../unit5/sampling.html).
-
-Learning Goals:
- - Generate and use random numbers,
- - sample with and without replacement,
-
-
-SWIRL: [Sampling and simulation](../unit5/swirl/Simulation.html)
-
-Lab: [Unit 5: Recap](../unit5/labs.html)
-
-Reading: Crawley, M. *The R Book* Ch 2. Essentials of the R Language. 2.9 Random numbers, shuffling, and sampling
-
-Functions: `sample()`, `rbinom()`, `rnorm()`,
 
