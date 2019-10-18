@@ -44,7 +44,8 @@ Lab: [Unit 4: Lab 2](../unit4/labs.html)
 
 Reading: Crawley, M. The R Book. Ch 12. Analysis of Covariance.
 
-Functions:
+Functions: `lm()`
+
 
 ## Lesson 3. How to deal with binomial and count data
 
@@ -72,25 +73,20 @@ Reading: Crawley, M. The R Book. Chs 13--17.
 Functions: `glm()`, `predict()`, `lines()`.
 
 
-## Lesson 4. How to modify standard plots
+## Lesson 4. How to deal with multiple response variables (multivariate data)
 
-Lecture: [Modifying plots](../unit4/modifying-plots.html)
-
-Best Practice: [Principles of graphic design](../unit4/principles-of-graphics.html)
+Lecture: [Multivariate Data](../unit4/multivariate-data.html)
 
 Learning Goals:
- - Be able to select and justify the choice of data presentation,
- - Understand principles of best practice in figure design,
- - Modify default graphs,
- - Search for help.
+ - Understand multivariate data,
+ - Know how to analyse and plot multivariate data,
+ - Search for help on multivariate analyses.
 
 
-SWIRL: [Modifying default graphs](../unit4/swirl/Plotting_Data.html)
+SWIRL: [Community ordination](../unit4/swirl/Community_Ordination.html)
 
 Exercises: [Unit 4 Exercises](../unit4/exercises.html)
 
 Lab: [Unit 4: Recap](../unit4/labs.html)
 
-Reading: [Chart Chooser](http://intro2r.info/unit4/img/ChartChooser.pdf)
-
-Functions: `plot()`, `par()`,
+Functions: `pcord`, `prcomp()`, `princomp()`, `pca()`, `biplot()`, `interp()`.
