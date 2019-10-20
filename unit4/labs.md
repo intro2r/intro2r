@@ -169,7 +169,9 @@ Colorado         2541   4884        0.7    72.06    6.8    63.9   166 103766
 
 ### 2. Lets try to explain life expectancy based on some of our variables.
 
-  a. Explore the data to identify variables associated with life expectancy (identify at least 2)
+  a. Explore the data in the following ways to identify variables associated with life expectancy (identify at least 2)
+    i. Using pairwise plots of variables i.e. plot the dataset
+    ii. Using a PCA and associated biplot (if you're having trouble reading the plot, either get rid of your row names, or scale    your point size down with the cex = argument).
 
   b. Do a simple regression for each association identified. Which one fits best?
 
