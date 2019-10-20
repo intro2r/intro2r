@@ -45,7 +45,7 @@ Read in the housing value [data set](http://www.intro2r.info/data/) for question
   
   i. Try to linearize the relationship by applying a transformation to the predictor. Common transformations include log, square root, and square. Make two plots, one of housing value against the untransformed predictor, and the other against the transformed predictor. Add axis labels.
     
-  ii. Make two models, where you predictor is either transformed vs untransformed.
+  ii. Make two models, where your predictor is either transformed vs untransformed.
 
   iii. Check the model summaries. Which has a better R-squared value (a measure of model fit)?
  
