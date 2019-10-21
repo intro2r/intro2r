@@ -33,6 +33,7 @@ Here, we will look at methods to test whether two or more samples of continuous 
 If we have continuous data on both sides, we will most likely make some kind of scatter plot.
 
 ```
+# Generate 2 vectors of 100 random values from a Normal distribution
 x <- rnorm(100)
 y <- rnorm(100)
 plot(y ~ x)
@@ -60,6 +61,8 @@ Thus, we *know* they are different ...
 
 ```
 x <- rnorm(n = 50)
+
+# Here, y comes from a uniform distribution, where each value the same probability of being sampled.
 y <- runif(n = 50)
 ```
 
@@ -96,7 +99,7 @@ The p-value less than 0.001 suggests that x and y are indeed drawn from differen
 
 Whether we run correlation or a regression depends on how we think the two variables are related. If we think that there is no causal relationship between the two, then we would test for a correlation. If we think that there is a causal relationship between the two, then we would run a regressin.
 
-As they saying goes ‘correlation does not imply causation’.
+As the saying goes "correlation does not imply causation".
 
 ### Functions
 
@@ -106,11 +109,11 @@ As they saying goes ‘correlation does not imply causation’.
 
 #### Arguments
 
- - `x = ` a numeric vector the same length as `y`, 
+ - `x = `  a numeric vector the same length as `y`, 
 
- - `y = ` a numeric vector the same length as `x`,
+ - `y = `  a numeric vector the same length as `x`,
 
- - `method = `  [Pearson’s](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient) product moment correlation coefficient (`method = 'pearson'`) is the parametric version used for normal data (and the default). [Kendall’s](https://en.wikipedia.org/wiki/Kendall_rank_correlation_coefficient) tau (`method = 'kendall'`) or [Spearman’s](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient) rho (`method = 'spearman'`) are used for non-parametric data. The three methods each estimate the association between paired samples and compute a test of the value being zero (indicating no association).
+ - `method = `   [Pearson’s](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient) product moment correlation coefficient (`method = 'pearson'`) is the parametric version used for normal data (and the default). [Kendall’s](https://en.wikipedia.org/wiki/Kendall_rank_correlation_coefficient) tau (`method = 'kendall'`) or [Spearman’s](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient) rho (`method = 'spearman'`) are used for non-parametric data. The three methods each estimate the association between paired samples and compute a test of the value being zero (indicating no association).
 
 #### Assumptions (Pearson)
 
@@ -120,17 +123,17 @@ As they saying goes ‘correlation does not imply causation’.
 
 The correlation coefficient can fall between -1 and 1.
 
- -  -1 (negative 1) means a strong negative correlation (x goes up and y goes down),
+ -  -1: (negative 1) means a strong negative correlation (x goes up and y goes down),
 
- -  0 means no association between x and y,
+ -  0:  means no association between x and y,
 
- -  1 means a strong positive correlation (x goes up and y goes up).
+ -  1:  means a strong positive correlation (x goes up and y goes up).
 
 
 
 ### An example
 
-Let's look at the small sparrow dataset, and the relationship between the various measurements.
+Let's look at the small sparrow dataset and the relationships between the various measurements.
 
 ```
 BirdData <- data.frame(
@@ -156,7 +159,7 @@ We have no a priori reason to believe that any of these measurements of sparrows
 
 #### cor()
 
-The function `cor()` returns the correlation coefficient of two variables. It requires an `x` and a `y`. Pearson's product moment correlation coefficient is the parametric version used for normal data; Kendall's tau or Spearman's rho for non-parametric data.
+The function `cor()` returns the correlation coefficient of two variables. It requires an `x = ` and a `y = `. Pearson's product moment correlation coefficient is the parametric version used for normal data; Kendall's tau or Spearman's rho for non-parametric data.
 
 ```
 cor(x = BirdData$Tarsus, y = BirdData$Wingcrd, method = 'pearson')
@@ -167,6 +170,8 @@ cor(x = BirdData$Tarsus, y = BirdData$Wingcrd, method = 'pearson')
 ```
 
 #### cor.test()
+
+The function `cor.test()` tests whether the correlation coefficient is significantly different from 0.
 
 ```
 cor.test(x = BirdData$Tarsus, y = BirdData$Wingcrd, method = 'pearson')
@@ -208,7 +213,7 @@ The p-value of the test is 0.0868, not less than the usual alpha of 0.05; so we 
 ## 3. Linear Regression
 
 
-If we think that one variable is driving variation in the other, we should use regression rather than correlation.
+If we think that one variable is driving variation in the other (i.e., we have predictor and response variables), then we should use regression rather than correlation.
 
 ### Function
 
