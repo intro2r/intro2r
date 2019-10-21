@@ -82,7 +82,7 @@ Learning Goals:
  - Know how to analyse and plot multivariate data,
  - Search for help on multivariate analyses.
  
-More details: The [vegan](http://vegan.r-forge.r-project.org/) R package
+More details: The [vegan](http://vegan.r-forge.r-project.org/) and [labdsv](http://ecology.msu.montana.edu/labdsv/R/labs/) R packages.
 
 SWIRL: [Ordination](../unit4/swirl/Ordination.html)
 
