@@ -74,7 +74,8 @@ data(Orange)
   c. Is this relationship the same for all Trees? Run a model to test this.
 
   d. Add fitted lines for each Tree to the figure.
- 
+
+(This [help page](https://stackoverflow.com/questions/25735636/interpretation-of-ordered-and-non-ordered-factors-vs-numerical-predictors-in-m) explains why the .L, .Q, and .C appear in ordered factors).
 
 
 
