@@ -184,7 +184,7 @@ Colorado         2541   4884        0.7    72.06    6.8    63.9   166 103766
 
   a. Maybe we have an expectation that there’s an important threshold at 50% high school graduation rate, and wish to model this. Convert the high school graduation variable into a binary dummy variable, where <50% is 0 and >50% is 1.
 
-  b. Perform a logistic regression, using any predictor you think might be important.
+  b. Model your new binomial graduation variable with logistic regression, using any predictor you think might be important.
 
   c. Plot this relationship, give your plot proper labels, and include the fitted logistic regression line (which you’ll have to predict)
 
@@ -192,7 +192,7 @@ Colorado         2541   4884        0.7    72.06    6.8    63.9   166 103766
 
 ### 4. Now lets practice modeling count data
 
-  a. Check the distribution of the population variable. Does it appear normal?
+  a. Check the distribution of the population variable. Does it appear normal? What kind of model is needed for this type of data?
 
   b. Check the distribution of the area variable. Does it appear normal?
 
