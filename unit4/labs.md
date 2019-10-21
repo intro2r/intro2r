@@ -10,11 +10,6 @@ These labs test and build on the material presented in the SWIRL lessons.
 
 Scroll down or click [here](../unit4/labs.html#how-to-submit-your-labs) to to check how to submit them.
 
-## Due Dates
-
-Lab 1 and 2: 2018-10-26 23:58
-
-Lab 3 and recap: 2018-11-02 23:58
 
 
  - - -
@@ -167,7 +162,7 @@ Colorado         2541   4884        0.7    72.06    6.8    63.9   166 103766
 
  
 
-### 2. Lets try to explain life expectancy based on some of our variables.
+### 2. Let's try to explain life expectancy based on some of our variables.
 
   a. Explore the data in the following ways to identify variables associated with life expectancy (identify at least 2)
     i. Using pairwise plots of variables i.e. plot the dataset
@@ -180,7 +175,7 @@ Colorado         2541   4884        0.7    72.06    6.8    63.9   166 103766
  d. Now do a multiple regression with all of your predictors. Are all the predictors you identified in 2a still important?
 
 
-### 3. Now lets practice some logistic regression
+### 3. Now let's practice some logistic regression
 
   a. Maybe we have an expectation that there’s an important threshold at 50% high school graduation rate, and wish to model this. Convert the high school graduation variable into a binary dummy variable, where <50% is 0 and >50% is 1.
 
@@ -190,7 +185,7 @@ Colorado         2541   4884        0.7    72.06    6.8    63.9   166 103766
 
  
 
-### 4. Now lets practice modeling count data
+### 4. Now let's practice modeling count data
 
   a. Check the distribution of the population variable. Does it appear normal? What kind of model is needed for this type of data?
 
