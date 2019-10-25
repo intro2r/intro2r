@@ -26,7 +26,7 @@ If you run `plot()` on the data set object, you will get a many-panelled figure 
 
   b. Find the correlation coefficients between housing value and those variables identified in a.
  
-### 2. Perform a simple linear regression with one predictor and housing value as your response variable (your y).
+### 2. Perform a simple linear regression with one predictor and housing value as your response variable (your *y*).
     
   a. Plot this relationship, and be sure to add your regression line to the plot. Add axis labels.
 
@@ -130,11 +130,11 @@ There are data on seven species (`$SpCode`), their size (`$dbh`), their sex (`$S
   f. Plot the data and the predicted curve of this relationship. Add axis labels.
 
 
-### 2.Horse kicks
+### 2. Horse kicks
 
 The [horsekick data](http://www.intro2r.info/data/horsekicks.txt) give the number of soldiers in the Prussian cavalry killed by horse kicks, by corp membership and by year. The years are from 1875 to 1894, and there are 14 different cavalry corps: the first column corresponds to the guard corp and the other columns to corps 1 through 11, 14, and 15. 
 
-The data are from Distributome project and are derived from the book by Andrews and Herzberg. The original source of the data is the classic book by von Bortkiewicz (references are given below). The data are famous because they seem to fit the Poisson model reasonably well.
+The data are famous because they seem to fit the Poisson model reasonably well. [Source](http://www.randomservices.org/random/data/HorseKicks.html) 
 
 You will likely need to reformat the data.
 
