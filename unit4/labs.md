@@ -62,13 +62,19 @@ pirate <- data.frame(Temp = c(14.2, 14.4, 14.55, 14.8, 15.25, 15.5, 15.85),
 
 ### 1. Access the Orange data set and answer the following questions.
 
+R comes with several built-in data sets. These can be accessed with the function `data()` and the name of the data set.
 ```
 data(Orange)
 ?Orange
+```
 
-# The `$Tree` column is an ordered factor in the original data, which makes the model output somewhat difficult to interpret. Convert the column to an unordered factor:
+The `$Tree` column is an ordered factor in the original data, which makes the model output somewhat difficult to interpret. Convert the column to an unordered factor:
+```
 Orange$Tree <- factor(as.numeric(Orange$Tree))
 ```
+
+(*Note:* This [help page](https://stackoverflow.com/questions/25735636/interpretation-of-ordered-and-non-ordered-factors-vs-numerical-predictors-in-m) explains why the .L, .Q, and .C appear in ordered factors if you do not run the code above).
+
 
   a. Plot circumference as a function of age. Add axis labels.
 
@@ -78,7 +84,6 @@ Orange$Tree <- factor(as.numeric(Orange$Tree))
 
   d. Add fitted lines for each Tree to the figure.
 
-(This [help page](https://stackoverflow.com/questions/25735636/interpretation-of-ordered-and-non-ordered-factors-vs-numerical-predictors-in-m) explains why the .L, .Q, and .C appear in ordered factors).
 
 
 
