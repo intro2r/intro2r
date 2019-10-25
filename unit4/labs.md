@@ -19,6 +19,8 @@ Scroll down or click [here](../unit4/labs.html#how-to-submit-your-labs) to to ch
 Read in the housing value [data set](http://www.intro2r.info/data/) for questions 1-3.
 
 ### 1. Plot the entire data set.
+
+If you run `plot()` on the data set object, you will get a many-panelled figure that plots each variable against all the other ones. Variables names are indicated on the diagonal.
   
   a. Which variables appear correlated with housing value?
 
