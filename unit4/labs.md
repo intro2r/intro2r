@@ -65,6 +65,9 @@ pirate <- data.frame(Temp = c(14.2, 14.4, 14.55, 14.8, 15.25, 15.5, 15.85),
 ```
 data(Orange)
 ?Orange
+
+# The `$Tree` column is an ordered factor in the original data, which makes the model output somewhat difficult to interpret. Convert the column to an unordered factor:
+Orange$Tree <- factor(as.numeric(Orange$Tree))
 ```
 
   a. Plot circumference as a function of age. Add axis labels.
