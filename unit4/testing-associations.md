@@ -103,7 +103,7 @@ As the saying goes "correlation does not imply causation".
 
 ### Functions
 
- - `cor()`  returns the correlation coefficient of two variables
+ - `cor()`  returns the correlation coefficient of two variables. *Note:* You can also run `cor()` on a matrix or dataframe to test all possible correlations at once.
 
  - `cor.test()`  tests for association—correlation—between paired samples.  It returns the correlation coefficient and the p-value of the correlation.
 
