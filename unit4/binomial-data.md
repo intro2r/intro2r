@@ -46,7 +46,7 @@ Binomial data can either be modelled at the individual (binary response) or grou
 
 At the individual level we can model each individual in terms of dead or alive (male/female, tall/short, green/red, ...), using logistic regression (or logit model). 
 
-In the logit model, the log odds (logarithm of the odds) of the outcome is modeled as a linear combination of the predictor variables. If p is a probability, then p/(1 âˆ’ p) is the corresponding odds; the logit of the probability is the logarithm of the odds.
+In the logit model, the log odds (logarithm of the odds) of the outcome is modeled as a linear combination of the predictor variables. If p is a probability, then p/(1 − p) is the corresponding odds; the logit of the probability is the logarithm of the odds.
 
 To model a binary response variable, we first need (or need to create) a single vector of 0 and 1s. We model this with glm() and family = 'binomial'. We can compare models using a test for a change in deviance with chi-squared. Overdispersion is not an issue with a binary response variable.
 
