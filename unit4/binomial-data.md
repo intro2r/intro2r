@@ -174,7 +174,7 @@ However, in R, we are presented with *differences* or the *change* in log odds b
 
 Thus, for **categorical predictors**, an odds ratio:
 
- - > 1 suggests a positive difference between levels and the base level (the exponential of a positive number is greater than 1), i.e., the base level has a lower odds and the level has a higher odds,
+ - \> 1 suggests a positive difference between levels and the base level (the exponential of a positive number is greater than 1), i.e., the base level has a lower odds and the level has a higher odds,
 
  - < 1 suggests a negative difference (the exponential of a negative number lies between 0 and 1).
 
