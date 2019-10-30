@@ -87,6 +87,8 @@ More details:
   - and [labdsv](http://ecology.msu.montana.edu/labdsv/R/labs/) R packages.
   - Material on [ordination](http://cc.oulu.fi/~jarioksa/opetus/metodi/index2016.html),
   - [New lectures](http://cc.oulu.fi/~jarioksa/opetus/metodi/ordination101.html#1) by author of vegan.
+  - Manly and Alberto. 2017. [Multivariate statistical methods: A primer](https://www.crcpress.com/Multivariate-Statistical-Methods-A-Primer-Fourth-Edition/Manly-Alberto/p/book/9781498728966). Fourth edition. Taylor & Francis.
+  - More examples [here](https://richardlent.github.io/post/multivariate-analysis-with-r/)
 
 SWIRL: [Ordination](../unit4/swirl/Ordination.html)
 
