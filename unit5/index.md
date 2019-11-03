@@ -42,7 +42,7 @@ Learning Goals:
  - Modify default graphs,
  - Search for help.
 
-SWIRL: [Modifying default graphs](../unit5/swirl/Plotting_Data.html)
+SWIRL: [Modifying default graphs](../unit5/swirl/Modifying_Standard_Plots.html)
 
 Exercises: [Unit 5 Exercises](../unit5/exercises.html)
 
