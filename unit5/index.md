@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Advanced Graphics
+title: Graphics
 ---
 
-# Advanced Graphics 
+# Graphics 
 
 In this unit, you will learn how to add and modify basic plots, 
 
