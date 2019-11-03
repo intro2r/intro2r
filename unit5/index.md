@@ -15,7 +15,7 @@ Scroll down to download the SWIRL lessons.
 
 ## Lesson 1. Plotting Bestiary
 
-Best Practice: [Principles of graphic design](../unit4/principles-of-graphics.html)
+Best Practice: [Principles of graphic design](../unit5/principles-of-graphics.html)
 
 Learning Goals:
  - Understand how people interpret graphics,
@@ -25,7 +25,7 @@ Learning Goals:
 SWIRL: [Choosing_a_Plot]()
 
 Reading: 
- - [Chart Chooser](http://intro2r.info/unit4/img/ChartChooser.pdf)
+ - [Chart Chooser](http://intro2r.info/unit5/img/ChartChooser.pdf)
  - [Bestiary of Graphics](../unit5/bestiary-graphics.html)
 
 Lab: [Unit 5: lab 1](../unit5/labs.html)
@@ -65,7 +65,7 @@ Learning Goals:
  - Using different graphics devices,
  - scaling figures
 
-SWIRL: [Plotting More Data](../unit5/swirl/Plotting_More_Data.html)
+SWIRL: [Plotting More Data](../unit5/swirl/Adding_Elements_To_Plots.html)
 
 Lab: [Unit 5: Lab 3](../unit5/labs.html)
 
@@ -83,7 +83,7 @@ Learning Goals:
 
 SWIRL: [Plotting Colours](../unit5/swirl/Plotting_Colours.html)
 
-Lab: [Unit 5: Lab 4](../unit5/labs.html)
+Lab: [Unit 5: Recap](../unit5/labs.html)
 
 Reading: [Exporting graphics](../unit5/exporting-graphics.html)
 
