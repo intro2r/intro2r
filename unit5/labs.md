@@ -23,27 +23,27 @@ dat <- read.table(file = "http://www.intro2r.info/data/sparrows.txt", header = T
 
 ### 1. Create four barplots.
 
-Show the following:
+Show the following: 
 
- - the number of males and females of species SESP,
- - the number of males and females of species SSTS,
- - the number of individuals in each species that are male,
- - the number of individuals in each species that are female.
+i. the number of males and females of species SESP,
+ii. the number of males and females of species SSTS,
+iii. the number of individuals in each species that are male,
+iv. the number of individuals in each species that are female.
 
 
 ### 2. For species SSTS, make two histograms.
 
-Plot the distribution of Head for each Sex.
+Plot the distribution of Head for (i) males and (ii) females.
 
 
 ### 3. Make two plots.
 
-Plot Wingcrd as a function of (i) Tarsus and (ii) Head, differentiating each species by colour and symbol.
+Plot Wingcrd as a function of (i) Tarsus and (ii) Head.
 
 
 ### 4. Make two boxplots.
 
-Plot Tarsus as a function of sex in one plot, and plot Head as a function of sex in the other. 
+Plot (i) Tarsus as a function of Sex and (ii) Head as a function of Sex. 
 
 
  - - -
@@ -59,12 +59,13 @@ dat <- read.table(file = "http://www.intro2r.info/data/sparrows.txt", header = T
 
 ### 1. Create four barplot sagain.
 
-Show the following:
 
- - the number of males and females of species SESP,
- - the number of males and females of species SSTS,
- - the number of individuals in each species that are male,
- - the number of individuals in each species that are female.
+Show the following: 
+
+i. the number of males and females of species SESP,
+ii. the number of males and females of species SSTS,
+iii. the number of individuals in each species that are male,
+iv. the number of individuals in each species that are female.
 
 To help aid comparisons, make sure that the y axes for the two plots in each row have the same range.
 
@@ -73,7 +74,7 @@ Each panel should have x and y axis labels in bold.
 
 ### 2. For species SSTS, make two histograms again.
 
-Plot the distribution of Head for each Sex.
+Plot the distribution of Head for (i) males and (ii) females.
 
 Ensure that males and females are different colours.
 
@@ -82,14 +83,16 @@ Each plot should have the lines wider than the default width and horizontal y-ax
 
 ### 3. Make two plots again.
 
-Plot Wingcrd as a function of (i) Tarsus and (ii) Head, differentiating each species by colour and symbol.
+Plot Wingcrd as a function of (i) Tarsus and (ii) Head.
+
+Dfferentiate each species by colour and symbol.
 
 Ensure that the tick marks point inwards and the axis labels have units (you can make up what the units are).
 
 
 ### 4. Make two boxplots again.
 
-Plot Tarsus as a function of sex in one plot, and plot Head as a function of sex in the other. 
+Plot (i) Tarsus as a function of Sex and (ii) Head as a function of Sex. 
  
 Make sure that each sex has a consistent color.
 
@@ -104,7 +107,7 @@ Make sure that each sex has a consistent color.
 
 ### 1. Make two boxplots again.
 
-Plot Tarsus as a function of sex in one plot, and plot Head as a function of sex in the other. 
+Plot (i) Tarsus as a function of Sex and (ii) Head as a function of Sex. 
  
 Add points for the raw data.
 
@@ -115,7 +118,7 @@ Calculate the mean Head size and Tarsus size for both species x sex combination.
  
 Superimpose the mean values on top and add error bars. 
  
-Ensure that the data points are paler and the summary data stand out. Check the bestiary for details on stripcharts.
+Ensure that the data points are paler and the summary data stand out. (Check the bestiary for details on stripcharts).
 
 
 ### 3. Plot Head as a function of Tarsus.
