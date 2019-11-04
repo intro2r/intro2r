@@ -22,7 +22,7 @@ Learning Goals:
  - Understand the default basic graph for certain data types,
  - Be able to select and justify the choice of data presentation.
 
-SWIRL: [Plotting Data]()
+SWIRL: [Plotting Data](../unit5/swirl/Plotting_Data.html)
 
 Reading: 
  - [Chart Chooser](http://intro2r.info/unit5/img/ChartChooser.pdf)
