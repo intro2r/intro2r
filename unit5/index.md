@@ -52,7 +52,7 @@ Functions: `plot()`, `par()`.
 
 
 
-## Lesson 3. How to add stuff to plots
+## Lesson 3. How to add elements to plots
 
 Lectures: 
 
@@ -65,7 +65,7 @@ Learning Goals:
  - Using different graphics devices,
  - scaling figures
 
-SWIRL: [Plotting More Data](../unit5/swirl/Adding_Elements_To_Plots.html)
+SWIRL: [Adding To Plots](../unit5/swirl/Adding_To_Plots.html)
 
 Lab: [Unit 5: Lab 3](../unit5/labs.html)
 
