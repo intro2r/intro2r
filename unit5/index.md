@@ -13,7 +13,7 @@ Scroll down to download the SWIRL lessons.
 
 
 
-## Lesson 1. Plotting Bestiary
+## Lesson 1. Making basic plots
 
 Lecture: [Principles of graphic design](../unit5/principles-of-graphics.html)
 
