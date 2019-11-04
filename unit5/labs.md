@@ -21,34 +21,29 @@ Using the sparrow data set.
 dat <- read.table(file = "http://www.intro2r.info/data/sparrows.txt", header = TRUE)
 ```
 
-### 1. Create a plot with 4 panels (2 x 2).
+### 1. Create four barplots.
 
-The panels should show the following barplots:
+Show the following:
 
- - top left, the number of males and females of species SESP
- - top right, the number of males and females of species SSTS
- - bottom left, the number of individuals in each species that are male
- - bottom right, the number of individuals in each species that are female
-
-To help aid comparisons, make sure that the y axes for the two plots in each row have the same range.
-
-Each panel should have x and y axis labels in bold.
+ - the number of males and females of species SESP,
+ - the number of males and females of species SSTS,
+ - the number of individuals in each species that are male,
+ - the number of individuals in each species that are female.
 
 
-### 2. For species SSTS, make a three-panel horizontal figure.
+### 2. For species SSTS, make two histograms.
 
-Plot Tarsus, Head, and Weight each as a function of Sex in separate panels.
-
-Ensure that males and females are different colours.
-
-Each panel should have the lines wider than the default width and horizontal y-axis numbers.
+Plot the distribution of Head for each Sex.
 
 
-### 3. Make a five-panel plot.
+### 3. Make two plots.
 
-Plot Wingcrd as a function of Tarsus, Head, Culmen, Weight, and Nalospi, differentiating each species by colour and/or symbol.
+Plot Wingcrd as a function of (i) Tarsus and (ii) Head, differentiating each species by colour and symbol.
 
-Ensure that the tick marks point inwards and the axis labels have units (you can make up what the units are).
+
+### 4. Make two boxplots.
+
+Plot Tarsus as a function of sex in one plot, and plot Head as a function of sex in the other. 
 
 
  - - -
@@ -61,32 +56,77 @@ Using the sparrow data set.
 dat <- read.table(file = "http://www.intro2r.info/data/sparrows.txt", header = TRUE)
 ```
 
-### 1. Calculate the mean Head size and Tarsus size for both species x sex combination.
 
-### 2. Make a 2-panel figure of two boxplots.
+### 1. Create four barplot sagain.
 
- - plot Tarsus as a function of sex in one panel, and plot Head as a function of sex in the other. 
+Show the following:
+
+ - the number of males and females of species SESP,
+ - the number of males and females of species SSTS,
+ - the number of individuals in each species that are male,
+ - the number of individuals in each species that are female.
+
+To help aid comparisons, make sure that the y axes for the two plots in each row have the same range.
+
+Each panel should have x and y axis labels in bold.
+
+
+### 2. For species SSTS, make two histograms again.
+
+Plot the distribution of Head for each Sex.
+
+Ensure that males and females are different colours.
+
+Each plot should have the lines wider than the default width and horizontal y-axis numbers.
+
+
+### 3. Make two plots again.
+
+Plot Wingcrd as a function of (i) Tarsus and (ii) Head, differentiating each species by colour and symbol.
+
+Ensure that the tick marks point inwards and the axis labels have units (you can make up what the units are).
+
+
+### 4. Make two boxplots again.
+
+Plot Tarsus as a function of sex in one plot, and plot Head as a function of sex in the other. 
  
- - Make sure that each sex has a consistent color.
+Make sure that each sex has a consistent color.
 
-### 3. Plot the data again, but instead of boxplots, use stripcharts to illustrate all the data points. 
 
- - Superimpose the mean values on top and add error bars. 
- 
- - Ensure that the data points are paler and the summary data stand out. Check the bestiary for details on stripcharts.
 
-### 4. Plot Head as a function of Tarsus.
 
- - Ensure that the points for each sex and species are different but consistent (e.g., circles for species 1, squares for species 2, empty for males, filled for females). 
- 
- - Make some good use of colour!
 
  
 - - -
 
 ## Lab 3
 
-## Tree plot in Michigan 
+### 1. Make two boxplots again.
+
+Plot Tarsus as a function of sex in one plot, and plot Head as a function of sex in the other. 
+ 
+Add points for the raw data.
+
+
+### 2. Plot the data again, but instead of boxplots, use stripcharts to display all the data points. 
+
+Calculate the mean Head size and Tarsus size for both species x sex combination.
+ 
+Superimpose the mean values on top and add error bars. 
+ 
+Ensure that the data points are paler and the summary data stand out. Check the bestiary for details on stripcharts.
+
+
+### 3. Plot Head as a function of Tarsus.
+
+Ensure that the points for each sex and species are different but consistent (e.g., circles for species 1, squares for species 2, empty for males, filled for females). 
+
+
+- - -
+
+
+## Lab 4 & Recap: Tree plot in Michigan 
 
 ![](../unit5/img/treeplot.png)
 
@@ -98,61 +138,33 @@ dat_tree <- read.table("http://www.intro2r.info/data/treespecies_cleandata.txt",
                        header = TRUE, sep = '\t')
 ```
 
-![](../unit5/img/dbh.png)
 
+### 1. Create a similar plot map to the above:
 
-1. Write a function to calculate basal area (remember that BA = radius^2 * pi).
-
-2. Calculate the basal area of each tree.
-
-3. Calculate the total BA of all trees.
-
-4. Using `tapply()`, calculate the mean BA of each species 
-
-5. Using one call to `tapply()` what is the total BA of (i) alive trees, and (ii) dead trees?
-
-6. Write a function to generate a map (an x-y plot) of the trees. Set some nice defaults. Establish a 2 x 3 grid of panels in a figure, and use this function to make a map of each species.
-
-- - -
-
-
-## Lab 4 & Recap: More Trees!
-
-### 1. Write a loop to read in each of the following six files, one for each species.
-
-You can either read them in from the URLs, or download them to your hard drive and read them in from there.
-
-There are several ways to do this.
-
-Think about what data object/s you want to create.
-
-You might want to use `paste()`. 
-
-```
-http://www.intro2r.info/data/blackoak.txt
-http://www.intro2r.info/data/hickory.txt
-http://www.intro2r.info/data/maple.txt
-http://www.intro2r.info/data/misc.txt
-http://www.intro2r.info/data/redoak.txt
-http://www.intro2r.info/data/whiteoak.txt
-```
-
-### 2. Write a loop to make the same 2 x 3 panel figure of maps as for Lab 3 Q6.
+- Use colour and symbols to distinguish species.
  
- - Use your custom plotting function from Lab 3.
+- Scale symbol size to DBH.
 
- - Make sure to use a loop!
+- Use nice axis labels and ensure that tick numbers are horizontal.
 
 
-### 3. Create six random tree communities of 100 trees from the full trees dataset
+### 2. Make a histogram of the DBH of blackoak.
 
- - Use `sample()`.
+ - Use wider lines.
  
- - Create a list, and have each element of this list be a community.
+ - Label the axes with units.
  
- - Plot the six communities. Ensure that point size is proportional to DBH.
+
+### 3. Display boxplots of DBH for alive and dead trees.
+
+
+### 4. Make a dotplot illustrating the mean and SE of DBH for alive and dead trees of hickory.
+
  
- - Calculate the mean DBH of each community.
+
+
+
+
 
 
 - - -
