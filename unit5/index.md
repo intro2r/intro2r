@@ -22,7 +22,7 @@ Learning Goals:
  - Understand the default basic graph for certain data types,
  - Be able to select and justify the choice of data presentation.
 
-SWIRL: [Choosing_a_Plot]()
+SWIRL: [Plotting Data]()
 
 Reading: 
  - [Chart Chooser](http://intro2r.info/unit5/img/ChartChooser.pdf)
@@ -54,9 +54,7 @@ Functions: `plot()`, `par()`.
 
 ## Lesson 3. How to add elements to plots
 
-Lectures: 
-
- - [Encoding values in points and lines](../unit5/encoding-values.html)
+Lecture: 
 
  - [Adding elements to plots and organising plots in space](../unit5/adding-to-plots.html)
 
@@ -74,7 +72,12 @@ Functions: `abline()`, `text()`, `mtext()`, `points()`, `legend()`, `mfrow()`, `
 
 ## Lesson 4. How to encoding values in graphics
 
-Lecture: [Encoding values in color](../unit5/using-colour.html)
+Lectures:
+
+ - [Encoding values in points and lines](../unit5/encoding-values.html)
+
+ - [Encoding values in color](../unit5/using-colour.html)
+
 
 Learning Goals:
  - Use plot elements (colour, size, shape, etc) to encode values,
