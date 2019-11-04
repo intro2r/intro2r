@@ -21,6 +21,8 @@ Learning Goals:
  - Understand how people interpret graphics,
  - Understand the default basic graph for certain data types,
  - Be able to select and justify the choice of data presentation.
+ 
+Demo: [demo1](../unit5/demo1.html) 
 
 SWIRL: [Plotting Data](../unit5/swirl/Plotting_Data.html)
 
