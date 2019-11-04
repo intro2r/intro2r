@@ -15,7 +15,7 @@ Scroll down to download the SWIRL lessons.
 
 ## Lesson 1. Plotting Bestiary
 
-Best Practice: [Principles of graphic design](../unit5/principles-of-graphics.html)
+Lecture: [Principles of graphic design](../unit5/principles-of-graphics.html)
 
 Learning Goals:
  - Understand how people interpret graphics,
