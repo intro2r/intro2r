@@ -21,7 +21,7 @@ Using the sparrow data set.
 dat <- read.table(file = "http://www.intro2r.info/data/sparrows.txt", header = TRUE)
 ```
 
-### 1. Create four barplots.
+### 1. Create four barplots. For all graphs in this lesson, ensure you have proper axis labels. 
 
 Show the following: 
 
@@ -57,7 +57,7 @@ dat <- read.table(file = "http://www.intro2r.info/data/sparrows.txt", header = T
 ```
 
 
-### 1. Create four barplot sagain.
+### 1. Create four barplots again.
 
 
 Show the following: 
@@ -78,14 +78,14 @@ Plot the distribution of Head for (i) males and (ii) females.
 
 Ensure that males and females are different colours.
 
-Each plot should have the lines wider than the default width and horizontal y-axis numbers.
+Each plot should have axis lines wider than the default width and horizontal y-axis numbers.
 
 
 ### 3. Make two plots again.
 
 Plot Wingcrd as a function of (i) Tarsus and (ii) Head.
 
-Dfferentiate each species by colour and symbol.
+Differentiate each species by colour and symbol.
 
 Ensure that the tick marks point inwards and the axis labels have units (you can make up what the units are).
 
