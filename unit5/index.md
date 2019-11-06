@@ -15,13 +15,13 @@ Scroll down to download the SWIRL lessons.
 
 ## Lesson 1. Making basic plots
 
-Lecture: [Principles of graphic design](../unit5/principles-of-graphics.html)
-
 Learning Goals:
  - Understand how people interpret graphics,
  - Understand the default basic graph for certain data types,
  - Be able to select and justify the choice of data presentation.
- 
+
+Lecture: [Principles of graphic design](../unit5/principles-of-graphics.html)
+
 Demo: [demo1](../unit5/demo1.html) 
 
 SWIRL: [Plotting Data](../unit5/swirl/Plotting_Data.html)
@@ -41,7 +41,9 @@ Learning Goals:
  - Modify default graphs,
  - Search for help on advanced graphical parameters.
 
-Lecture: [Modifying plots](../unit5/modifying-plots.html)
+Lectures: 
+ - [Modifying plots](../unit5/modifying-plots.html)
+ - [Exporting graphics](../unit5/exporting-graphics.html)
 
 Reading:
  - [Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128)
@@ -85,12 +87,14 @@ Learning Goals:
 
 Lecture:
   - [Encoding values in color](../unit5/using-colour.html)
+  
+Reading:
+ - Wilke 2019. [Color basics](https://serialmentor.com/dataviz/color-basics.html)
+ - Wilke 2019. [Common pitfalls of color use](https://serialmentor.com/dataviz/color-pitfalls.html)
 
 SWIRL: [Plotting Colours](../unit5/swirl/Plotting_Colours.html)
 
 Lab: [Unit 5: Recap](../unit5/labs.html)
-
-Reading: [Exporting graphics](../unit5/exporting-graphics.html)
 
 Functions: `palette()`, `pdf()`, `png()`
 
