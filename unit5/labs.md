@@ -67,9 +67,9 @@ ii. the number of males and females of species SSTS,
 iii. the number of individuals in each species that are male,
 iv. the number of individuals in each species that are female.
 
-To help aid comparisons, make sure that the y axes for the two plots in each row have the same range.
+To help aid comparisons, make sure that the y axes for each plot has the same range.
 
-Each panel should have x and y axis labels in bold.
+Each plot should have x and y axis labels in bold.
 
 
 ### 2. For species SSTS, make two histograms again.
@@ -98,9 +98,6 @@ Make sure that each sex has a consistent color.
 
 
 
-
-
- 
 - - -
 
 ## Lab 3
