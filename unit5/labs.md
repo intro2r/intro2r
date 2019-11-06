@@ -157,12 +157,20 @@ dat_tree <- read.table("http://www.intro2r.info/data/treespecies_cleandata.txt",
 
 ### 3. Display boxplots of DBH for alive and dead trees.
 
+Make a single figure containing two boxplots of tree DBH, one for alive and one for dead trees.
+
+ - Fill each box a different colour.
+
+ - Add an arrow and a label identifying the species of the outlier in the boxplot of dead trees.
+
 
 ### 4. Make a dotplot illustrating the mean and SE of DBH for alive and dead trees of hickory.
 
- 
+Make a similar plot to the boxplots above (q3), but instead of boxes, display the datapoints for each tree. Ensure that these points are a paler shade of grey.
 
+ - Overlay segments to display the SE of the mean for alive and dead trees.
 
+ - Overlay larger and darker points indicating the mean DBH of alive and dead trees.
 
 
 
