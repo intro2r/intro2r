@@ -58,7 +58,7 @@ Functions: `plot()`, `par()`.
 
 Lectures: 
 
- - [Encoding values in points and lines](../unit5/encoding-values.html)  [slides](../unit5/encoding-values-slides.html)
+ - [Encoding values in points and lines](../unit5/encoding-values.html),  [slides](../unit5/encoding-values-slides.html)
 
  - [Adding elements to plots and organising plots in space](../unit5/adding-to-plots.html)
 
