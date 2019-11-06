@@ -36,13 +36,15 @@ Functions:
 
 ## Lesson 2. How to modify standard plots
 
-Lecture: [Modifying plots](../unit5/modifying-plots.html)
-
 Learning Goals:
-
  - Understand principles of best practice in figure design,
  - Modify default graphs,
- - Search for help.
+ - Search for help on advanced graphical parameters.
+
+Lecture: [Modifying plots](../unit5/modifying-plots.html)
+
+Reading:
+ - [Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128)
 
 SWIRL: [Modifying default graphs](../unit5/swirl/Modifying_Standard_Plots.html)
 
@@ -56,16 +58,17 @@ Functions: `plot()`, `par()`.
 
 ## Lesson 3. How to add elements to plots
 
-Lectures: 
-
- - [Encoding values in points and lines](../unit5/encoding-values.html),  [slides](../unit5/encoding-values-slides.html)
-
- - [Adding elements to plots and organising plots in space](../unit5/adding-to-plots.html)
-
 Learning Goals:
  - Add elements to graphics (lines, text, symbols, labels, legends),
  - Using different graphics devices,
  - scaling figures
+
+Lectures: 
+ - [Encoding values in points and lines](../unit5/encoding-values.html),  [slides](../unit5/encoding-values-slides.html)
+ - [Adding elements to plots and organising plots in space](../unit5/adding-to-plots.html)
+
+Reading:
+ - Stephen Few's [Graph Selection Matrix](https://www.perceptualedge.com/articles/misc/Graph_Selection_Matrix.pdf)
 
 SWIRL: [Adding To Plots](../unit5/swirl/Adding_To_Plots.html)
 
@@ -76,15 +79,12 @@ Functions: `abline()`, `text()`, `mtext()`, `points()`, `legend()`, `mfrow()`, `
 
 ## Lesson 4. How to encoding values in graphics
 
-Lecture:
- 
- - [Encoding values in color](../unit5/using-colour.html)
-
-
 Learning Goals:
  - Use plot elements (colour, size, shape, etc) to encode values,
  - Develop and use color palletes,
 
+Lecture:
+  - [Encoding values in color](../unit5/using-colour.html)
 
 SWIRL: [Plotting Colours](../unit5/swirl/Plotting_Colours.html)
 
@@ -95,3 +95,12 @@ Reading: [Exporting graphics](../unit5/exporting-graphics.html)
 Functions: `palette()`, `pdf()`, `png()`
 
 
+### Further reading
+
+Wilke, C. 2019. [Fundamentals of Data Vizualization: A Primer on Making Informative and Compelling Figures](https://serialmentor.com/dataviz/)
+
+Healy, K. 2018. [Data Visualization: A Practical Introduction](http://socviz.co/)
+
+[https://www.edwardtufte.com/tufte/](https://www.edwardtufte.com/tufte/)
+
+Stephen Few's [books and blog](http://www.perceptualedge.com/)
