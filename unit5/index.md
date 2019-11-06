@@ -56,7 +56,9 @@ Functions: `plot()`, `par()`.
 
 ## Lesson 3. How to add elements to plots
 
-Lecture: 
+Lectures: 
+
+ - [Encoding values in points and lines](../unit5/encoding-values.html)
 
  - [Adding elements to plots and organising plots in space](../unit5/adding-to-plots.html)
 
@@ -74,10 +76,8 @@ Functions: `abline()`, `text()`, `mtext()`, `points()`, `legend()`, `mfrow()`, `
 
 ## Lesson 4. How to encoding values in graphics
 
-Lectures:
-
- - [Encoding values in points and lines](../unit5/encoding-values.html)
-
+Lecture:
+ 
  - [Encoding values in color](../unit5/using-colour.html)
 
 
