@@ -87,7 +87,9 @@ Plot Wingcrd as a function of (i) Tarsus and (ii) Head.
 
 Differentiate each species by colour and symbol.
 
-Ensure that the tick marks point inwards and the axis labels have units (you can make up what the units are).
+Ensure that the tick marks point inwards.
+
+Add axis labels with units in parentheses (you can make up what the units are, because they are not specified in the data).
 
 
 ### 4. Make two boxplots again.
