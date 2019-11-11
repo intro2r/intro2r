@@ -166,7 +166,7 @@ Make a single figure containing two boxplots of tree DBH, one for alive and one 
  - Add an arrow and a label identifying the species of the outlier in the boxplot of dead trees.
 
 
-### 4. Make a dotplot illustrating the mean and SE of DBH for alive and dead trees of hickory.
+### 4. Make a stripchart illustrating the mean and SE of DBH for alive and dead trees of hickory.
 
 Make a similar plot to the boxplots above (q3), but instead of boxes, display the datapoints for each tree. Ensure that these points are a paler shade of grey.
 
