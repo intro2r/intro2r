@@ -152,7 +152,7 @@ dat_tree <- read.table("http://www.intro2r.info/data/treespecies_cleandata.txt",
 
 ### 2. Make a histogram of the DBH of blackoak.
 
- - Use wider lines.
+ - Use wider (i.e., thicker) lines.
  
  - Label the axes with units.
  
