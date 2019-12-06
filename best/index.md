@@ -31,7 +31,7 @@ Here, we will illustrate principles and practical tips for working (mostly in R)
  
 ## Statistics
 
- - Thinking more deeply about your approach to statistics and [statistical significance](../best/statistics/html)
+ - Thinking more deeply about your approach to statistics and [statistical significance](../best/statistics.html)
  
  
  
