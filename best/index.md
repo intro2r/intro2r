@@ -29,6 +29,12 @@ Here, we will illustrate principles and practical tips for working (mostly in R)
  - More details on how to design your data files.
  
  
+## Statistics
+
+ - Thinking more deeply about your approach to statistics and [statistical significance](../best/statistics/html)
+ 
+ 
+ 
 ## Packages
 
  - Details on finding, installing, and using [packages](../best/packages.html).
