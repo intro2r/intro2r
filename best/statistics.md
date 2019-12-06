@@ -3,7 +3,11 @@ layout: default
 title: Statistics
 ---
 
-# Statistical significance
+# Statistics
+
+[Elementary Statistical Modeling for Applied Biostatistics](https://www.middleprofessor.com/files/applied-biostatistics_bookdown/_book/)
+ - A good discussion of statistics and figures.
+
 
 ## P values
 
