@@ -33,6 +33,9 @@ Here, we will illustrate principles and practical tips for working (mostly in R)
 
  - Thinking more deeply about your approach to statistics and [statistical significance](../best/statistics.html)
  
+## Graphics
+
+ - Making high quality [graphics](../graphics.html) following best practice.
  
  
 ## Packages
