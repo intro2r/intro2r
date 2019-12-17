@@ -35,7 +35,7 @@ Here, we will illustrate principles and practical tips for working (mostly in R)
  
 ## Graphics
 
- - Making high quality [graphics](../graphics.html) following best practice.
+ - Making high quality [graphics](../best/graphics.html) following best practice.
  
  
 ## Packages
