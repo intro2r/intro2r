@@ -17,6 +17,8 @@ Stephen Few's [books and blog](http://www.perceptualedge.com/)
 
 Kabacof, R. 2018. [Data Visualisation with R](https://rkabacoff.github.io/datavis/)
 
+Peng, R.D. 2020. (Exploratory Data Analysis with R](https://bookdown.org/rdpeng/exdata/) 
+
 
 ## Checklists
 
