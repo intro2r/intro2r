@@ -2,7 +2,7 @@
 
 Friday 20 Jan | Sage 24
 
- 
+#
 
 If you need help installing R and RStudio, arrive before 9. Otherwise, come to whichever 1-hr sessions you want.
 
@@ -14,18 +14,16 @@ If you cannot make this workshop, the activities are easy to work though on your
 
 ### 08:30 Installing R and RStudio
 
- - http://www.intro2r.info/unit1/install-R-and-RStudio.html
-
+ - [http://www.intro2r.info/unit1/install-R-and-RStudio.html](http://www.intro2r.info/unit1/install-R-and-RStudio.html)
  
 
 ### 09:00 Introduction to R and RStudio, Seeking Help
 
- - http://www.intro2r.info/unit1/first-look.html
+ - [http://www.intro2r.info/unit1/first-look.html](http://www.intro2r.info/unit1/first-look.html)
 
- - https://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro/index.html
+ - [https://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro/index.html](https://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro/index.html)
 
- - https://swcarpentry.github.io/r-novice-gapminder/03-seeking-help/index.html
-
+ - [https://swcarpentry.github.io/r-novice-gapminder/03-seeking-help/index.html](https://swcarpentry.github.io/r-novice-gapminder/03-seeking-help/index.html)
  
 
 ### 10:00 Reading and Writing Data; Working with Data Frames
