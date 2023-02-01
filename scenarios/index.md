@@ -11,4 +11,4 @@ In this section, we describe best practice and R code for specific scenarios.
 
 [Scenario: Herbivory](../scenarios/herbivory.html)
 
-Many ecologists and others collect and analyse data on the area of leaf eatn by various herbivores (e.g., mammals, insects, etc.). 
+Many ecologists and others collect and analyse data on the area of leaf eaten by various herbivores (e.g., mammals, insects, etc.). 
